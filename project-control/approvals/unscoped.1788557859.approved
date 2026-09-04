@@ -1,0 +1,9 @@
+{
+  "feature": "unscoped",
+  "quote": "I'm setting up a persistent agent bot, which is going to have access to literally every single API and every single MCP that exists under quantumSCALE. It could cross-reference and give me reporting and data across every single application that we have, be it the Greater, the Revenue Dashboard, the Webinar Studio application, literally everything.\n\nI wanted to be able to get information from every",
+  "session_id": "f14f66b7-c85e-4533-9aba-13517c242304",
+  "granted_at": "2026-09-04T17:37:39",
+  "expires_at": "2026-09-06T17:37:39",
+  "seal": null,
+  "minted_by": "approval-receipt hook (a genuine Lloyd turn \u2014 never an agent)"
+}

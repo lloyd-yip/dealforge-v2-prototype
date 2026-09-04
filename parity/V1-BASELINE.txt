@@ -1,0 +1,2 @@
+V1 baseline: 720ec7e
+Forked from accounting-qs/dealforge @ 720ec7ebc9d9b81860a6ebbb87b771f17401470e on 2026-09-04
