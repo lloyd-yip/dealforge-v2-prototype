@@ -1,0 +1,205 @@
+{
+  "id": "00000000-0000-4000-8000-000000000001",
+  "status": "completed",
+  "rep_name": "Ryan Matsumori",
+  "created_at": "2026-09-02T14:10:00Z",
+  "prospect_name": "Daniel Reyes",
+  "prospect_company": "Arcline Operations Group",
+  "prospect_email": "daniel@arclineops.example",
+  "prospect_website": "arclineops.example",
+  "prospect_linkedin_url": "https://www.linkedin.com/in/example-daniel-reyes",
+  "_fixture": true,
+  "_fixture_note": "DUMMY PROSPECT. Invented company, person and leads \u2014 nothing here is a real business. The case-study library it compares against IS real.",
+  "brand_data": {
+    "primary": "#1F4E5F",
+    "secondary": "#E8B14C",
+    "logo_url": null,
+    "scraped": true
+  },
+  "research_data": {
+    "headline": "Operations consulting for mid-market industrial firms",
+    "employees": "18",
+    "founded": "2017"
+  },
+  "extracted_data": {
+    "prospect": {
+      "name": "Daniel Reyes",
+      "company": "Arcline Operations Group",
+      "website": "arclineops.example"
+    },
+    "icp": {
+      "industry": "Industrial & manufacturing services",
+      "role": "COO / VP Operations",
+      "company_size": "50-500 employees",
+      "geography": "North America & Western Europe"
+    },
+    "business": {
+      "revenue": "$2.4M/yr",
+      "growth_rate": "18% YoY",
+      "active_clients": 11,
+      "sales_cycle": "9 weeks",
+      "ltv": "$48,000",
+      "deal_size": "$32,000",
+      "positioning": "Operational turnaround for industrial firms under margin pressure",
+      "close_rate": "22%",
+      "show_rate": "61%"
+    },
+    "customer_pain": "Growth is entirely referral-driven and has flattened; no repeatable way to reach new operators.",
+    "result_delivered": "Cut operating cost per unit by 18-30% within two quarters.",
+    "case_study": {
+      "client_description": "A 200-person plastics manufacturer in Ohio",
+      "result": "Reduced changeover time 40%",
+      "numbers": "$1.1M annualised saving"
+    },
+    "webinar_angle": "Why industrial firms lose margin in the handoffs, not the machines",
+    "current_marketing": "Referrals, one trade show a year, dormant LinkedIn presence.",
+    "goals": "Add 3 new retainer clients per month without hiring more delivery staff.",
+    "_meta": {
+      "transcript": {
+        "found": true,
+        "source": "fireflies",
+        "duration_min": 41
+      },
+      "website": {
+        "domain": "arclineops.example",
+        "scraped": true
+      }
+    },
+    "_generated": {},
+    "_overrides": {}
+  },
+  "tasks": {
+    "extract": {
+      "status": "completed"
+    },
+    "brand_scrape": {
+      "status": "completed"
+    },
+    "prospect_research": {
+      "status": "completed"
+    },
+    "tam_estimate": {
+      "status": "completed",
+      "output": {
+        "tam_total": 214000,
+        "tam_floor": 61400,
+        "tam_source": "llm_broadened_apollo",
+        "confidence": 0.72,
+        "recommendedOutreach": 53500
+      }
+    },
+    "lead_list": {
+      "status": "completed",
+      "output": {
+        "total": 61400,
+        "adjacent_total": 152600,
+        "tamSource": "apollo_exact",
+        "recommendedOutreach": 53500,
+        "lead_warning": null,
+        "apollo_diagnostics": null,
+        "leads": [
+          {
+            "name": "Marta Kovac",
+            "title": "VP Operations",
+            "company": "Halden Process Group",
+            "website": "haldenprocess.com",
+            "industry": "Industrial Automation",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Tomas Beir",
+            "title": "Head of Revenue Operations",
+            "company": "Vantage Field Services",
+            "website": "vantagefield.com",
+            "industry": "Field Services",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Priya Raman",
+            "title": "COO",
+            "company": "Selby Compliance Partners",
+            "website": "selbycompliance.com",
+            "industry": "Regulatory Consulting",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Ewan Doyle",
+            "title": "Managing Director",
+            "company": "Croft & Lyle Advisory",
+            "website": "croftlyle.com",
+            "industry": "Management Consulting",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Anneke Vos",
+            "title": "Director of Operations",
+            "company": "Meridian Plant Services",
+            "website": "meridianplant.com",
+            "industry": "Industrial Services",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Iain Marsh",
+            "title": "Founder",
+            "company": "Brightline Ops Consulting",
+            "website": "brightlineops.com",
+            "industry": "Operations Consulting",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Sofia Almeida",
+            "title": "VP Delivery",
+            "company": "Tessera Advisory",
+            "website": "tesseraadvisory.com",
+            "industry": "Management Consulting",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Karl Wenz",
+            "title": "Chief Operating Officer",
+            "company": "Nordhaus Technical",
+            "website": "nordhaustech.com",
+            "industry": "Engineering Services",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          }
+        ]
+      }
+    },
+    "webinar_titles": {
+      "status": "completed",
+      "output": {
+        "titles": [
+          "The Margin Leak: why industrial firms lose 20% in the handoffs, not the machines",
+          "From referral-dependent to predictable: the operator's growth system",
+          "How mid-market industrial firms add 3 retainer clients a month without hiring"
+        ]
+      }
+    },
+    "calendar_visual": {
+      "status": "completed",
+      "output": {
+        "title": "The Margin Leak: where industrial firms lose 20% before the line even runs",
+        "emails": null
+      }
+    },
+    "roi_model": {
+      "status": "completed"
+    }
+  }
+}

@@ -4,18 +4,18 @@
     "what": "A frontend-only, fixture-driven prototype of DealForge V2 — static HTML, no backend, no infra.",
     "why": "Lloyd needs to see and judge V2 changes before they are built, and Geri needs a precise target to build against in production DealForge rather than a written spec.",
     "end_state": "Every V2 change is visible and clickable in the prototype, each documented in docs/changes/, with fixtures that define the API contract — handed to Geri to build for real.",
-    "current_summary": "Repo born standalone and scaffolded 2026-09-04. V1 frontend forked in from accounting-qs/dealforge @720ec7e. Source meeting analysed and recorded in reference/. Chat interface explicitly scoped OUT. Next: make the forked portal run without a server (fetch shim + fixtures), then build the case-study comparison across four tabs."
+    "current_summary": "Phase 1 DONE 2026-09-04: the forked V1 portal runs as static files with no backend. A fetch shim serves all /api/* from fixtures/; a dummy prospect (Arcline Operations Group) drives every tab. Case-study library holds 12 real clients from the public testimonials, with funnel metrics and artifacts null pending Alex's playbook folders. Standalone case-studies tab is slated for removal. Next: Phase 2, tab by tab, starting with Lead List."
   },
   "current_state": "building",
-  "current_phase": "Phase 1 - Reproduce V1 as a static prototype",
-  "current_focus": "Get app/portal.html rendering from fixtures with no backend",
+  "current_phase": "Phase 2 - V2 changes, tab by tab",
+  "current_focus": "Case-study comparison on Lead List, Calendar Invite, Webinar Experience, ROI Model",
   "immediate_next_steps": [
-    "Build the fetch shim and a first job fixture so the portal renders standalone",
-    "Verify every tab paints from fixture data",
-    "Decide with Lloyd: real client case studies vs placeholders (gates the hosting decision)",
-    "Then Phase 2 — case-study comparison on lead-list, calendar-invite, webinar-experience, roi-model"
+    "Pass 2 with Lloyd, tab by tab, starting with Lead List",
+    "Build the shared case-study selector: swap mode on lead-list / calendar-invite / webinar-experience, side-by-side on roi-model",
+    "Remove the standalone case-studies tab from the portal nav",
+    "Chase Alex for the TAM/invite-volume formula and the reference slide deck — both block ROI and Webinar Experience"
   ],
-  "resume_here": "Repo scaffolded, V1 frontend forked in, source meeting recorded. Next task is the fetch shim + first job fixture so app/portal.html renders with no server.",
+  "resume_here": "Static reproduction works: serve the repo root and open /app/portal.html?edit=true. Next is Phase 2 tab by tab with Lloyd, starting with Lead List.",
   "tech_stack": {
     "backend": "none — deliberately",
     "database": "none — fixtures/*.json",
@@ -29,20 +29,61 @@
     "Every UI change gets an entry in docs/changes/ or it will not get built.",
     "No real client data in fixtures without Lloyd's explicit approval."
   ],
-  "known_issues": [],
+  "known_issues": [
+    {
+      "title": "Case-study funnel metrics (invite volume, show rate, close rate, TAM) and per-client artifacts are missing. The public testimonials give revenue outcomes only, so the ROI side-by-side comparison cannot show real numbers yet.",
+      "severity": "high",
+      "status": "open"
+    }
+  ],
   "recent_milestones": [
-    {"milestone": "Standalone repo scaffolded, V1 frontend forked in from accounting-qs/dealforge @720ec7e", "date": "2026-09-04"},
-    {"milestone": "Source meeting (2026-09-04 sales training) analysed; requests recorded per tab in reference/", "date": "2026-09-04"}
+    {
+      "milestone": "Standalone repo scaffolded, V1 frontend forked in from accounting-qs/dealforge @720ec7e",
+      "date": "2026-09-04"
+    },
+    {
+      "milestone": "Source meeting (2026-09-04 sales training) analysed; requests recorded per tab in reference/",
+      "date": "2026-09-04"
+    },
+    {
+      "milestone": "Phase 1 complete — V1 portal reproduced as a static, fixture-driven prototype with no backend",
+      "date": "2026-09-04"
+    }
   ],
   "decision_log": [
-    {"decision": "Born standalone — own repo from commit #1, not a branch of production DealForge", "reasoning": "The prototype must never be confused with or able to affect the live app", "date": "2026-09-04"},
-    {"decision": "No conversational/chat interface in V2", "reasoning": "Alex asked for it hard, but it is a separate product; folding it into DealForge turns every tab into a chat surface and nothing ships. V2 is UI-level changes plus the case-study library.", "date": "2026-09-04"},
-    {"decision": "Fixture-driven with no backend, rather than a half-working app on a real database", "reasoning": "The fixture files become the API contract Geri builds to — a working screen plus its exact data shape is more useful to a backend engineer than a written spec", "date": "2026-09-04"},
-    {"decision": "Case-study comparison uses one shared control with two display modes — swap on lead-list/calendar-invite/webinar-experience, side-by-side on roi-model", "reasoning": "One component and one data shape reused four times instead of four bespoke features; ROI needs both sets of numbers visible at once for the comparison to land", "date": "2026-09-04"},
-    {"decision": "Repo lives under lloyd-yip, not accounting-qs", "reasoning": "accounting-qs is a separate personal GitHub account, not an org — one user account cannot create repos under another. Geri has access to lloyd-yip, so no transfer is needed.", "date": "2026-09-04"}
+    {
+      "decision": "Born standalone — own repo from commit #1, not a branch of production DealForge",
+      "reasoning": "The prototype must never be confused with or able to affect the live app",
+      "date": "2026-09-04"
+    },
+    {
+      "decision": "No conversational/chat interface in V2",
+      "reasoning": "Alex asked for it hard, but it is a separate product; folding it into DealForge turns every tab into a chat surface and nothing ships. V2 is UI-level changes plus the case-study library.",
+      "date": "2026-09-04"
+    },
+    {
+      "decision": "Fixture-driven with no backend, rather than a half-working app on a real database",
+      "reasoning": "The fixture files become the API contract Geri builds to — a working screen plus its exact data shape is more useful to a backend engineer than a written spec",
+      "date": "2026-09-04"
+    },
+    {
+      "decision": "Case-study comparison uses one shared control with two display modes — swap on lead-list/calendar-invite/webinar-experience, side-by-side on roi-model",
+      "reasoning": "One component and one data shape reused four times instead of four bespoke features; ROI needs both sets of numbers visible at once for the comparison to land",
+      "date": "2026-09-04"
+    },
+    {
+      "decision": "Repo lives under lloyd-yip, not accounting-qs",
+      "reasoning": "accounting-qs is a separate personal GitHub account, not an org — one user account cannot create repos under another. Geri has access to lloyd-yip, so no transfer is needed.",
+      "date": "2026-09-04"
+    }
   ],
   "feature_backlog": [],
-  "wip": {"limit": 1, "in_flight": ["Phase 1 - static reproduction"]},
+  "wip": {
+    "limit": 1,
+    "in_flight": [
+      "Phase 1 - static reproduction"
+    ]
+  },
   "seam_exercised_by": "manual visual review by Lloyd",
   "last_updated": "2026-09-04T00:00:00Z"
 }

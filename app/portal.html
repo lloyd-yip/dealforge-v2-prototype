@@ -755,6 +755,9 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
 .cs-modal-quote { font-size: 13px; color: #71717a; font-style: italic; line-height: 1.55; margin-bottom: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.06); }
 .cs-modal-cta { font-size: 12px; color: #52525b; text-align: center; }
 </style>
+<!-- PROTOTYPE ONLY: serves every /api/* call from ../fixtures/. Never hits production.
+     Not part of V2 — strip this tag when porting changes back. -->
+<script src="fixture-shim.js"></script>
 <script>
   // Runs before <body> is parsed so rep-only UI never flashes in for prospects.
   // ?edit=true → rep view (no attribute); anything else → prospect view
@@ -775,14 +778,14 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
     var __uuidPathRe = /^\/([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})(?:\/([a-z0-9-]+))?\/?$/i;
     var __pathMatch  = window.location.pathname.match(__uuidPathRe);
     var __qsJob      = new URLSearchParams(window.location.search).get('job');
-    window.__JOB_ID  = (__pathMatch && __pathMatch[1]) || __qsJob || null;
+    window.__JOB_ID  = (__pathMatch && __pathMatch[1]) || __qsJob || window.__FIXTURE_JOB_ID || null;
     window.__TAB_SLUG_FROM_PATH = (__pathMatch && __pathMatch[2]) || null;
   })();
 </script>
 <!-- ROI seed sources, injected server-side (see resolveRoiSeed in server.js).
      Tells the client which ROI inputs are showing a fallback default vs a real
      saved/extracted value, so the "default" badge shows only on fallbacks. -->
-<script>window.__ROI_SEED = {{ROI_SEED_JSON}};</script>
+<script>window.__ROI_SEED = {"ltv":"48000","show":"61","close":"22","sources":{"ltv":"extracted","show":"extracted","close":"extracted"}};</script>
 </head>
 <body>
 
