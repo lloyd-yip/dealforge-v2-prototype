@@ -31,3 +31,8 @@ or query instead, since there is no server to route.
 ## Never
 No requests to production DealForge, Supabase, Apollo, Anthropic, Fireflies or GHL.
 This repo has no credentials and must never acquire any.
+
+## Fixture gotcha — TAM confidence is 0-10, not 0-1
+`tasks.tam_estimate.output.confidence` renders in the portal as `(N/10)`. A value of
+`0.72` displays as "0.72/10", which reads as near-zero confidence. Use `7.2`.
+Found 2026-09-04 by looking at the rendered page, not the code.
