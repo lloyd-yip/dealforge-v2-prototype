@@ -1,0 +1,439 @@
+{
+  "_readme": "REAL client data. Identity, industry, revenue outcome and quote are verified from quantum-scaling.com (2026-09-04) — public testimonials. metrics.* and artifacts.* are null until real values are supplied. Never invent funnel numbers or copy against a real client's name: this data is shown to prospects on sales calls, so a made-up figure becomes a false claim about a real person.",
+  "_source_of_missing_data": "Client playbook folders in Drive (playbook + next-gen webinar workbook hold the real copy). Alex to supply the link; see reference/meeting-2026-09-04.md 56:47-57:21.",
+  "_last_updated": "2026-09-04",
+  "case_studies": [
+    {
+      "id": "cedric-le-rouzo",
+      "client_name": "Cedric Le Rouzo",
+      "industry": "Process Mining SaaS",
+      "outcome": {
+        "revenue_before": "$3M",
+        "revenue_after": "$6M/yr",
+        "quote": "Working with QS Institute was a game changer — it helped us hit the revenue and KPIs needed to sell our company to Microsoft, and the results since re-engaging have been even greater.",
+        "source": "quantum-scaling.com homepage, retrieved 2026-09-04",
+        "verified": true
+      },
+      "match_axes": {
+        "tam": null,
+        "offering": "Process Mining SaaS",
+        "business_model": null
+      },
+      "metrics": {
+        "invite_volume_per_month": null,
+        "show_rate": null,
+        "close_rate": null,
+        "ltv": null,
+        "clients_per_month": null
+      },
+      "artifacts": {
+        "lead_list": null,
+        "calendar_invite": null,
+        "webinar_recording_url": null,
+        "roi_inputs": null
+      },
+      "data_gaps": [
+        "metrics.*",
+        "artifacts.*",
+        "match_axes.tam",
+        "match_axes.business_model"
+      ]
+    },
+    {
+      "id": "simon-mueller",
+      "client_name": "Simon Mueller",
+      "industry": "Brand Acquisition Company",
+      "outcome": {
+        "revenue_before": "$0",
+        "revenue_after": "$12M/yr",
+        "quote": "A world-class program with expert coaches and a strong founder community — it helped us shortcut months of trial and error and scale from 0 to EUR12M in just two years.",
+        "source": "quantum-scaling.com homepage, retrieved 2026-09-04",
+        "verified": true
+      },
+      "match_axes": {
+        "tam": null,
+        "offering": "Brand Acquisition Company",
+        "business_model": null
+      },
+      "metrics": {
+        "invite_volume_per_month": null,
+        "show_rate": null,
+        "close_rate": null,
+        "ltv": null,
+        "clients_per_month": null
+      },
+      "artifacts": {
+        "lead_list": null,
+        "calendar_invite": null,
+        "webinar_recording_url": null,
+        "roi_inputs": null
+      },
+      "data_gaps": [
+        "metrics.*",
+        "artifacts.*",
+        "match_axes.tam",
+        "match_axes.business_model"
+      ]
+    },
+    {
+      "id": "divij-rakhra",
+      "client_name": "Divij Rakhra",
+      "industry": "Personal Branding Marketing Agency",
+      "outcome": {
+        "revenue_before": "$500k",
+        "revenue_after": "$2M/yr",
+        "quote": "I scaled from 0 to $10K MRR in five months as a student — it completely changed my life, and Alex & Adi became two of my most important mentors.",
+        "source": "quantum-scaling.com homepage, retrieved 2026-09-04",
+        "verified": true
+      },
+      "match_axes": {
+        "tam": null,
+        "offering": "Personal Branding Marketing Agency",
+        "business_model": null
+      },
+      "metrics": {
+        "invite_volume_per_month": null,
+        "show_rate": null,
+        "close_rate": null,
+        "ltv": null,
+        "clients_per_month": null
+      },
+      "artifacts": {
+        "lead_list": null,
+        "calendar_invite": null,
+        "webinar_recording_url": null,
+        "roi_inputs": null
+      },
+      "data_gaps": [
+        "metrics.*",
+        "artifacts.*",
+        "match_axes.tam",
+        "match_axes.business_model"
+      ]
+    },
+    {
+      "id": "gene-rosendale",
+      "client_name": "Gene Rosendale",
+      "industry": "Investment & Advisory Firm",
+      "outcome": {
+        "revenue_before": null,
+        "revenue_after": "+$1M/yr",
+        "quote": "You need a full end-to-end process with the latest tech, and quantumSCALING is the only team that helps you build it internally, stay current, and get results.",
+        "source": "quantum-scaling.com homepage, retrieved 2026-09-04",
+        "verified": true
+      },
+      "match_axes": {
+        "tam": null,
+        "offering": "Investment & Advisory Firm",
+        "business_model": null
+      },
+      "metrics": {
+        "invite_volume_per_month": null,
+        "show_rate": null,
+        "close_rate": null,
+        "ltv": null,
+        "clients_per_month": null
+      },
+      "artifacts": {
+        "lead_list": null,
+        "calendar_invite": null,
+        "webinar_recording_url": null,
+        "roi_inputs": null
+      },
+      "data_gaps": [
+        "metrics.*",
+        "artifacts.*",
+        "match_axes.tam",
+        "match_axes.business_model"
+      ]
+    },
+    {
+      "id": "bora-ger",
+      "client_name": "Bora Ger",
+      "industry": "AI & Metaverse Consultancy",
+      "outcome": {
+        "revenue_before": "$36k",
+        "revenue_after": "$1M/yr",
+        "quote": "I learned viral content, growth hacking, and next-gen funnels — and it helped me max out sales while building a personal brand that now benefits all my businesses.",
+        "source": "quantum-scaling.com homepage, retrieved 2026-09-04",
+        "verified": true
+      },
+      "match_axes": {
+        "tam": null,
+        "offering": "AI & Metaverse Consultancy",
+        "business_model": null
+      },
+      "metrics": {
+        "invite_volume_per_month": null,
+        "show_rate": null,
+        "close_rate": null,
+        "ltv": null,
+        "clients_per_month": null
+      },
+      "artifacts": {
+        "lead_list": null,
+        "calendar_invite": null,
+        "webinar_recording_url": null,
+        "roi_inputs": null
+      },
+      "data_gaps": [
+        "metrics.*",
+        "artifacts.*",
+        "match_axes.tam",
+        "match_axes.business_model"
+      ]
+    },
+    {
+      "id": "forrest-dombrow",
+      "client_name": "Forrest Dombrow",
+      "industry": "B2B Consulting Firm",
+      "outcome": {
+        "revenue_before": "$0",
+        "revenue_after": "$500k/yr",
+        "quote": "I considered several programs before choosing this one, and I'm glad I did — the coaching, materials, and support made my webinar work.",
+        "source": "quantum-scaling.com homepage, retrieved 2026-09-04",
+        "verified": true
+      },
+      "match_axes": {
+        "tam": null,
+        "offering": "B2B Consulting Firm",
+        "business_model": null
+      },
+      "metrics": {
+        "invite_volume_per_month": null,
+        "show_rate": null,
+        "close_rate": null,
+        "ltv": null,
+        "clients_per_month": null
+      },
+      "artifacts": {
+        "lead_list": null,
+        "calendar_invite": null,
+        "webinar_recording_url": null,
+        "roi_inputs": null
+      },
+      "data_gaps": [
+        "metrics.*",
+        "artifacts.*",
+        "match_axes.tam",
+        "match_axes.business_model"
+      ]
+    },
+    {
+      "id": "nick-uresin",
+      "client_name": "Nick Uresin",
+      "industry": "Podcast Agency",
+      "outcome": {
+        "revenue_before": "$0",
+        "revenue_after": "$480k/yr",
+        "quote": "Working with QS gave me far more than a webinar — Alex helped me build a sales process and pitch that work incredibly well.",
+        "source": "quantum-scaling.com homepage, retrieved 2026-09-04",
+        "verified": true
+      },
+      "match_axes": {
+        "tam": null,
+        "offering": "Podcast Agency",
+        "business_model": null
+      },
+      "metrics": {
+        "invite_volume_per_month": null,
+        "show_rate": null,
+        "close_rate": null,
+        "ltv": null,
+        "clients_per_month": null
+      },
+      "artifacts": {
+        "lead_list": null,
+        "calendar_invite": null,
+        "webinar_recording_url": null,
+        "roi_inputs": null
+      },
+      "data_gaps": [
+        "metrics.*",
+        "artifacts.*",
+        "match_axes.tam",
+        "match_axes.business_model"
+      ]
+    },
+    {
+      "id": "brooks-golden",
+      "client_name": "Brooks Golden",
+      "industry": "Training & Coaching Boutique",
+      "outcome": {
+        "revenue_before": "$60k",
+        "revenue_after": "$360k/yr",
+        "quote": "Before the webinar strategy, prospects came in cold and revenue was dropping — after implementing it in October, we quadrupled revenue within months and consistently improved our closing rates.",
+        "source": "quantum-scaling.com homepage, retrieved 2026-09-04",
+        "verified": true
+      },
+      "match_axes": {
+        "tam": null,
+        "offering": "Training & Coaching Boutique",
+        "business_model": null
+      },
+      "metrics": {
+        "invite_volume_per_month": null,
+        "show_rate": null,
+        "close_rate": null,
+        "ltv": null,
+        "clients_per_month": null
+      },
+      "artifacts": {
+        "lead_list": null,
+        "calendar_invite": null,
+        "webinar_recording_url": null,
+        "roi_inputs": null
+      },
+      "data_gaps": [
+        "metrics.*",
+        "artifacts.*",
+        "match_axes.tam",
+        "match_axes.business_model"
+      ]
+    },
+    {
+      "id": "karl-lashkari",
+      "client_name": "Karl Lashkari",
+      "industry": "Male Leaders Training & Coaching Business",
+      "outcome": {
+        "revenue_before": "$40k",
+        "revenue_after": "$300k/yr",
+        "quote": "After failing to build a consistent funnel with two other programs, QS's Growth Accelerator finally changed my trajectory.",
+        "source": "quantum-scaling.com homepage, retrieved 2026-09-04",
+        "verified": true
+      },
+      "match_axes": {
+        "tam": null,
+        "offering": "Male Leaders Training & Coaching Business",
+        "business_model": null
+      },
+      "metrics": {
+        "invite_volume_per_month": null,
+        "show_rate": null,
+        "close_rate": null,
+        "ltv": null,
+        "clients_per_month": null
+      },
+      "artifacts": {
+        "lead_list": null,
+        "calendar_invite": null,
+        "webinar_recording_url": null,
+        "roi_inputs": null
+      },
+      "data_gaps": [
+        "metrics.*",
+        "artifacts.*",
+        "match_axes.tam",
+        "match_axes.business_model"
+      ]
+    },
+    {
+      "id": "oliver-delrue",
+      "client_name": "Oliver Delrue",
+      "industry": "Marketing, Automation & AI Reseller",
+      "outcome": {
+        "revenue_before": "$60k",
+        "revenue_after": "$120k/yr",
+        "quote": "Alex promised me 10 and I got 20X — which is rare in the marketing space. I'm really happy with the process, the learning, and the results.",
+        "source": "quantum-scaling.com homepage, retrieved 2026-09-04",
+        "verified": true
+      },
+      "match_axes": {
+        "tam": null,
+        "offering": "Marketing, Automation & AI Reseller",
+        "business_model": null
+      },
+      "metrics": {
+        "invite_volume_per_month": null,
+        "show_rate": null,
+        "close_rate": null,
+        "ltv": null,
+        "clients_per_month": null
+      },
+      "artifacts": {
+        "lead_list": null,
+        "calendar_invite": null,
+        "webinar_recording_url": null,
+        "roi_inputs": null
+      },
+      "data_gaps": [
+        "metrics.*",
+        "artifacts.*",
+        "match_axes.tam",
+        "match_axes.business_model"
+      ]
+    },
+    {
+      "id": "ken-tyborski",
+      "client_name": "Ken Tyborski",
+      "industry": "Financial Systems Consulting Firm",
+      "outcome": {
+        "revenue_before": "$20k",
+        "revenue_after": "$100k/yr",
+        "quote": "I finally feel like I have a real support network I never had before — without needing to hire an entire team myself.",
+        "source": "quantum-scaling.com homepage, retrieved 2026-09-04",
+        "verified": true
+      },
+      "match_axes": {
+        "tam": null,
+        "offering": "Financial Systems Consulting Firm",
+        "business_model": null
+      },
+      "metrics": {
+        "invite_volume_per_month": null,
+        "show_rate": null,
+        "close_rate": null,
+        "ltv": null,
+        "clients_per_month": null
+      },
+      "artifacts": {
+        "lead_list": null,
+        "calendar_invite": null,
+        "webinar_recording_url": null,
+        "roi_inputs": null
+      },
+      "data_gaps": [
+        "metrics.*",
+        "artifacts.*",
+        "match_axes.tam",
+        "match_axes.business_model"
+      ]
+    },
+    {
+      "id": "felix-petzel",
+      "client_name": "Felix Petzel",
+      "industry": "Lead Generation Agency",
+      "outcome": {
+        "revenue_before": "EUR25k/mo",
+        "revenue_after": "EUR75k/mo",
+        "quote": "Working with quantumSCALING transformed our business — costs dropped 95% and margins jumped from 30% to 90%. Their expertise exceeded every expectation.",
+        "source": "quantum-scaling.com homepage, retrieved 2026-09-04",
+        "verified": true
+      },
+      "match_axes": {
+        "tam": null,
+        "offering": "Lead Generation Agency",
+        "business_model": null
+      },
+      "metrics": {
+        "invite_volume_per_month": null,
+        "show_rate": null,
+        "close_rate": null,
+        "ltv": null,
+        "clients_per_month": null
+      },
+      "artifacts": {
+        "lead_list": null,
+        "calendar_invite": null,
+        "webinar_recording_url": null,
+        "roi_inputs": null
+      },
+      "data_gaps": [
+        "metrics.*",
+        "artifacts.*",
+        "match_axes.tam",
+        "match_axes.business_model"
+      ]
+    }
+  ]
+}
