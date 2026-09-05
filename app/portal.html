@@ -754,6 +754,46 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
 .cs-modal-result { font-size: 14px; color: #a1a1aa; line-height: 1.65; margin-bottom: 16px; padding: 14px 16px; background: rgba(255,255,255,0.03); border-radius: 10px; border: 1px solid rgba(255,255,255,0.06); }
 .cs-modal-quote { font-size: 13px; color: #71717a; font-style: italic; line-height: 1.55; margin-bottom: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.06); }
 .cs-modal-cta { font-size: 12px; color: #52525b; text-align: center; }
+
+/* ── V2: case-study match modal ─────────────────────────────────────────── */
+.cs-match-trigger{display:inline-flex;align-items:center;gap:7px;margin:-2px 0 18px;padding:7px 13px 7px 10px;
+  background:rgba(52,211,153,0.06);border:1px solid rgba(52,211,153,0.22);border-radius:8px;
+  color:#6ee7b7;font-size:12.5px;font-weight:500;font-family:inherit;cursor:pointer;
+  transition:background 160ms ease,border-color 160ms ease,transform 160ms ease;}
+.cs-match-trigger:hover{background:rgba(52,211,153,0.11);border-color:rgba(52,211,153,0.4);transform:translateY(-1px);}
+.cs-match-chev{font-size:15px;line-height:1;opacity:.75;}
+.cs-ov{position:fixed;inset:0;z-index:9000;display:none;align-items:flex-start;justify-content:center;
+  background:rgba(4,4,6,0.82);backdrop-filter:blur(5px);padding:44px 20px;overflow-y:auto;}
+.cs-ov.open{display:flex;}
+.cs-modal{width:100%;max-width:940px;background:#111113;border:1px solid rgba(255,255,255,0.09);
+  border-radius:14px;box-shadow:0 24px 70px rgba(0,0,0,.6);animation:csIn 200ms ease-out;}
+@keyframes csIn{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:none;}}
+.cs-head{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;
+  padding:24px 28px 18px;border-bottom:1px solid rgba(255,255,255,0.06);}
+.cs-head h3{margin:0 0 6px;font-size:19px;font-weight:600;color:#fafafa;letter-spacing:-0.01em;}
+.cs-head p{margin:0;font-size:13px;color:#71717a;line-height:1.5;max-width:640px;}
+.cs-x{flex:0 0 auto;width:30px;height:30px;border-radius:7px;border:1px solid rgba(255,255,255,0.1);
+  background:transparent;color:#a1a1aa;font-size:17px;line-height:1;cursor:pointer;transition:all 150ms ease;}
+.cs-x:hover{background:rgba(255,255,255,0.07);color:#fafafa;}
+.cs-grid{display:grid;grid-template-columns:1fr 1fr;gap:0;}
+.cs-card{padding:24px 28px 28px;}
+.cs-card + .cs-card{border-left:1px solid rgba(255,255,255,0.06);}
+.cs-axis{display:inline-block;margin-bottom:13px;padding:4px 9px;border-radius:5px;font-size:10px;
+  font-weight:700;letter-spacing:0.08em;text-transform:uppercase;}
+.cs-axis.market{background:rgba(52,211,153,0.11);color:#6ee7b7;}
+.cs-axis.offer{background:rgba(139,148,255,0.12);color:#a5b4fc;}
+.cs-name{font-size:16.5px;font-weight:600;color:#fafafa;margin-bottom:2px;}
+.cs-co{font-size:12.5px;color:#71717a;margin-bottom:15px;}
+.cs-body{font-size:13.5px;line-height:1.62;color:#d4d4d8;margin-bottom:14px;}
+.cs-tam{font-size:13.5px;line-height:1.62;color:#a1a1aa;padding:12px 14px;margin-bottom:14px;
+  background:rgba(255,255,255,0.025);border-left:2px solid rgba(255,255,255,0.12);border-radius:0 6px 6px 0;}
+.cs-result-h{font-size:14.5px;font-weight:600;color:#6ee7b7;margin-bottom:6px;}
+.cs-card.offer .cs-result-h{color:#a5b4fc;}
+.cs-result{font-size:13.5px;line-height:1.62;color:#d4d4d8;}
+.cs-foot{padding:14px 28px 18px;border-top:1px solid rgba(255,255,255,0.06);
+  font-size:11.5px;color:#52525b;line-height:1.55;}
+@media(max-width:780px){.cs-grid{grid-template-columns:1fr;}
+  .cs-card + .cs-card{border-left:none;border-top:1px solid rgba(255,255,255,0.06);}}
 </style>
 <!-- PROTOTYPE ONLY: serves every /api/* call from ../fixtures/. Never hits production.
      Not part of V2 — strip this tag when porting changes back. -->
@@ -949,6 +989,11 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
         </div>
 
       </div>
+
+      <!-- V2: case-study match trigger -->
+      <button class="cs-match-trigger" onclick="openCaseStudyMatches()">
+        <span class="cs-match-chev">›</span> Two clients with a market like yours
+      </button>
 
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;">
         <div style="font-size:10px;font-weight:600;letter-spacing:0.07em;text-transform:uppercase;color:#3f3f46;">ICP Parameters Used</div>
@@ -6662,6 +6707,61 @@ function rerunApolloSearch() {
     .catch(function(e){ _showFilterStatus('Error: ' + e.message, '#f87171'); _hideRerunProgress(); });
 }
 
+</script>
+
+<!-- ══ V2: case-study match modal ══ -->
+<div class="cs-ov" id="cs-ov" onclick="if(event.target===this)closeCaseStudyMatches()">
+  <div class="cs-modal" role="dialog" aria-modal="true" aria-labelledby="cs-title">
+    <div class="cs-head">
+      <div>
+        <h3 id="cs-title">Clients we've done this for</h3>
+        <p id="cs-sub">Two of our clients, picked because their market or their offer looks like yours.</p>
+      </div>
+      <button class="cs-x" onclick="closeCaseStudyMatches()" aria-label="Close">&times;</button>
+    </div>
+    <div class="cs-grid" id="cs-grid"></div>
+    <div class="cs-foot" id="cs-foot"></div>
+  </div>
+</div>
+<script>
+/* V2 — case-study matches. Rendered from a fixture; in production this is
+   GET /api/jobs/:id/case-study-matches. See docs/data-contract.md. */
+let __csData = null;
+async function openCaseStudyMatches(){
+  const ov = document.getElementById('cs-ov');
+  ov.classList.add('open'); document.body.style.overflow = 'hidden';
+  if (__csData) return;
+  try{
+    const r = await fetch('../fixtures/case-studies/matched-demo-prospect.json');
+    __csData = await r.json();
+  }catch(e){
+    document.getElementById('cs-grid').innerHTML =
+      '<div class="cs-card"><div class="cs-body">Could not load matches.</div></div>';
+    return;
+  }
+  const esc = t => String(t||'').replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+  document.getElementById('cs-grid').innerHTML = __csData.matches.map(m => `
+    <div class="cs-card ${m.axis}">
+      <span class="cs-axis ${m.axis}">${esc(m.axis_label)}</span>
+      <div class="cs-name">${esc(m.client_name)}</div>
+      <div class="cs-co">${esc(m.company)}</div>
+      <div class="cs-body">${esc(m.narrative)}</div>
+      <div class="cs-tam">${esc(m.tam_line)}</div>
+      <div class="cs-result-h">${esc(m.result_headline)}</div>
+      <div class="cs-result">${esc(m.result)}</div>
+    </div>`).join('');
+  const needs = __csData.matches.filter(m => (m.testimonial||'').startsWith('none')).length;
+  document.getElementById('cs-foot').innerHTML =
+    'Figures come from the QS Client Results Database and belong to the specific webinar named.' +
+    (needs ? ' <span style="color:#a16207">' + needs + ' of these clients has no recorded video testimonial yet.</span>' : '');
+}
+function closeCaseStudyMatches(){
+  document.getElementById('cs-ov').classList.remove('open');
+  document.body.style.overflow = '';
+}
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && document.getElementById('cs-ov').classList.contains('open')) closeCaseStudyMatches();
+});
 </script>
 </body>
 </html>

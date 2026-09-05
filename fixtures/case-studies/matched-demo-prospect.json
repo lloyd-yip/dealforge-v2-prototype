@@ -1,0 +1,38 @@
+{
+  "_readme": "Case studies matched to a prospect, for the Lead List modal. DealForge picks these: market axis matches on industries + buyer titles, offer axis matches on offer type. In production this is GET /api/jobs/:id/case-study-matches. Narrative is written prose, not a template — a rep reads it aloud on the call.",
+  "job_id": "00000000-0000-4000-8000-000000000001",
+  "prospect": {
+    "company": "Arcline Operations Group",
+    "tam": 214000
+  },
+  "matches": [
+    {
+      "axis": "market",
+      "axis_label": "A market like yours",
+      "client_name": "Joshua Hollander",
+      "company": "Horton International",
+      "serves": "COOs and CEOs at manufacturing and industrial companies",
+      "narrative": "Joshua Hollander runs a global executive search firm. Like you, he sells to COOs and CEOs at manufacturing and industrial companies — the same people on your list, in the same industries.",
+      "tam_line": "His addressable market came out at 310,000. Yours is 214,000. Close enough that his numbers are a fair read on what yours could look like.",
+      "their_tam": 310000,
+      "result": "He sent 30,232 invites for a single webinar. 387 people registered, 129 turned up live. He ran nine at that volume between October and February.",
+      "result_headline": "129 live attendees from one send",
+      "testimonial": "none — needs recording",
+      "source": "QS Client Results Database, Oct 2024 – Feb 2025"
+    },
+    {
+      "axis": "offer",
+      "axis_label": "An offer like yours",
+      "client_name": "Juliana Marulanda",
+      "company": "ScaleTime",
+      "serves": "agency owners stuck at the $1.3M / $3M / $7M plateaus",
+      "narrative": "Juliana Marulanda sells operations consulting, same as you. She just sells it to agency owners rather than industrial operators — a diagnostic, then a twelve-week implementation, which is close to how you work.",
+      "tam_line": "Her market: 450,000. Yours: 214,000.",
+      "their_tam": 450000,
+      "result": "From one webinar: 8,334 invites, 233 registrations, and five booked calls.",
+      "result_headline": "5 booked calls from one webinar",
+      "testimonial": "none — needs recording",
+      "source": "QS Client Results Database, 15 Jan 2025"
+    }
+  ]
+}
