@@ -809,7 +809,19 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
 </style>
 <!-- PROTOTYPE ONLY: serves every /api/* call from ../fixtures/. Never hits production.
      Not part of V2 — strip this tag when porting changes back. -->
-<script src="fixture-shim.js"></script>
+<script src="fixture-shim.js?v=3"></script>
+<script>
+/* __PROTO_BASE_FROM_TAG — the portal rewrites the URL to /<jobId>/<tab-slug> on tab
+   click, which breaks relative paths. A <script> tag's .src is absolute and resolved
+   at parse time, so it survives the rewrite. Set here rather than in the shim because
+   the shim can be served from cache. */
+(function(){
+  var el = document.querySelector('script[src*="fixture-shim"]');
+  var base = '/';
+  if (el && el.src) base = new URL(el.src).pathname.replace(/app\/fixture-shim\.js.*$/, '');
+  window.__PROTO_BASE = base;
+})();
+</script>
 <script>
   // Runs before <body> is parsed so rep-only UI never flashes in for prospects.
   // ?edit=true → rep view (no attribute); anything else → prospect view
