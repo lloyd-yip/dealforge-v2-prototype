@@ -1,0 +1,1464 @@
+Id: 01M159RN42F3Y4R7ATF12WQ0DG
+DateString: 2026-09-04T16:00:00.000Z
+Privacy: link
+Speakers: Alexander Gesell, Lloyd Yip, Gonzalo G, Alexander Gesell, Ryan Matsumori, Edwin Chung, Alex iPhone
+Sentences: [04:15 - 04:40] Alexander Gesell: Sam.
+[04:46 - 04:46] Lloyd Yip: Hey, guys.
+[04:46 - 04:47] Lloyd Yip: How's it going?
+[04:52 - 04:53] Gonzalo G: How are you?
+[04:53 - 04:53] Gonzalo G: How are you?
+[04:54 - 04:55] Gonzalo G: Yeah.
+[04:55 - 04:56] Gonzalo G: Hey guys.
+[05:02 - 05:04] Gonzalo G: Edwin Shining nice as well.
+[05:05 - 05:06] Lloyd Yip: Yeah.
+[05:06 - 05:09] Lloyd Yip: Don't you normally join us on Mondays, Gonzo for the Tekken.
+[05:09 - 05:10] Lloyd Yip: Tekken pipeline meeting?
+[05:10 - 05:12] Gonzalo G: Oh, yeah, sorry, I forgot that.
+[05:12 - 05:13] Gonzalo G: Yeah, for some.
+[05:13 - 05:16] Gonzalo G: I forgot that we're scheduling for Monday.
+[05:16 - 05:16] Gonzalo G: Okay.
+[05:16 - 05:17] Gonzalo G: Yeah, never mind.
+[05:17 - 05:18] Gonzalo G: Never mind.
+[05:18 - 05:21] Lloyd Yip: Okay, cool.
+[05:21 - 05:22] Gonzalo G: Alrighty.
+[05:22 - 05:24] Lloyd Yip: Yeah, let's see if Edwin is gonna.
+[05:25 - 05:26] Gonzalo G: Okay, never mind.
+[05:26 - 05:26] Lloyd Yip: Okay.
+[05:27 - 05:28] Lloyd Yip: How was the week so far?
+[05:28 - 05:33] Lloyd Yip: I was kind of in and out of airports and whatnot, so I wasn't able to attend some of.
+[05:34 - 05:35] Lloyd Yip: Some of these sessions.
+[05:36 - 05:40] Lloyd Yip: Give me an update on how you feel so far of Alex's.
+[05:42 - 05:43] Lloyd Yip: Alex's tweaks to the process.
+[05:47 - 05:48] Alexander Gesell: Overall.
+[05:51 - 05:51] Lloyd Yip: Started.
+[05:51 - 05:53] Ryan Matsumori: Out confusing and then it's getting more clear.
+[05:55 - 06:00] Ryan Matsumori: I think at the end of the day there isn't much changing to the process.
+[06:01 - 06:02] Ryan Matsumori: I'll give my.
+[06:02 - 06:07] Ryan Matsumori: My summary is it's being way more intentional with preparing for the first call.
+[06:08 - 06:12] Ryan Matsumori: Be more intentional with the follow up email process.
+[06:13 - 06:22] Ryan Matsumori: Being more intentional with preparing for the second call and the second call follow up and then being more intentional with preparing for the third call and having an agenda.
+[06:23 - 06:29] Ryan Matsumori: And then when you're on the calls, taking more of the consultative approach, like something that stands out for.
+[06:30 - 06:36] Ryan Matsumori: I was always doing prep work, I was always getting familiar with their business, what are things I can connect with them on.
+[06:36 - 06:40] Ryan Matsumori: But I wasn't coming to the call being like, hey, by the way, just to give a little bit of feedback.
+[06:40 - 06:42] Ryan Matsumori: Look at your website, it sucks.
+[06:42 - 06:43] Ryan Matsumori: Look at your LinkedIn.
+[06:44 - 06:45] Ryan Matsumori: You can improve this.
+[06:45 - 06:59] Ryan Matsumori: Like I'm being very, you know, rash with it, but you know, giving some immediate consultative type feedback on where they're at right now and then leading into the calls and just taking more of a consultative approach.
+[07:00 - 07:03] Ryan Matsumori: That's my high level summary of what's going to be different.
+[07:05 - 07:10] Ryan Matsumori: My recommendation that I've been giving Alex because he's wanting us to use AI in different ways.
+[07:12 - 07:16] Ryan Matsumori: All of that is 100% repeatable with what you've already been doing.
+[07:16 - 07:29] Ryan Matsumori: And so if you and Alex can just collaborate on instead of us doing the same thing every time with every single person, just like it automatically gets done and it gets populated like what you're already doing.
+[07:29 - 07:34] Ryan Matsumori: But just like maybe a couple tweaks for what Alex wants included that might not be there right now.
+[07:34 - 07:40] Ryan Matsumori: Pre call 1 post call 1 pre call 2 post call 2 pre call 3 post call 3 whatever.
+[07:40 - 07:41] Lloyd Yip: Well, what needs to be done?
+[07:41 - 07:45] Lloyd Yip: Well, pre call one we have the research bot, so that's.
+[07:45 - 07:46] Lloyd Yip: That's already established.
+[07:46 - 07:59] Ryan Matsumori: Well, and Lloyd, what I'm saying is for each of them, just meeting with Alex and doing one final pass through is the way that it stands right now, all inclusive of the vision because you, you have like the pieces in place.
+[07:59 - 08:04] Ryan Matsumori: But I'm saying as we've been going through this training, I'm like, hey, talk with Lloyd about that.
+[08:04 - 08:06] Ryan Matsumori: Hey, you need to talk with Lloyd about that.
+[08:06 - 08:08] Alexander Gesell: So just, yeah, this is probably not.
+[08:08 - 08:11] Lloyd Yip: The best week for me to have missed some of these meetings, but it is what it is.
+[08:12 - 08:13] Lloyd Yip: It is what it is.
+[08:13 - 08:14] Ryan Matsumori: It'll, it'll be fine.
+[08:14 - 08:18] Ryan Matsumori: Like, we're already, I'd say 80% there, 90% there.
+[08:18 - 08:35] Lloyd Yip: Thing is, like, when Alex came, maybe it would have been better for us to have got this mental framing earlier on, but he probably didn't even know he was coming into this with as, on occasion, as little clarity, actually.
+[08:35 - 08:36] Lloyd Yip: Alex, you're here.
+[08:36 - 08:36] Alexander Gesell: Perfect.
+[08:36 - 09:03] Lloyd Yip: Yeah, because it was like a little bit of a work, like figure out the process as these meetings were happening from what I understand where it was like a collaborative thing and you guys were sharing ideas and then things are being tweaked along the way and obviously if there's like certain things that need to be developed into AI so you don't have to like spend a bunch of manual time, like these are things that it's not like Alex and I had like deeply discussed, as per what you were saying, Ryan, before, in advance of.
+[09:03 - 09:05] Lloyd Yip: Oh, like we could just automate this.
+[09:05 - 09:12] Lloyd Yip: So I think, like, if Alex and I actually sit down and go through every area where AI and we're going to actually do that, I believe, on Tuesday.
+[09:13 - 09:15] Ryan Matsumori: Yeah, yeah, yeah.
+[09:15 - 09:23] Lloyd Yip: And we'll be able to try to make sure the process is as simple and not time intensive for you guys as possible.
+[09:23 - 09:28] Lloyd Yip: So, Alex, did you have, I know that you were spending earlier today working on some sales process stuff.
+[09:29 - 09:31] Lloyd Yip: Did you have something that you wanted to go through?
+[09:31 - 09:32] Alexander Gesell: Oh, a lot.
+[09:32 - 09:32] Alexander Gesell: Yeah.
+[09:32 - 09:33] Alexander Gesell: No, no, no, no.
+[09:33 - 09:36] Alexander Gesell: I, I, I worked a lot.
+[09:36 - 09:36] Alexander Gesell: I worked less today.
+[09:36 - 09:38] Alexander Gesell: Five hours in two days, three hours on it.
+[09:39 - 09:45] Alexander Gesell: So today we're going into sales call 1 and 2, probably 3.
+[09:47 - 09:48] Alexander Gesell: Preparation and follow up.
+[09:48 - 09:51] Alexander Gesell: We go to into sales call one SOP next time again.
+[09:51 - 09:54] Alexander Gesell: But I want to focus today on preparation and follow up.
+[09:54 - 09:57] Alexander Gesell: This is the number one thing that's going to change your game.
+[09:59 - 10:02] Alexander Gesell: So I prepared the SOPs.
+[10:03 - 10:04] Alexander Gesell: I'm going to go in with you guys.
+[10:07 - 10:10] Alexander Gesell: Okay, first of all, where do you find all this?
+[10:11 - 10:13] Alexander Gesell: Same SOP as always.
+[10:13 - 10:15] Alexander Gesell: From now on, everything is in this sop.
+[10:15 - 10:16] Alexander Gesell: Okay.
+[10:16 - 10:17] Alexander Gesell: That you already have.
+[10:22 - 10:28] Alexander Gesell: So Before I go anywhere, I want to really make my expectations.
+[10:30 - 10:30] Lloyd Yip: Clear.
+[10:31 - 10:33] Alexander Gesell: Okay, so why are we doing this?
+[10:33 - 10:38] Alexander Gesell: Okay, we're doing this because my closing rates are seven times higher.
+[10:39 - 10:47] Alexander Gesell: And when I did it yesterday with Edwin, the last two days, Edwin said, I mean, admin, you can repeat it, but you literally had this full aha moment.
+[10:47 - 10:50] Alexander Gesell: Okay, now I know why you flow so much better.
+[10:50 - 10:52] Alexander Gesell: It's much more effort, but it makes so much sense.
+[10:52 - 10:53] Alexander Gesell: That was literally.
+[10:53 - 10:54] Lloyd Yip: Yeah, you just put in a lot.
+[10:54 - 11:04] Edwin Chung: More work and you're like, you're brainstorming all the angles that they kind of need to close a deal and like kind of just organizing everything for them.
+[11:04 - 11:07] Edwin Chung: So yeah, makes.
+[11:07 - 11:08] Edwin Chung: Makes a lot of sense.
+[11:09 - 11:18] Alexander Gesell: So my expectations is from now on, I want that you record every single preparation and follow up session in Firefly.
+[11:18 - 11:19] Alexander Gesell: So you make a meeting and you do it.
+[11:19 - 11:20] Lloyd Yip: And.
+[11:20 - 11:21] Alexander Gesell: And I have a document for it.
+[11:21 - 11:26] Alexander Gesell: And I'm going to review all 100% of your sessions once per week.
+[11:26 - 11:26] Alexander Gesell: Okay.
+[11:27 - 11:32] Alexander Gesell: For 100% of every single call, first, second and third and closing.
+[11:32 - 11:33] Alexander Gesell: Four different calls.
+[11:34 - 11:35] Alexander Gesell: Number one.
+[11:35 - 11:41] Alexander Gesell: Number two, I created a document in here.
+[11:41 - 11:44] Alexander Gesell: One for Ryan, one for Amanda, one for admin.
+[11:44 - 11:47] Alexander Gesell: And I need you to do the first call preparation.
+[11:48 - 11:48] Alexander Gesell: Is it.
+[11:49 - 11:50] Alexander Gesell: The information is in there.
+[11:50 - 11:55] Alexander Gesell: The second call preparation, including the solution plan and the first call follow up.
+[11:55 - 12:04] Alexander Gesell: The third call preparation including win plan and second call follow up and the closing plan and third call follow up for every single call.
+[12:04 - 12:06] Alexander Gesell: That's like baseline expectations.
+[12:06 - 12:07] Alexander Gesell: I'll show you how this works.
+[12:07 - 12:12] Alexander Gesell: You know, basically call one client name Fireflies notes.
+[12:14 - 12:14] Alexander Gesell: There you go.
+[12:16 - 12:21] Alexander Gesell: Point two, Fireflies node, solution plan and follow up email.
+[12:21 - 12:21] Gonzalo G: By the way,.
+[12:25 - 12:27] Ryan Matsumori: You want us to copy paste the email there?
+[12:27 - 12:29] Alexander Gesell: Yeah, I want every single email.
+[12:33 - 12:33] Lloyd Yip: Because.
+[12:33 - 12:41] Alexander Gesell: I want to review them and I also want to train the AI based on all the information that we're creating.
+[12:45 - 12:46] Alex iPhone: There you go.
+[12:46 - 12:47] Alexander Gesell: And the same.
+[12:49 - 12:54] Alexander Gesell: Let me just copy paste this again to Armando and to Admin.
+[12:54 - 12:59] Ryan Matsumori: And when you go by that step by step, I want to make sure that it, it makes sense.
+[12:59 - 13:00] Alexander Gesell: Of course, of course.
+[13:01 - 13:04] Alex iPhone: And then either me or Lloyd for.
+[13:04 - 13:05] Alexander Gesell: Now, me later down the road.
+[13:05 - 13:10] Alexander Gesell: Lloyd, we're going to review this once per week using our thoughts and AI.
+[13:10 - 13:13] Alexander Gesell: Then I want next week and the week after.
+[13:13 - 13:18] Alexander Gesell: I want to have from all of you for now, for next week.
+[13:18 - 13:22] Alexander Gesell: Two first call follow up and second call presentation.
+[13:23 - 13:35] Alexander Gesell: Out of that, I'm gonna join the solution call and I'm gonna do after the solution call and the follow up and closing call preparation and the closing call with you.
+[13:35 - 13:40] Alexander Gesell: So I want two situations I want to have it by the end of day today in my calendar.
+[13:40 - 13:43] Ryan Matsumori: Okay, Alex, I'm already, I'm already confused.
+[13:44 - 13:48] Ryan Matsumori: You're saying first call and then follow call and then solution.
+[13:48 - 13:49] Alexander Gesell: No, no, no, no, no.
+[13:49 - 13:54] Alexander Gesell: For now, for now, everything you bought is after the first call.
+[13:54 - 13:58] Alexander Gesell: You book the preparation with me and you invite me to the solution call.
+[13:58 - 13:58] Alexander Gesell: Okay.
+[13:58 - 14:02] Alexander Gesell: After we did the, the call together, you know, we've done it.
+[14:02 - 14:03] Alex iPhone: Then do the call together.
+[14:03 - 14:10] Alexander Gesell: We're going to also schedule the follow up and the closing call preparation and you're also going to invite me to the closing call.
+[14:10 - 14:11] Alexander Gesell: I got to run it 100%.
+[14:11 - 14:13] Alexander Gesell: So you're not going to play a role at it.
+[14:13 - 14:14] Alexander Gesell: You're just listening.
+[14:14 - 14:16] Alexander Gesell: I show you how to do it.
+[14:16 - 14:16] Alexander Gesell: To call.
+[14:16 - 14:17] Alexander Gesell: Okay.
+[14:17 - 14:17] Edwin Chung: Okay.
+[14:20 - 14:21] Alexander Gesell: I really want you.
+[14:21 - 14:21] Alexander Gesell: I.
+[14:22 - 14:26] Alexander Gesell: So Lloyd builds you two AIs and I'm training you completely.
+[14:26 - 14:29] Alexander Gesell: Two AIs you can talk to the sales GPT is amazing.
+[14:29 - 14:31] Alexander Gesell: I'm like amazed how good it is, Edwin.
+[14:31 - 14:32] Alex iPhone: How good is it?
+[14:33 - 14:34] Edwin Chung: Yeah, it's really good.
+[14:34 - 14:35] Edwin Chung: It's like.
+[14:37 - 14:45] Edwin Chung: Yeah, I like that it does all the research and then kind of comes up with an angle that for.
+[14:45 - 14:46] Edwin Chung: For the consulting side as well.
+[14:46 - 14:47] Edwin Chung: So I like that.
+[14:48 - 14:51] Alexander Gesell: And the TAM is also super good.
+[14:51 - 14:54] Alexander Gesell: And I'm currently still like training training but you can use it.
+[14:54 - 14:55] Alexander Gesell: It's like really good.
+[14:55 - 14:57] Alexander Gesell: It does basically most of the work.
+[14:57 - 14:58] Ryan Matsumori: And just to call.
+[14:59 - 15:01] Ryan Matsumori: That's a point where Lloyd.
+[15:01 - 15:02] Ryan Matsumori: There's a little bit of overlap.
+[15:02 - 15:05] Ryan Matsumori: Lloyd also has some AI doing some prep and so you want to collaborate on this step?
+[15:05 - 15:07] Alexander Gesell: Yeah, yeah, I have that soon.
+[15:08 - 15:12] Lloyd Yip: Like best thing is that we roll it into the automations that we have.
+[15:12 - 15:16] Lloyd Yip: If Alex's logic is good, then we rolling the logic in is simple.
+[15:16 - 15:20] Lloyd Yip: But I don't want you guys to have to like copy and paste a transcript into ChatGPT.
+[15:20 - 15:21] Lloyd Yip: That's a good part of it.
+[15:21 - 15:24] Alexander Gesell: No, the thing is Lloyd, they need to speak with the AI.
+[15:24 - 15:27] Alexander Gesell: It's not a one directional thing, it's a conversation.
+[15:27 - 15:30] Alexander Gesell: If you have a static thing that's not going to work, they have to.
+[15:30 - 15:32] Lloyd Yip: Check with the AI, demo it to me after then.
+[15:32 - 15:34] Alexander Gesell: Because I think it'd be easier for.
+[15:34 - 15:37] Lloyd Yip: Me to have an opinion if you demo it for me with the tam.
+[15:37 - 15:47] Lloyd Yip: So guys, dealforge has been adjusted where the output that is the primary TAM number is coming from Alex's prompt.
+[15:47 - 15:48] Lloyd Yip: That should have been set.
+[15:49 - 15:54] Lloyd Yip: Actually it was set a month ago, but Gary didn't set it as default.
+[15:54 - 15:55] Edwin Chung: Yeah,.
+[15:58 - 15:59] Alexander Gesell: For the TAM is fine.
+[15:59 - 16:01] Alexander Gesell: This is probably now already implemented.
+[16:03 - 16:09] Alexander Gesell: But even with the tam, you always have to review the output and then speak with AI.
+[16:09 - 16:15] Alexander Gesell: So Lloyd, everything that is static, where they cannot speak with a chatbot has no value.
+[16:15 - 16:17] Alexander Gesell: Like I'm just gonna be frank.
+[16:17 - 16:21] Alexander Gesell: They have to speak and think and speak and reflect and speak and reflect.
+[16:22 - 16:23] Alexander Gesell: It has to be a conversation.
+[16:23 - 16:24] Ryan Matsumori: Can I pause there?
+[16:24 - 16:28] Lloyd Yip: I think without derailing this, I think you're gonna have to demo that to me specifically Tuesday.
+[16:29 - 16:30] Ryan Matsumori: Alex.
+[16:30 - 16:36] Ryan Matsumori: So just, just from optimizing time and effectiveness and prioritizing energy and focus.
+[16:36 - 16:42] Ryan Matsumori: Like to me when the Tam pops out, hey, it's 300,000.
+[16:43 - 16:48] Ryan Matsumori: It doesn't make sense for me to spend 30 minutes chatting with the Tam AI to verify.
+[16:48 - 16:50] Ryan Matsumori: No, it's actually 425.
+[16:51 - 16:52] Alexander Gesell: No that not.
+[16:52 - 16:59] Alexander Gesell: But if you feel it's too low, if it's like 50,000, you have to start thinking are there angles that I can make it bigger.
+[16:59 - 17:00] Alexander Gesell: That's number one.
+[17:00 - 17:06] Alexander Gesell: And then with every of the follow up processes, with all of the preparation, follow up process.
+[17:07 - 17:08] Alexander Gesell: It's never a one directional thing.
+[17:09 - 17:10] Alexander Gesell: Lloyd is very easy.
+[17:10 - 17:12] Alexander Gesell: Review my two calls I did with Edwin.
+[17:12 - 17:15] Alexander Gesell: There's the Fireflies are in the sales channel.
+[17:15 - 17:16] Alexander Gesell: I'm going to share them with you.
+[17:16 - 17:20] Alexander Gesell: You're going to see how much we chat and how much reflection goes in there.
+[17:20 - 17:21] Alexander Gesell: Sure.
+[17:22 - 17:23] Alexander Gesell: And then please if you can send.
+[17:23 - 17:26] Lloyd Yip: Me the links, if you can put it in sales chat, I'll be able to look at it.
+[17:26 - 17:32] Alexander Gesell: Yeah, I gonna forward them you to you directly after this meeting into into your dm.
+[17:33 - 17:42] Alexander Gesell: Now the next area is please reflect every single call after you add them and then think about how, how could I have it prepared better?
+[17:42 - 17:42] Alexander Gesell: Okay.
+[17:44 - 17:50] Alexander Gesell: And please I want to hear lots of feedback every single day in the sales channel and in those coaching calls.
+[17:50 - 17:50] Alexander Gesell: Okay.
+[17:50 - 17:52] Alexander Gesell: This is like my expectation to you guys.
+[17:55 - 17:59] Alexander Gesell: And now some high level principles to follow.
+[18:00 - 18:10] Alexander Gesell: Please rather be over prepared, fully over prepared than not do any like do too little homework.
+[18:12 - 18:14] Alexander Gesell: Always do your research, always use your brain.
+[18:15 - 18:17] Alexander Gesell: Never ever believe just AI.
+[18:18 - 18:20] Alexander Gesell: Never skip any step.
+[18:20 - 18:20] Alexander Gesell: Never.
+[18:20 - 18:27] Alexander Gesell: I want never ever any one of you skip a research step, regardless how busy you are.
+[18:27 - 18:30] Alexander Gesell: Then rather give me a Lloyd some sales calls.
+[18:31 - 18:38] Alexander Gesell: And if there's multiple stakeholders I prefer that you have with every single one even if it's five.
+[18:39 - 18:41] Alexander Gesell: I have a situation with admin where we have five stakeholders.
+[18:41 - 18:44] Alexander Gesell: I'm going to do five one on one solution presentation calls.
+[18:45 - 18:47] Alexander Gesell: Way better to manage dynamics and expectations.
+[18:48 - 18:52] Alexander Gesell: If you have five people in a room, you cannot manage one on one expectations.
+[18:53 - 18:57] Alexander Gesell: And I want winning a client over closing them fast.
+[18:57 - 19:01] Alexander Gesell: I want max Deal size and LTV over winning them fast as core principles.
+[19:01 - 19:09] Alexander Gesell: Okay, So before we go into details, any questions,.
+[19:11 - 19:14] Ryan Matsumori: Can you go to the template where we're pasting in the recording?
+[19:14 - 19:17] Alexander Gesell: Everything happened brother once in a while.
+[19:17 - 19:18] Alexander Gesell: Any questions with this guys?
+[19:19 - 19:20] Ryan Matsumori: Can you guys hear me?
+[19:21 - 19:21] Lloyd Yip: Yes.
+[19:22 - 19:23] Ryan Matsumori: Yeah, can you just go over.
+[19:23 - 19:27] Alexander Gesell: No, Ryan, I said everything is going to happen step by step.
+[19:27 - 19:28] Alexander Gesell: I'm going to show you everything.
+[19:28 - 19:32] Alexander Gesell: I just want to know any question about those expectations and the principles.
+[19:34 - 19:34] Gonzalo G: No.
+[19:35 - 19:36] Alexander Gesell: No.
+[19:37 - 19:40] Alexander Gesell: Okay, good.
+[19:41 - 19:46] Alexander Gesell: I first, I first show you the process and then I show you the templates.
+[19:46 - 19:46] Alexander Gesell: Okay.
+[19:47 - 19:53] Alexander Gesell: So did you by the way, did you both Armand and Ryan, did you watch the two course I sent you yesterday?
+[19:53 - 19:54] Lloyd Yip: Yes.
+[19:55 - 19:59] Alexander Gesell: Okay, so call number one.
+[20:01 - 20:05] Alexander Gesell: I mean you can use whatever Lloyd created.
+[20:05 - 20:07] Alexander Gesell: Me personally I really prefer to chat.
+[20:10 - 20:12] Alexander Gesell: So I mean it's pretty easy.
+[20:13 - 20:14] Alexander Gesell: There is a.
+[20:15 - 20:26] Alexander Gesell: Here is the AI and I basically feed into the AI the phrase, the LinkedIn profile, the website, scan me the Internet for this information.
+[20:29 - 20:32] Lloyd Yip: Are you not using the transcript from Fireflies?
+[20:32 - 20:33] Ryan Matsumori: This is pre call.
+[20:33 - 20:35] Alexander Gesell: This is pre call.
+[20:35 - 20:37] Lloyd Yip: Oh, oh, in that case.
+[20:37 - 20:39] Lloyd Yip: And this is basically the exact same.
+[20:39 - 20:43] Alexander Gesell: As the pre qualification form and this sop.
+[20:43 - 20:52] Alexander Gesell: So I give and then I'll just give it to him what I like, you know, after I read it I can chat a little bit and ask further questions.
+[20:52 - 20:55] Alexander Gesell: That's why I like like a GPT because I can speak with it.
+[20:55 - 20:55] Alexander Gesell: Okay.
+[20:56 - 21:00] Alexander Gesell: But high level, you know, that's what you want to do.
+[21:00 - 21:01] Alexander Gesell: You wanna.
+[21:06 - 21:07] Alexander Gesell: Sales assistant?
+[21:09 - 21:16] Alexander Gesell: No, it's AI to prepare, you know, you want to know business model topics to create report upfront concerns.
+[21:20 - 21:37] Alexander Gesell: You then want to go and put this note sheet into THL and open the contact, you know, and then again energetically ground yourself five minutes before the call, get into the intention, get into your heart, do a hard meditation.
+[21:37 - 21:39] Alexander Gesell: Probably I add a heart meditation.
+[21:39 - 21:40] Alexander Gesell: That's a good idea.
+[21:40 - 21:41] Alexander Gesell: While you ground yourself.
+[21:45 - 21:47] Alexander Gesell: Okay, there you go.
+[21:48 - 21:49] Alexander Gesell: Probably you have a good one, Ryan.
+[21:49 - 22:00] Alexander Gesell: But just like a five minute thing where you actually really ground to your heart and you go in on the best possible advisors and there's not going to be any sales flare in the first sales call.
+[22:01 - 22:05] Alexander Gesell: You focus on being calm, a safe space, inspiring, charming.
+[22:05 - 22:09] Alexander Gesell: And focus on them only, not at all on us.
+[22:09 - 22:09] Alexander Gesell: Okay.
+[22:11 - 22:15] Alexander Gesell: And what you want to get out is who appears to feel or initiate the problem.
+[22:15 - 22:21] Alexander Gesell: What are the limiting predictable factors for growth and why might they be a good fit for a webinar system?
+[22:21 - 22:22] Alexander Gesell: Okay.
+[22:23 - 22:28] Alexander Gesell: And then prepare the one thing you want to challenge them on.
+[22:28 - 22:37] Alexander Gesell: Put this into AI and please study it Study it and be prepared.
+[22:37 - 22:38] Alexander Gesell: Okay.
+[22:38 - 22:40] Alexander Gesell: That is else called one.
+[22:40 - 22:42] Alexander Gesell: That's why it's a 15 minutes.
+[22:42 - 22:47] Alexander Gesell: Like the, it's more about studying piece versus finding that information.
+[22:47 - 22:52] Alexander Gesell: Even if AI gives you under 10 minutes, you're not going to be there 10 minutes.
+[22:52 - 22:53] Alexander Gesell: Five minute grounding is 15 minutes.
+[22:53 - 22:54] Alexander Gesell: Okay.
+[22:57 - 22:57] Alexander Gesell: Questions?
+[22:57 - 23:03] Ryan Matsumori: Yeah, my only question there is I want you to align your language with the instructions here.
+[23:04 - 23:12] Ryan Matsumori: If I'm understanding it correctly, what I thought I heard you just say is we want to identify the number one thing that we're going to challenge them with.
+[23:12 - 23:16] Ryan Matsumori: I don't see any language here that describes that one.
+[23:16 - 23:17] Alexander Gesell: Respectful channels.
+[23:17 - 23:18] Ryan Matsumori: Okay.
+[23:19 - 23:23] Ryan Matsumori: And I guess I just, I, I, I'm going to want more clarity on what that means.
+[23:23 - 23:27] Ryan Matsumori: Like what are ranges of examples of what I'm going to challenge them on.
+[23:27 - 23:29] Ryan Matsumori: Like immediately in the first.
+[23:29 - 23:36] Alexander Gesell: The AI is going to give you that and it's in the first call SOP we went through the last two times.
+[23:36 - 23:38] Alexander Gesell: Next time I go again once through.
+[23:38 - 23:41] Alexander Gesell: But you know, like we talked already through that.
+[23:42 - 23:45] Alexander Gesell: Read the SOP and I'm happy to repeat it next week to you.
+[23:45 - 23:46] Alexander Gesell: For today, it's just preparation and follow up.
+[23:46 - 23:47] Alexander Gesell: Okay.
+[23:47 - 23:48] Lloyd Yip: Okay.
+[23:49 - 23:50] Alexander Gesell: And then I want you to go.
+[23:50 - 23:51] Lloyd Yip: In here.
+[23:54 - 23:58] Alexander Gesell: And copy your preparation note.
+[23:58 - 24:00] Alexander Gesell: Just the output of AI Just put it here.
+[24:00 - 24:01] Alexander Gesell: Okay.
+[24:03 - 24:04] Alexander Gesell: That's all.
+[24:04 - 24:09] Alexander Gesell: And once we ran the call the Fireflies for the first, for the first call.
+[24:09 - 24:10] Alexander Gesell: Okay.
+[24:10 - 24:11] Alexander Gesell: That's what I want you to do.
+[24:12 - 24:14] Lloyd Yip: What is this page exactly?
+[24:16 - 24:17] Alexander Gesell: I want.
+[24:17 - 24:19] Alexander Gesell: Lloyd, you didn't listen before.
+[24:19 - 24:21] Alexander Gesell: I said I have an expectation.
+[24:21 - 24:24] Alexander Gesell: Every single call, every single preparation has to be recorded.
+[24:26 - 24:30] Alexander Gesell: So for every single preparation, call has to be recorded.
+[24:30 - 24:38] Alexander Gesell: And I want every preparation for every call being recorded on Firefly, put in the fireflies and the AI output notes.
+[24:38 - 24:39] Alexander Gesell: Okay.
+[24:40 - 24:44] Lloyd Yip: And this is for the purpose of just making sure that they did the prep correctly.
+[24:44 - 24:45] Alexander Gesell: Not at all.
+[24:46 - 24:47] Alexander Gesell: Yeah, that's number one.
+[24:47 - 24:58] Alexander Gesell: Number two, I want to review how they did the prep work and I'm going to review 100% of it and then I'm going to help them improve it and then I'm going to feed the AI with the input.
+[24:58 - 25:00] Alexander Gesell: So like it has three purposes.
+[25:01 - 25:06] Lloyd Yip: And you are planning on doing this for how long or is this indefinite?
+[25:06 - 25:09] Alexander Gesell: No, I think for a month.
+[25:09 - 25:11] Alexander Gesell: I think that's, that's a, that's a good time.
+[25:11 - 25:12] Alexander Gesell: That's a good time.
+[25:13 - 25:14] Alexander Gesell: Okay.
+[25:15 - 25:21] Alexander Gesell: But after a month, which again probably is worse forever, because if we, we probably can automate this.
+[25:21 - 25:33] Alexander Gesell: So I would like to train the AI forever on the information because I want to train The AI on all the learnings and then we can down the road basically compare the results which, what did close and things like that.
+[25:34 - 25:42] Alexander Gesell: But like, yeah, for now, this is a one month, one month expectation.
+[25:43 - 25:47] Alexander Gesell: Afterwards, we automate it with AI.
+[25:49 - 25:51] Alexander Gesell: Okay, I have a question.
+[25:51 - 26:03] Ryan Matsumori: What do you recommend that we do when somebody signs up for a call and it's, they give us their first name, last name, but it's a Gmail account and there's no LinkedIn profile given.
+[26:04 - 26:09] Ryan Matsumori: Like, I don't want to waste my time trying to find 15 different Jason Hernstads.
+[26:09 - 26:12] Ryan Matsumori: And you know, there's no way I'm going to know which one it is.
+[26:12 - 26:15] Ryan Matsumori: So I think there's going to be some scenarios where we can't do any prep work.
+[26:17 - 26:18] Alexander Gesell: It's pretty easy.
+[26:18 - 26:24] Alexander Gesell: You, you put in the name in the GPT and said this is the person who showed up.
+[26:24 - 26:26] Alexander Gesell: Can you find me the LinkedIn profile?
+[26:26 - 26:28] Alexander Gesell: On LinkedIn, you can actually look for a Gmail address.
+[26:28 - 26:30] Alexander Gesell: Most people have on LinkedIn their Gmail.
+[26:32 - 26:34] Lloyd Yip: Okay, so you, in the search bar,.
+[26:34 - 26:35] Ryan Matsumori: You just put their, their.
+[26:36 - 26:37] Alexander Gesell: You just ask jpt.
+[26:38 - 26:40] Alexander Gesell: You just, you just use the sales assistant GPT.
+[26:40 - 26:41] Alexander Gesell: Hey, I have this email.
+[26:41 - 26:42] Alexander Gesell: Can you find me the LinkedIn?
+[26:42 - 26:43] Alexander Gesell: You pass.
+[26:43 - 26:44] Alexander Gesell: Okay, got it.
+[26:44 - 26:47] Alexander Gesell: The GPT is really for every type of question that pops up.
+[26:48 - 26:48] Alexander Gesell: Okay.
+[26:50 - 26:53] Alexander Gesell: Okay, now let's go on.
+[26:53 - 26:58] Alexander Gesell: Now you had your first sales call, now let's go to follow up.
+[27:00 - 27:03] Alexander Gesell: By the way, it's always preparation and then follow up.
+[27:03 - 27:09] Alexander Gesell: You need to first Prepare Sales Call 2 before you can actually do the follow up.
+[27:09 - 27:11] Alexander Gesell: You can't do a good follow up if you haven't prepared sales culture.
+[27:12 - 27:14] Alexander Gesell: That's what I realized doing it with Edwin.
+[27:14 - 27:16] Ryan Matsumori: By follow up, do you mean email?
+[27:16 - 27:17] Alexander Gesell: Yeah.
+[27:17 - 27:19] Ryan Matsumori: Can you, can you say preparation call.
+[27:19 - 27:23] Alexander Gesell: And okay, follow up email.
+[27:25 - 27:26] Edwin Chung: Call one.
+[27:26 - 27:33] Alexander Gesell: Okay, so this takes 60 to 90 minutes.
+[27:33 - 27:37] Alexander Gesell: I say 90 because you guys need to study the case studies.
+[27:37 - 27:39] Alexander Gesell: I can do it in 45.
+[27:39 - 27:42] Alexander Gesell: You have to know the case studies by heart.
+[27:42 - 27:49] Alexander Gesell: Even like, you know, afterwards, a 10, 15 minute referral call, you'll have to know it inside out.
+[27:50 - 27:52] Alexander Gesell: Once you know that, your life gets easier.
+[27:52 - 27:56] Alexander Gesell: But for now, that's why I rather someone like Edwin.
+[27:56 - 27:58] Alexander Gesell: It's 90 minutes, Ryan.
+[27:58 - 28:06] Alexander Gesell: If you know a case study, probably you can skip that part, but plan this roughly.
+[28:06 - 28:08] Alexander Gesell: Okay, but it's both together.
+[28:09 - 28:14] Alexander Gesell: Last time I think I exaggerated because I, I didn't put preparation and follow up as one bucket.
+[28:15 - 28:16] Alexander Gesell: Now it's less time.
+[28:17 - 28:20] Alexander Gesell: But this is, this is what it is regardless how much AI you have.
+[28:20 - 28:22] Alexander Gesell: You know, we Were using AI.
+[28:22 - 28:23] Alexander Gesell: This is.
+[28:24 - 28:25] Alexander Gesell: This is not going to be shorter.
+[28:25 - 28:26] Ryan Matsumori: Never.
+[28:26 - 28:33] Ryan Matsumori: And one thing that I recommended prior, I know it's important for us to do this manual work and ingrain it into our systems.
+[28:34 - 28:44] Ryan Matsumori: And if every case study had its metrics, then the AI can be clearly, hey, this is who you want to give and why we already have.
+[28:44 - 28:47] Alexander Gesell: Lloyd already created an AI for the case studies.
+[28:47 - 28:48] Alexander Gesell: Give the gives.
+[28:49 - 28:50] Lloyd Yip: I gave it to you guys in the sale.
+[28:50 - 28:54] Lloyd Yip: I mean, it's not like a chatbot that you can talk to, but it contains all the stories.
+[28:55 - 28:56] Lloyd Yip: Did you guys save it?
+[28:56 - 29:00] Lloyd Yip: Because I constantly put things in the sales channel, and I don't know if.
+[29:00 - 29:03] Alexander Gesell: You guys ever send it to me again, Lloyd.
+[29:03 - 29:07] Alexander Gesell: But I prefer that we actually create a speakable bot for that.
+[29:09 - 29:09] Alexander Gesell: It's better.
+[29:09 - 29:15] Alexander Gesell: Like, we can give it all the transcripts of the videos as well.
+[29:15 - 29:18] Alexander Gesell: And I want the guys to be able to ask questions.
+[29:19 - 29:19] Alexander Gesell: That helps.
+[29:20 - 29:21] Edwin Chung: I already did that today.
+[29:21 - 29:25] Lloyd Yip: I just thought in a way that's not local, because mine is just local to my computer.
+[29:27 - 29:31] Alexander Gesell: Like, and now we use the official accounting GPT.
+[29:31 - 29:32] Alexander Gesell: Like, we have one GPT.
+[29:32 - 29:33] Lloyd Yip: Does everyone have access to that?
+[29:34 - 29:35] Alexander Gesell: Yes, the whole company uses it.
+[29:37 - 29:42] Alexander Gesell: So whatever you create, we have a GPT that the whole company is using.
+[29:43 - 29:43] Alexander Gesell: Sure.
+[29:45 - 29:46] Alexander Gesell: Just create it there.
+[29:47 - 29:53] Alexander Gesell: But, Edwin, you created one just for clarity.
+[29:53 - 29:54] Edwin Chung: Yeah, Today I just.
+[29:54 - 29:56] Edwin Chung: I just dropped the due diligence link.
+[29:56 - 29:59] Edwin Chung: I downloaded all the videos, download all the transcripts, matched the.
+[30:01 - 30:06] Edwin Chung: Matched the case study, the text to the transcript, and then tagged all of them.
+[30:06 - 30:08] Edwin Chung: So I can send that to you.
+[30:08 - 30:08] Alexander Gesell: Amazing.
+[30:08 - 30:09] Alexander Gesell: Could you.
+[30:09 - 30:12] Alexander Gesell: Could you give this information just in the sales GPT?
+[30:12 - 30:14] Alexander Gesell: So the sales GPT can actually search for this as well?
+[30:15 - 30:19] Edwin Chung: Yeah, Maybe I make it like a project or something and then just.
+[30:19 - 30:21] Alexander Gesell: Just enter that information there as well.
+[30:21 - 30:24] Alexander Gesell: I'm gonna train the sales GPT on the world's best books.
+[30:25 - 30:31] Alexander Gesell: On all training programs and accesses I'm gonna find on all other AIs I'm gonna find out there and all the information.
+[30:32 - 30:32] Alexander Gesell: This.
+[30:32 - 30:35] Alexander Gesell: This becomes the number one most powerful thing.
+[30:35 - 30:37] Alexander Gesell: And then later on, I'm gonna build a program and sell it.
+[30:38 - 30:40] Alexander Gesell: But for now, this is like.
+[30:40 - 30:42] Alexander Gesell: This is gonna be very powerful down the road.
+[30:42 - 30:44] Alexander Gesell: So we're gonna train this a lot.
+[30:44 - 30:44] Alexander Gesell: Okay.
+[30:45 - 30:52] Ryan Matsumori: Edwin, when that's installed, can you just let us know and kind of give us some tips on how to use it?
+[30:53 - 30:53] Gonzalo G: Sure.
+[30:53 - 30:53] Alexander Gesell: Yeah.
+[30:54 - 30:54] Gonzalo G: Thanks.
+[30:55 - 30:56] Alexander Gesell: Okay.
+[30:56 - 31:03] Alexander Gesell: So the goal of the preparation is you can really go as a decision advisor to the second call.
+[31:04 - 31:05] Alexander Gesell: And.
+[31:09 - 31:14] Alexander Gesell: A successful second call, really, the prospect feels accurately understood.
+[31:15 - 31:17] Alexander Gesell: But you challenge Them at the same.
+[31:17 - 31:17] Edwin Chung: Time,.
+[31:19 - 31:23] Alexander Gesell: You have a recommendation for icp, also their offering.
+[31:23 - 31:26] Alexander Gesell: I'm going to send you the call I had with Edwin yesterday.
+[31:26 - 31:28] Alexander Gesell: It's super important to challenge the offer.
+[31:28 - 31:33] Alexander Gesell: Most of our consulting companies, Even up to $2 million, their offer is shit.
+[31:33 - 31:37] Alexander Gesell: So you have to go in there and say, by the way, you have to transfer your offer to this.
+[31:37 - 31:39] Alexander Gesell: And they value this so much.
+[31:39 - 31:43] Alexander Gesell: I mean, the guy yesterday, he was like, this is exactly what we needed.
+[31:43 - 31:47] Alexander Gesell: So you have to actually tell them how to change their offering.
+[31:47 - 31:51] Alexander Gesell: Okay, it's not changing, it's directing.
+[31:51 - 31:54] Ryan Matsumori: So I know we want to be the leader and direct.
+[31:54 - 31:57] Alexander Gesell: Then the only risk, the AI does it for you.
+[31:57 - 32:03] Ryan Matsumori: Well, the only risk there that I've seen is they might say, like, I've seen this before.
+[32:04 - 32:08] Ryan Matsumori: Well, I can't start right now because we need to, you know, finalize.
+[32:08 - 32:10] Alexander Gesell: No, we advise them on it.
+[32:10 - 32:11] Alexander Gesell: It's part of our mastermind.
+[32:12 - 32:13] Alexander Gesell: Like this is what we do.
+[32:14 - 32:15] Lloyd Yip: Okay.
+[32:15 - 32:16] Alexander Gesell: A different part of our consulting project.
+[32:17 - 32:21] Alexander Gesell: Yeah, they know this is like, this is why they should work with us.
+[32:22 - 32:26] Alexander Gesell: Well, like, you know, you challenge their offer, you give them the webinar angles.
+[32:26 - 32:29] Alexander Gesell: It gives them an acquisition system that really feels specifically to them.
+[32:30 - 32:35] Alexander Gesell: You support it with proof and economics that are credible and internally consistent.
+[32:36 - 32:38] Alexander Gesell: You complete the buying group, all of them.
+[32:38 - 32:43] Alexander Gesell: As I said, if you need to make five solution presentations for one client, you do five solutions.
+[32:43 - 32:47] Alexander Gesell: I would not inspire you to do one presentation with five people.
+[32:47 - 32:49] Alexander Gesell: You cannot manage their dynamics.
+[32:50 - 32:53] Alexander Gesell: So yesterday the guy was so happy, he didn't invite his colleagues because the.
+[32:53 - 32:55] Alex iPhone: Guy was completely bought in.
+[32:55 - 32:57] Alexander Gesell: But he told us his colleagues are super skeptical.
+[32:57 - 32:58] Alexander Gesell: So now I have the guy.
+[32:58 - 32:59] Alexander Gesell: I want him over.
+[33:00 - 33:02] Alexander Gesell: He's my sponsor.
+[33:02 - 33:06] Alexander Gesell: And now the guy helps me to convince, one by one, all the other colleagues.
+[33:06 - 33:11] Alexander Gesell: So it's actually way better to not have all the stakeholders at the same time in your presentation.
+[33:11 - 33:13] Alexander Gesell: So you can level that one by one.
+[33:13 - 33:14] Alexander Gesell: Okay.
+[33:16 - 33:17] Alex iPhone: Then.
+[33:18 - 33:25] Alexander Gesell: And your meeting should end with really a clear conditional decision schedule.
+[33:25 - 33:27] Alexander Gesell: Next steps to a.
+[33:29 - 33:30] Alexander Gesell: To a due diligence call.
+[33:30 - 33:31] Alexander Gesell: Okay.
+[33:31 - 33:34] Alexander Gesell: To a third decision call.
+[33:35 - 33:37] Alexander Gesell: And then there's a few non negotiables.
+[33:39 - 33:46] Alexander Gesell: I never want to anyone do a call to without a solution brief and that you understand it's good.
+[33:46 - 33:48] Alexander Gesell: If not, you come to me or Lloyd.
+[33:48 - 33:49] Alexander Gesell: Okay?
+[33:49 - 33:50] Alexander Gesell: Never.
+[33:52 - 33:59] Alexander Gesell: I never want that you go in and take a shitty offering and haven't challenged their offering.
+[33:59 - 34:00] Alexander Gesell: You know, like if they.
+[34:01 - 34:04] Alexander Gesell: If you see this is not great, you have to guide them through it.
+[34:05 - 34:07] Alexander Gesell: This is going to change the game completely.
+[34:08 - 34:12] Alexander Gesell: I want that you have all the TAM figures verified.
+[34:12 - 34:21] Alexander Gesell: You understand it, you know the case study name and metrics, and you know how to use it across every single part of the presentation.
+[34:21 - 34:23] Alexander Gesell: Case studies is not for the section at the end.
+[34:23 - 34:24] Alexander Gesell: Case study.
+[34:24 - 34:29] Alexander Gesell: You speak about the case study in your tam, you speak about the case study in your outreach.
+[34:29 - 34:31] Alexander Gesell: You speak about the case study in your presentation.
+[34:31 - 34:37] Alexander Gesell: You speak about the case study in Tom, you speak about the case study, how we help them implement it.
+[34:37 - 34:38] Alexander Gesell: That's how you use a case study.
+[34:38 - 34:40] Alexander Gesell: Not in a separate section at the end.
+[34:40 - 34:41] Alexander Gesell: Okay.
+[34:44 - 34:54] Alexander Gesell: You have a clear overview about their initial contract value, the recognized revenue, the lifetime value from them.
+[34:55 - 34:59] Alexander Gesell: You understand how their sales cycle is going to delay revenue.
+[34:59 - 35:02] Alexander Gesell: So if they ask you, you can actually give them a good answer.
+[35:02 - 35:04] Alexander Gesell: Something I'm going to build out with Lloyd because it's a.
+[35:04 - 35:09] Alexander Gesell: It's a problem in the system and it just decreases the credibility of the roi.
+[35:09 - 35:10] Alexander Gesell: But.
+[35:11 - 35:18] Alexander Gesell: And then, please, you only use guarantees if you really need it.
+[35:21 - 35:32] Alexander Gesell: And this is something I'm going to kick out that comes from the AI and reserve the last 10 minutes for commercials, objections and decision confidence and next steps.
+[35:32 - 35:40] Alexander Gesell: Okay, now the process for call two looks the follow to prepare.
+[35:40 - 35:41] Alexander Gesell: Call to.
+[35:41 - 35:45] Alexander Gesell: Okay, so I'm go.
+[35:46 - 35:49] Alexander Gesell: You have, you basically you have an AI prompt here.
+[35:49 - 35:53] Alexander Gesell: It's a long one, but you don't have to fill out too much.
+[35:53 - 35:55] Alexander Gesell: Just the red stuff you fill out.
+[35:55 - 35:55] Alexander Gesell: Okay.
+[35:56 - 35:58] Alexander Gesell: And even that, those are just examples.
+[35:58 - 36:04] Alexander Gesell: So I'm going to kick them out here and gonna add them in a comment as example.
+[36:09 - 36:12] Ryan Matsumori: And this is call to preparation process.
+[36:12 - 36:14] Alexander Gesell: And call one, follow up.
+[36:14 - 36:17] Ryan Matsumori: Yeah, and call one, follow up preparation.
+[36:25 - 36:27] Alexander Gesell: Just gonna put all those.
+[36:28 - 36:32] Ryan Matsumori: And to me, this is another thing that can be automated.
+[36:32 - 36:32] Ryan Matsumori: No.
+[36:34 - 36:35] Alexander Gesell: Wow.
+[36:35 - 36:36] Alexander Gesell: Probably.
+[36:37 - 36:38] Alexander Gesell: But you want to speak with it.
+[36:39 - 36:41] Alexander Gesell: You need to speak with the thing.
+[36:41 - 36:44] Alexander Gesell: Okay, but you know, like, it's not that crazy.
+[36:44 - 36:44] Alexander Gesell: Okay.
+[36:45 - 36:50] Alexander Gesell: That building, that prom takes you 30 seconds or two minutes max.
+[36:50 - 36:52] Alexander Gesell: Like transcript bomb.
+[36:54 - 36:55] Alexander Gesell: You know, just the red thing.
+[36:55 - 37:07] Alexander Gesell: You want the first call transcript, you want to add your summary that you made from GoHighLevel.
+[37:07 - 37:11] Alexander Gesell: You want to think through what are my own solution sorts.
+[37:11 - 37:13] Alexander Gesell: So now that can't be automated.
+[37:13 - 37:22] Alexander Gesell: And then before you do even things you want to see, are there any additional notes from myself that I even haven't noted down?
+[37:22 - 37:25] Alexander Gesell: And then you want to fill out the tam, the.
+[37:25 - 37:29] Alexander Gesell: The cam stuff, copy paste in there and then send it out.
+[37:30 - 37:31] Alexander Gesell: It's a 12 minute thing.
+[37:31 - 37:33] Alexander Gesell: I don't think it's worth automating it.
+[37:33 - 37:36] Alexander Gesell: My opinion, because half of it is Alex.
+[37:36 - 37:43] Lloyd Yip: Because this to me stacks up a lot and I don't see a ton of value in this being manual.
+[37:44 - 37:44] Lloyd Yip: I'm.
+[37:44 - 37:45] Alexander Gesell: It is, it is manual.
+[37:45 - 37:48] Alexander Gesell: Because here I need them to think five minutes.
+[37:48 - 37:50] Alexander Gesell: It's five minutes sinking.
+[37:50 - 37:53] Alexander Gesell: You know, it's not, it is not the input.
+[37:53 - 37:55] Alexander Gesell: The input you need for it is thinking.
+[37:56 - 37:57] Alexander Gesell: You know, it is not.
+[37:57 - 38:00] Lloyd Yip: It's a five minute Firefly transcript on its own.
+[38:00 - 38:01] Lloyd Yip: You don't feel.
+[38:01 - 38:03] Lloyd Yip: Has no context.
+[38:03 - 38:06] Alexander Gesell: No, I. I want that the guys sit down and think.
+[38:07 - 38:09] Ryan Matsumori: Okay, the only, the only.
+[38:09 - 38:16] Lloyd Yip: I mean there's still a way, there's still a way to make this more automated than literally needing to copy and paste.
+[38:16 - 38:16] Alexander Gesell: You can probably.
+[38:17 - 38:18] Lloyd Yip: Where you're copy and pasting shit.
+[38:18 - 38:19] Lloyd Yip: It's just like.
+[38:19 - 38:25] Alexander Gesell: Yeah, you can get, you can get this automated and you can get this automated.
+[38:25 - 38:26] Alexander Gesell: You can't get this.
+[38:26 - 38:28] Alexander Gesell: These three things automated.
+[38:28 - 38:35] Lloyd Yip: If you want the guys to really just sit down and through, like here's the best way that their campaign would be executed upon.
+[38:35 - 38:37] Lloyd Yip: Yeah, that's going to be that.
+[38:37 - 38:39] Lloyd Yip: That part totally in agreement.
+[38:39 - 38:42] Lloyd Yip: It's more about just the architecture surrounding it.
+[38:42 - 38:45] Ryan Matsumori: I don't want to have to copy and paste over all the TAM information.
+[38:46 - 38:46] Lloyd Yip: Yeah, sure.
+[38:46 - 38:48] Lloyd Yip: It's just like so cavemany.
+[38:48 - 38:49] Lloyd Yip: Like we, we can't behave like.
+[38:49 - 38:52] Alexander Gesell: Of course, of course, of course.
+[38:52 - 38:54] Alexander Gesell: But that's basically what you do.
+[38:55 - 38:59] Alexander Gesell: And then after you did this, you go through the following steps.
+[38:59 - 39:09] Alexander Gesell: Okay, so you take this prompt, you fill it out, you put it into the GPT and then you please, you study it.
+[39:09 - 39:13] Alexander Gesell: That's probably the study output.
+[39:15 - 39:17] Lloyd Yip: Do you guys know where the GPT is?
+[39:17 - 39:19] Alexander Gesell: I showed him last time.
+[39:19 - 39:22] Alexander Gesell: Okay, but I'm going to show you though.
+[39:22 - 39:23] Alexander Gesell: There is a.
+[39:24 - 39:27] Alexander Gesell: There you have to access with the accounting email.
+[39:28 - 39:30] Alexander Gesell: Yeah, I'm in the accounting email now,.
+[39:30 - 39:31] Lloyd Yip: Which is why I'm like looking for it.
+[39:32 - 39:33] Alexander Gesell: And then there is.
+[39:33 - 39:34] Alexander Gesell: It's pinned.
+[39:34 - 39:36] Alexander Gesell: Alexander code Sales assistant.
+[39:37 - 39:38] Alexander Gesell: That's Alexander code.
+[39:39 - 39:39] Gonzalo G: I see.
+[39:39 - 39:45] Alexander Gesell: Yeah, that's like all my AI as a project for company and private.
+[39:45 - 39:46] Alexander Gesell: But it doesn't matter.
+[39:46 - 39:47] Alexander Gesell: I use it.
+[39:48 - 39:49] Alexander Gesell: I use it for this.
+[39:49 - 39:51] Alexander Gesell: Now, now going back.
+[39:54 - 39:56] Alexander Gesell: Okay, so let's go through.
+[39:57 - 40:06] Alexander Gesell: Now you study it now you go into dealforge and you make sure that you take the output and that's something we can automate.
+[40:06 - 40:10] Alexander Gesell: Okay, here's another automation way for Lloyd.
+[40:13 - 40:19] Alexander Gesell: I want that the output of the GPT is the input for dealforge.
+[40:19 - 40:20] Alexander Gesell: Okay.
+[40:24 - 40:25] Lloyd Yip: Yeah.
+[40:25 - 40:29] Lloyd Yip: So this is, this is an over engineered thing to build.
+[40:29 - 40:33] Lloyd Yip: Alex, the number is already reflecting the LLM prompt.
+[40:33 - 40:35] Lloyd Yip: We're no Longer using the Apollo numbers.
+[40:36 - 40:37] Alexander Gesell: No, it's not about the numbers.
+[40:37 - 40:39] Alexander Gesell: It's about the presentations.
+[40:39 - 40:40] Alexander Gesell: The customized presentation.
+[40:40 - 40:41] Alexander Gesell: We're gonna build that.
+[40:41 - 40:43] Alexander Gesell: That's one of the most important right now.
+[40:43 - 40:44] Lloyd Yip: You're not talking.
+[40:44 - 40:45] Alexander Gesell: No, I'm not talking about the term,.
+[40:45 - 40:46] Lloyd Yip: No, no, I'm talking about the copy.
+[40:46 - 40:48] Alexander Gesell: Afterwards, I'm talking about the copy.
+[40:48 - 40:51] Alexander Gesell: So when you basically go through where's dealforge?
+[40:52 - 40:53] Alexander Gesell: That's why I opened it.
+[40:53 - 40:57] Alexander Gesell: I want to show you basically because I re.
+[40:57 - 40:59] Alexander Gesell: I, I did it, I did it with.
+[41:01 - 41:03] Alexander Gesell: I. I did it with Edwin yesterday.
+[41:03 - 41:10] Alexander Gesell: And we realized we had, we had to do a few rounds and actually changing here the angle.
+[41:10 - 41:12] Alexander Gesell: So that's why I say I want to speak with it.
+[41:13 - 41:17] Alexander Gesell: I made my output and then I realized, man, it's not good.
+[41:18 - 41:21] Alexander Gesell: My current process, before it's automated, is very simple.
+[41:23 - 41:25] Alexander Gesell: You basically you review.
+[41:26 - 41:32] Alexander Gesell: So once you're at the calendar, you review the suggestions and you see if it's good or not.
+[41:32 - 41:42] Alexander Gesell: If not, you make a screenshot of the sales GPT of dealforge, enter in the sales GPT and say with the input, you have regenerated for me.
+[41:42 - 41:43] Alexander Gesell: Once it's automate.
+[41:44 - 41:46] Alexander Gesell: Once we can automate that, we can automate that.
+[41:46 - 41:51] Alexander Gesell: That's why I told you this is great for an automation.
+[41:51 - 41:57] Lloyd Yip: Okay, so you want in an ideal world to be able to talk, to deal.
+[41:57 - 41:58] Alexander Gesell: Yes, yes.
+[42:01 - 42:03] Lloyd Yip: Let me think about the architecture.
+[42:03 - 42:03] Lloyd Yip: Let me just.
+[42:04 - 42:05] Lloyd Yip: You continue talking.
+[42:05 - 42:06] Lloyd Yip: Let me just think about this in.
+[42:06 - 42:08] Ryan Matsumori: My head, about how and Alex, high level.
+[42:08 - 42:11] Ryan Matsumori: I just want to level set exactly what you're looking for.
+[42:11 - 42:15] Ryan Matsumori: Because from my experience, what we tell people, it's like, hey, you know what?
+[42:15 - 42:19] Ryan Matsumori: We're going to be showing you these calendar invites and the copy.
+[42:19 - 42:21] Ryan Matsumori: This is directionally oriented.
+[42:21 - 42:23] Ryan Matsumori: This is by far not the final product.
+[42:24 - 42:28] Ryan Matsumori: That's why we need to work together, custom, one on one to really define this down.
+[42:28 - 42:31] Alexander Gesell: Yeah, but there's often it's completely wrong.
+[42:31 - 42:38] Alexander Gesell: So yesterday when I did it with Edwin, it was doing it as it was us.
+[42:39 - 42:42] Edwin Chung: Yeah, it was like mixing our offer with his offer.
+[42:42 - 42:43] Ryan Matsumori: I know, but just to calibrate.
+[42:44 - 42:45] Ryan Matsumori: That's a bug in the system.
+[42:45 - 42:49] Ryan Matsumori: You just click, regenerate, run once and then it fixes that.
+[42:49 - 42:50] Alexander Gesell: So it feels like this is a.
+[42:50 - 42:53] Ryan Matsumori: Lot of effort to change the copy.
+[42:55 - 42:56] Alexander Gesell: No, but like it.
+[42:56 - 42:58] Alex iPhone: I want you, I want you to put an effort.
+[42:58 - 42:59] Alexander Gesell: High ticket is effort.
+[42:59 - 43:02] Alexander Gesell: High ticket is not a standardized process you go through.
+[43:02 - 43:04] Alexander Gesell: Like, I want that it feels effort.
+[43:04 - 43:06] Alexander Gesell: But we're going to give you every automation there is.
+[43:06 - 43:09] Alexander Gesell: But, but like very easy.
+[43:09 - 43:12] Alexander Gesell: Like we made it way too easy in the past for you guys.
+[43:12 - 43:15] Alexander Gesell: It's going to be harder, it's going to be brain, it's going to be thinking.
+[43:15 - 43:17] Alexander Gesell: Because that's what High Ticket is about.
+[43:19 - 43:21] Alexander Gesell: And we make it as easy as possible.
+[43:22 - 43:25] Alexander Gesell: But the more powerful this story is, the more powerful it hits.
+[43:25 - 43:26] Alexander Gesell: It's very easy.
+[43:27 - 43:29] Lloyd Yip: How are you going into the copy.
+[43:29 - 43:37] Alexander Gesell: On the call to Alex, Let me go through this and then I have a good call for you to review it.
+[43:38 - 43:40] Alexander Gesell: I only go on the headlines.
+[43:40 - 43:42] Alexander Gesell: I'm not really going in the description.
+[43:42 - 43:45] Alexander Gesell: The headline is important because the headline,.
+[43:46 - 43:49] Lloyd Yip: I think on the things that you're not going to go super deep into.
+[43:51 - 43:55] Lloyd Yip: Is there a lot of value in trying to make the copy perfect if you're not going to go?
+[43:55 - 43:56] Alexander Gesell: No, no, no, no, no.
+[43:56 - 44:00] Alexander Gesell: The, the copy of the description, if it's wrong, we have to adapt it.
+[44:01 - 44:02] Alexander Gesell: Yesterday was simply wrong.
+[44:03 - 44:04] Lloyd Yip: Did you do the regeneration thing?
+[44:04 - 44:06] Alex iPhone: Yeah, we did it then and.
+[44:06 - 44:07] Alexander Gesell: But we did it after.
+[44:07 - 44:09] Alexander Gesell: We filled it with better input.
+[44:09 - 44:10] Alexander Gesell: So I don't know.
+[44:14 - 44:14] Lloyd Yip: That you didn't.
+[44:14 - 44:15] Edwin Chung: Know how to fix.
+[44:15 - 44:20] Alexander Gesell: But the copy doesn't matter to the description.
+[44:20 - 44:21] Alexander Gesell: Doesn't matter too much the headline.
+[44:21 - 44:25] Alexander Gesell: Because the headline is also going to be the presentation headline.
+[44:25 - 44:26] Alexander Gesell: That is an important one.
+[44:26 - 44:28] Alexander Gesell: Okay, okay.
+[44:29 - 44:31] Alex iPhone: But you know, you.
+[44:31 - 44:33] Alexander Gesell: So calendar invite.
+[44:33 - 44:34] Alexander Gesell: You make sure it's good.
+[44:35 - 44:36] Ryan Matsumori: Okay.
+[44:37 - 44:41] Alexander Gesell: And then there's something I told you, Lloyd.
+[44:41 - 44:42] Alexander Gesell: We need to build it out.
+[44:42 - 44:47] Alexander Gesell: We need to build out this slides and then ideally the GPT fills it.
+[44:49 - 44:53] Alexander Gesell: But this is a storyline to go through for every single client.
+[44:54 - 44:59] Alexander Gesell: And I already had three clients telling me, hey, the only thing you can do better have that as a slide.
+[44:59 - 45:03] Alexander Gesell: It's not too hard to create that with ChatGPT nowadays.
+[45:04 - 45:11] Alexander Gesell: If you feed in the input we have and just tell them I want this framework being represented as slides.
+[45:11 - 45:12] Alexander Gesell: It works.
+[45:12 - 45:17] Lloyd Yip: Okay, so you want the webinar slot like you want the webinar thing to have slides.
+[45:18 - 45:18] Alexander Gesell: Yes.
+[45:18 - 45:21] Alexander Gesell: To have those slides to go through that is the most important thing.
+[45:22 - 45:27] Alexander Gesell: Like I spent the most time of everything telling them exactly how their webinar is going to look like.
+[45:28 - 45:33] Lloyd Yip: This is like want the slides inside the webinar tab in deal form.
+[45:33 - 45:34] Alexander Gesell: Exactly.
+[45:34 - 45:39] Lloyd Yip: To clickster you want it and you want the copy inside to not be generic copy.
+[45:39 - 45:42] Lloyd Yip: You want it to be actually accurate.
+[45:43 - 45:45] Alexander Gesell: Minimum what I wrote there.
+[45:45 - 45:53] Alexander Gesell: But if it would be accurate, it would be even more powerful and if it would be fed by AI, you know, I don't think it's too hard to do.
+[45:54 - 45:57] Alexander Gesell: But like at least I want those Headlines.
+[45:58 - 46:00] Alexander Gesell: Exactly those headlines here.
+[46:00 - 46:01] Alexander Gesell: To be part of it.
+[46:02 - 46:08] Alexander Gesell: It's like 1, 2, 3, 4, 5, 6, 7, 8, 9.
+[46:08 - 46:13] Lloyd Yip: An example of, for example, like Datacoast or whatever other clients.
+[46:13 - 46:16] Lloyd Yip: Could you show me what you would like the slides to look like?
+[46:16 - 46:17] Lloyd Yip: Yeah, I could use that as a.
+[46:17 - 46:20] Alexander Gesell: Reference because yeah, I'm gonna do it.
+[46:20 - 46:21] Lloyd Yip: Here for me to build that.
+[46:21 - 46:24] Lloyd Yip: If you actually give me an example of like, here's what five slides should look like.
+[46:25 - 46:27] Lloyd Yip: And then we could try to recreate that programmatically.
+[46:28 - 46:28] Ryan Matsumori: I have a question.
+[46:29 - 46:31] Ryan Matsumori: I think I know the answer.
+[46:33 - 46:44] Ryan Matsumori: Depending on the client that we're working with, if they're like a technical person and they're a small company, this is now to me verging on the edge of giving away the milk for free.
+[46:45 - 46:49] Ryan Matsumori: Where like they came to this full demo and they're like, great, I'm going to do this on my own.
+[46:49 - 46:51] Alexander Gesell: Let them do it by themselves.
+[46:51 - 46:52] Alexander Gesell: This is not going to work.
+[46:53 - 46:53] Alexander Gesell: Forget about it.
+[46:54 - 46:54] Lloyd Yip: Okay.
+[46:54 - 46:57] Alexander Gesell: No, this is like the most high level.
+[46:59 - 47:05] Alexander Gesell: Yeah, like you're not going to, you know, you tell them, hey, you go in your bold claim.
+[47:05 - 47:09] Alexander Gesell: Well, like from what I see about your webinar, this is going to be your bold claim.
+[47:09 - 47:12] Alexander Gesell: Then you're going to see your audience and understand them.
+[47:12 - 47:15] Alexander Gesell: Probably you give them one sentence to it.
+[47:15 - 47:20] Alexander Gesell: Then you make the problem big and you demonstrate them the impact of not changing.
+[47:20 - 47:22] Alexander Gesell: This could be for example, X.
+[47:22 - 47:24] Alexander Gesell: Just one sentence, like really?
+[47:24 - 47:28] Alexander Gesell: And then you go into the dream state, which on your website for example, would be described like this.
+[47:28 - 47:31] Alexander Gesell: You know, that's how I currently do it because I don't have slides.
+[47:31 - 47:39] Alexander Gesell: And then you basically explain them a case study and show that how the case study situation and the results before and after.
+[47:39 - 47:49] Alexander Gesell: And then you guide them mentally from booking a call now from this webinar to the desired dream step and the time the results from what you do are unveiled.
+[47:49 - 47:54] Alexander Gesell: And you showcase how your solution offer basically took away all the risks.
+[47:54 - 47:58] Alexander Gesell: The investment risk, the failure risk, the communication gap risk, the time investment risk.
+[47:59 - 48:08] Alexander Gesell: And then you go into your solution offering and you give three key CTAs that are high value with a deep analysis of their situation and create a custom demo.
+[48:08 - 48:09] Alexander Gesell: That's the storyline.
+[48:09 - 48:12] Alexander Gesell: Storyline doesn't take more than two, three minutes.
+[48:12 - 48:16] Alexander Gesell: But like if you have now slides to showcase and to demonstrate, it's just so much more powerful.
+[48:16 - 48:17] Alexander Gesell: Okay.
+[48:17 - 48:19] Alexander Gesell: They just feel, wow, the guys know their shit.
+[48:22 - 48:22] Alex iPhone: Now.
+[48:24 - 48:29] Alexander Gesell: And here is another thing we need to build optimize dealforge.
+[48:33 - 48:35] Alexander Gesell: In the roi.
+[48:35 - 48:36] Alexander Gesell: I need two tabs.
+[48:36 - 48:41] Alexander Gesell: Basically, Lloyd, I Need I?
+[48:41 - 48:48] Alexander Gesell: First of all, you always calculate with the lowest possible inputs you can find.
+[48:48 - 48:48] Alexander Gesell: Okay.
+[48:49 - 48:53] Alexander Gesell: I usually take whatever they gave me and I even downgraded by another 5%.
+[48:53 - 48:56] Alexander Gesell: I really want to go as low as somehow possible.
+[48:56 - 48:57] Lloyd Yip: What is low?
+[48:58 - 48:59] Alexander Gesell: The inputs.
+[49:00 - 49:03] Alexander Gesell: Ltv, close rate show up.
+[49:03 - 49:03] Alexander Gesell: Right.
+[49:03 - 49:04] Alexander Gesell: I really tried that.
+[49:04 - 49:05] Alexander Gesell: The input.
+[49:05 - 49:06] Lloyd Yip: That's human entry though.
+[49:07 - 49:07] Alexander Gesell: Yeah, yeah.
+[49:07 - 49:08] Alexander Gesell: No, no, no, wait.
+[49:08 - 49:09] Alexander Gesell: We were not yet in AI.
+[49:10 - 49:12] Alexander Gesell: I tell you where we in AI.
+[49:15 - 49:19] Alexander Gesell: And then the first thing is you enter the highest possible tam.
+[49:20 - 49:26] Alexander Gesell: Just as a reminder, total TAM divided by four.
+[49:26 - 49:26] Alexander Gesell: Okay.
+[49:28 - 49:31] Alexander Gesell: And that's what you enter TAM per month.
+[49:31 - 49:32] Alexander Gesell: Okay.
+[49:32 - 49:33] Alexander Gesell: Invite per month.
+[49:34 - 49:34] Alexander Gesell: Invite.
+[49:35 - 49:42] Ryan Matsumori: The only note that I would put there for standardization, Alex, is sometimes divide the TAM by four.
+[49:42 - 49:49] Ryan Matsumori: The number one priority is that when we go through the calculator, they're going to be getting X amount of clients every month.
+[49:49 - 49:50] Ryan Matsumori: Like, only like.
+[49:50 - 49:52] Ryan Matsumori: Then that's the first priority.
+[49:52 - 49:55] Ryan Matsumori: And then you can divide by four and still get the results.
+[49:56 - 49:57] Ryan Matsumori: Do that, but don't divide by four.
+[49:57 - 49:58] Ryan Matsumori: And then they're getting.
+[49:59 - 50:01] Alexander Gesell: I just say if you use the TAM chat properly.
+[50:01 - 50:09] Alexander Gesell: I haven't speaking with a single client where the temp below 200k the way I do it, not a single one in all 16 calls ahead.
+[50:09 - 50:10] Alexander Gesell: Okay.
+[50:12 - 50:14] Alexander Gesell: That's why I think you need to speak with it.
+[50:14 - 50:17] Alexander Gesell: Because usually it's a matter of how do you cut a TAM.
+[50:18 - 50:19] Gonzalo G: Okay.
+[50:20 - 50:26] Alexander Gesell: Only different if TAM is below 120k.
+[50:26 - 50:26] Alexander Gesell: Okay.
+[50:29 - 50:31] Alexander Gesell: But then you see the results.
+[50:31 - 50:33] Alexander Gesell: Currently I just take a screenshot.
+[50:34 - 50:36] Alexander Gesell: But what I want, Lloyd, is exactly this.
+[50:37 - 50:39] Alexander Gesell: This is where I want you.
+[50:40 - 50:41] Alexander Gesell: I make a second version.
+[50:41 - 50:45] Alexander Gesell: I want to show them the maximum possible outcome.
+[50:47 - 50:48] Alexander Gesell: But then I want to go to.
+[50:49 - 50:52] Alexander Gesell: Based on the goals they have, the recommended invite volume.
+[50:53 - 50:58] Alexander Gesell: That like this is basically invite volume.
+[50:59 - 51:00] Alexander Gesell: This is.
+[51:00 - 51:02] Alexander Gesell: This creates a lot of credibility.
+[51:02 - 51:05] Lloyd Yip: What's the actual formula that you want us to use?
+[51:07 - 51:09] Alexander Gesell: Okay, I sent you the formula.
+[51:09 - 51:10] Alexander Gesell: Okay.
+[51:11 - 51:13] Lloyd Yip: You sent or you will send?
+[51:13 - 51:14] Alexander Gesell: I will.
+[51:14 - 51:14] Alexander Gesell: Alex.
+[51:14 - 51:15] Alexander Gesell: Will send.
+[51:15 - 51:16] Alexander Gesell: Will send the formula.
+[51:16 - 51:17] Edwin Chung: Because it can't.
+[51:17 - 51:17] Lloyd Yip: Yeah.
+[51:17 - 51:20] Lloyd Yip: It's not as simple as total Tam divided by four.
+[51:20 - 51:25] Lloyd Yip: Because if you know that like 7 million, then you're not going to send out a like million and five.
+[51:25 - 51:28] Alexander Gesell: Yeah, no, it is, because that's the max one.
+[51:28 - 51:29] Alexander Gesell: I want to show them the max one.
+[51:30 - 51:31] Alexander Gesell: And then based on their.
+[51:32 - 51:32] Lloyd Yip: You want.
+[51:32 - 51:33] Lloyd Yip: You.
+[51:33 - 51:33] Alexander Gesell: Yeah.
+[51:33 - 51:37] Lloyd Yip: You want the formula to be potentially a million five hundred thousand.
+[51:37 - 51:38] Alexander Gesell: The fir.
+[51:38 - 51:39] Alexander Gesell: The first one.
+[51:39 - 51:39] Edwin Chung: Yes.
+[51:39 - 51:42] Alexander Gesell: And I want to say, I always say we invite 1.2 million.
+[51:42 - 51:43] Alexander Gesell: That's a big part of my story life.
+[51:43 - 51:45] Alexander Gesell: You could do 1.5 million per month.
+[51:45 - 51:51] Alexander Gesell: But your results, what you actually want to achieve is three clients per month.
+[51:51 - 51:54] Alexander Gesell: Now let's back engineer that.
+[51:55 - 51:57] Alexander Gesell: That's a reverse engineer process.
+[51:57 - 52:04] Lloyd Yip: So are we going through the ROI calculator, two run throughs now?
+[52:05 - 52:07] Alexander Gesell: I do always two run throughs.
+[52:07 - 52:08] Alexander Gesell: Yeah, Currently.
+[52:08 - 52:09] Lloyd Yip: You guys.
+[52:09 - 52:09] Lloyd Yip: Did you.
+[52:09 - 52:11] Lloyd Yip: Did you cover that already with the guys?
+[52:11 - 52:13] Alexander Gesell: No, we haven't covered call two.
+[52:13 - 52:15] Alexander Gesell: We haven't covered call two yet.
+[52:15 - 52:15] Lloyd Yip: Sure.
+[52:15 - 52:16] Lloyd Yip: So I'll just.
+[52:16 - 52:23] Ryan Matsumori: The way that I'm currently doing this is when I'm getting the roi, it's like, hey, this is the number that we're going to start with.
+[52:23 - 52:27] Ryan Matsumori: And then we're going to calibrate this to what you can actually handle, your capacity.
+[52:28 - 52:32] Ryan Matsumori: So just know that if we're sending out 100,000, these are the results.
+[52:32 - 52:35] Ryan Matsumori: But if you wanted to double it, we send out 200,000.
+[52:35 - 52:37] Ryan Matsumori: If you wanted to triple it, we send out 300,000.
+[52:37 - 52:38] Alex iPhone: Yeah, but it's more beautiful if you.
+[52:38 - 52:40] Alexander Gesell: Do it with concrete numbers.
+[52:40 - 52:50] Alexander Gesell: So the way I cover it is I calculate it up front, I make a screenshot, and I said, this is your maximum time currently, because we haven't implemented it, this is your maximum time.
+[52:52 - 52:55] Alexander Gesell: And then I basically reverse engineer.
+[52:56 - 53:09] Alexander Gesell: The only thing, Lloyd, you need to automate here is basically making us, after you calculated the maximum, keeping a graphic somewhere that we can show of the maximum time.
+[53:09 - 53:13] Alexander Gesell: But then I go back and reverse engineer that, though.
+[53:13 - 53:15] Lloyd Yip: People aren't going to forget this.
+[53:15 - 53:18] Lloyd Yip: I don't want to over engineer stuff that is like so marginal.
+[53:18 - 53:21] Lloyd Yip: So if you guys want to do what Alex just said is really simple, you can totally do it.
+[53:22 - 53:23] Lloyd Yip: Just start like the.
+[53:23 - 53:33] Lloyd Yip: The TAM formula is something that we can automate, and then we run it with their ltv, with their close rate with the TAM that was suggested.
+[53:33 - 53:37] Lloyd Yip: At the highest version of it, we see the number and then just like,.
+[53:37 - 53:38] Alexander Gesell: All right, but what would we do.
+[53:38 - 53:39] Lloyd Yip: If we just wanted three lines?
+[53:40 - 53:40] Alexander Gesell: Exactly.
+[53:40 - 53:40] Alexander Gesell: So.
+[53:40 - 53:42] Alexander Gesell: So, like, there's no need for us.
+[53:42 - 53:44] Lloyd Yip: To change deal for the outside.
+[53:44 - 53:46] Alexander Gesell: Yeah, okay, you're right, it's too much work.
+[53:46 - 53:47] Alexander Gesell: But this is very powerful.
+[53:48 - 53:58] Alexander Gesell: And now you can tell them the invite volume to achieve your goals based on the most conservative numbers in 1500 clients is this.
+[53:59 - 54:03] Alexander Gesell: And now you can also give them a TCO calculation how much that would cost them monthly.
+[54:04 - 54:07] Alexander Gesell: That's why I do this, because I literally tell them for.
+[54:08 - 54:10] Alexander Gesell: Let's say their invite volume is 40,000.
+[54:10 - 54:15] Alexander Gesell: That cost you 670 bucks a month to invite 40,000 and to win three clients per month.
+[54:15 - 54:16] Alexander Gesell: Okay.
+[54:16 - 54:20] Alexander Gesell: And if you calculate it with 12 months financing hours, our service.
+[54:20 - 54:21] Alexander Gesell: Then I bring it together.
+[54:21 - 54:23] Alexander Gesell: TCO and financing.
+[54:23 - 54:28] Alexander Gesell: Let's say our service cost you 2,400amonth plus 670.
+[54:28 - 54:33] Alexander Gesell: Then basically your monthly costs are 3,000 to win one client.
+[54:33 - 54:34] Alexander Gesell: That makes you 100 per month.
+[54:34 - 54:40] Alexander Gesell: So your ROI is actually 30x.
+[54:41 - 54:43] Alexander Gesell: And that's what I do here.
+[54:43 - 54:48] Alexander Gesell: Okay, but this is currently just a preparation.
+[54:48 - 54:52] Alexander Gesell: That's why now the next thing is I want to use the case study bot.
+[54:52 - 54:53] Alexander Gesell: Which one ever?
+[54:53 - 54:55] Alexander Gesell: The one Edwin build in the sales.
+[54:55 - 54:57] Alexander Gesell: In the sales chat or.
+[55:01 - 55:07] Alexander Gesell: And if it doesn't help enough, you can also speak with Daniel in the TAM ClickUp channel.
+[55:08 - 55:10] Lloyd Yip: Where does the case study bot live?
+[55:11 - 55:15] Alexander Gesell: We're going to put it in the sales in the same GPT.
+[55:16 - 55:17] Alexander Gesell: We just have to do it.
+[55:17 - 55:20] Alexander Gesell: So Edwin sent me over the input and I'm going to train it.
+[55:20 - 55:21] Alexander Gesell: Okay.
+[55:21 - 55:22] Alexander Gesell: I'm going to build this today.
+[55:24 - 55:27] Alexander Gesell: And then I need you to read and watch the case studies.
+[55:27 - 55:35] Alexander Gesell: I need you to think through every part of the solution presentation, how you're gonna use the case studies.
+[55:35 - 55:35] Alexander Gesell: Okay?
+[55:35 - 55:36] Gonzalo G: Please.
+[55:36 - 55:41] Alexander Gesell: The last thing I want you to do is what I see currently in every single of your calls.
+[55:42 - 55:44] Alexander Gesell: By the way, we have good case studies.
+[55:45 - 55:46] Alexander Gesell: 30 Seconds, that's it.
+[55:46 - 55:48] Alexander Gesell: No, you're in the lead list.
+[55:48 - 55:54] Alexander Gesell: And you mentioned, by the way, we have those three clients who have the same TAM as you.
+[55:54 - 55:55] Alexander Gesell: They achieved those results.
+[55:56 - 55:57] Alexander Gesell: There you go.
+[55:57 - 55:59] Alexander Gesell: Then I want to say invite.
+[56:01 - 56:08] Alexander Gesell: Ideally, Lloyd, that's where I'm going to look into if the AI could even give us.
+[56:09 - 56:11] Alexander Gesell: Can you send me a quick note, one of you.
+[56:11 - 56:13] Alexander Gesell: Lloyd just sent me that in ClickUp as a reminder.
+[56:13 - 56:22] Alexander Gesell: If the AI could even give me the real templates for that the clients have.
+[56:22 - 56:25] Alexander Gesell: I can't just say this is your invite.
+[56:25 - 56:31] Alexander Gesell: But by the way, there's a separate, you know, the real one.
+[56:31 - 56:32] Lloyd Yip: I'm confused.
+[56:32 - 56:33] Gonzalo G: You.
+[56:33 - 56:37] Lloyd Yip: You want us to find the actual copy from our clients?
+[56:37 - 56:38] Alexander Gesell: Yes, because this is.
+[56:39 - 56:40] Alexander Gesell: I do this every time.
+[56:40 - 56:41] Alexander Gesell: This is like super powerful.
+[56:41 - 56:42] Alexander Gesell: Not every time, but like.
+[56:42 - 56:44] Alexander Gesell: Do you have Cedric copy?
+[56:44 - 56:46] Alexander Gesell: We have every copy.
+[56:47 - 56:49] Alexander Gesell: We have a folder called code.
+[56:49 - 56:50] Alexander Gesell: It's in the.
+[56:50 - 56:52] Alexander Gesell: Every client has a.
+[56:52 - 56:52] Alexander Gesell: Has a playbook.
+[56:53 - 56:54] Alexander Gesell: And in there.
+[56:55 - 56:56] Lloyd Yip: Can you send me the link?
+[56:56 - 56:56] Lloyd Yip: Of course.
+[56:57 - 56:59] Alexander Gesell: This is super easy to actually automate.
+[56:59 - 57:04] Alexander Gesell: That's why, you know, all our clients live in here.
+[57:05 - 57:06] Alexander Gesell: Coaching clients.
+[57:06 - 57:08] Alexander Gesell: And every client has a folder.
+[57:09 - 57:10] Alex iPhone: And in.
+[57:10 - 57:13] Alexander Gesell: In that folder there is a playbook,.
+[57:13 - 57:15] Alex iPhone: Next gen webinar workbook.
+[57:15 - 57:17] Alexander Gesell: And in there is their copy.
+[57:17 - 57:21] Alexander Gesell: Okay, so yeah, send me the link.
+[57:21 - 57:24] Lloyd Yip: Send me the link to that.
+[57:26 - 57:29] Alexander Gesell: But like, this is just this is something different.
+[57:29 - 57:29] Alexander Gesell: Okay?
+[57:29 - 57:32] Alexander Gesell: In every step you give them a real example.
+[57:32 - 57:33] Alexander Gesell: It's suddenly, oh, wow.
+[57:36 - 57:39] Lloyd Yip: So you want to show their hypothetical copy.
+[57:39 - 57:39] Gonzalo G: And.
+[57:40 - 57:41] Alexander Gesell: And I just want.
+[57:41 - 57:42] Alexander Gesell: I just want to swipe over.
+[57:42 - 57:44] Alexander Gesell: And by the way, this is the real thing.
+[57:44 - 57:44] Alexander Gesell: And.
+[57:44 - 57:45] Alexander Gesell: And I want to give them the numbers.
+[57:45 - 57:48] Alexander Gesell: Hey, this is what generated Cedric.
+[57:49 - 57:53] Alexander Gesell: A 500 people showing up every single month.
+[57:53 - 57:56] Lloyd Yip: Okay, and you want to use Cedrics every time or.
+[57:56 - 57:58] Alexander Gesell: No, no, no, no.
+[57:58 - 58:00] Alexander Gesell: Depending on the case.
+[58:00 - 58:02] Lloyd Yip: Whichever one makes the most sense.
+[58:02 - 58:02] Alexander Gesell: Exactly.
+[58:02 - 58:04] Alexander Gesell: Whichever one makes the most sense.
+[58:05 - 58:08] Lloyd Yip: I don't think Scott has the numbers for all of them though.
+[58:09 - 58:11] Alexander Gesell: We have them on the website.
+[58:11 - 58:13] Alexander Gesell: Just use only the ones on the website.
+[58:13 - 58:14] Alexander Gesell: Every.
+[58:14 - 58:16] Alexander Gesell: Everything on the website has the numbers.
+[58:18 - 58:19] Alexander Gesell: If not, I fill it out.
+[58:20 - 58:22] Alexander Gesell: Let me put myself a to do.
+[58:23 - 58:26] Alexander Gesell: I'm gonna review the website and see if all the numbers are clear.
+[58:27 - 58:30] Lloyd Yip: Let me see if I can just crawl and scrape this.
+[58:30 - 58:39] Lloyd Yip: Before you do any of that work, just give me the link and I'll see what I can massage out of this programmatically.
+[58:39 - 58:40] Alexander Gesell: Yeah, yeah,.
+[58:43 - 58:43] Lloyd Yip: Cool.
+[58:43 - 58:45] Lloyd Yip: No, continue please.
+[58:45 - 58:46] Alexander Gesell: Yes.
+[58:48 - 58:52] Alexander Gesell: Okay, let me just send you the link on ClickUp.
+[58:58 - 59:01] Alexander Gesell: Okay, now back to the approach.
+[59:01 - 59:08] Alexander Gesell: Okay, so what you want to prepare is the real thing.
+[59:08 - 59:11] Alexander Gesell: And then you want to know how to speak about the case study here.
+[59:11 - 59:16] Alexander Gesell: You want to speak about the results and ideally show a real thing shortly.
+[59:17 - 59:24] Alexander Gesell: And Lloyd, by the way, I sent it to you before, but there's two sub tabs missing here.
+[59:24 - 59:28] Alexander Gesell: You know, here we have those sub tabs in Calendar ny.
+[59:28 - 59:31] Alexander Gesell: We need a screenshot of Scarpi, Hermes.
+[59:32 - 59:35] Alexander Gesell: And we need a screenshot of.
+[59:37 - 59:40] Alexander Gesell: We need a subsection that shortly talks about the VAs.
+[59:40 - 59:42] Alexander Gesell: I always talk about the VAs here.
+[59:42 - 59:44] Alexander Gesell: So it's good to have a sub tab.
+[59:44 - 59:47] Alexander Gesell: I always talk about the automation solution and the infrastructure.
+[59:47 - 59:48] Lloyd Yip: Talk about the VAs.
+[59:49 - 59:50] Alexander Gesell: Of course I want to.
+[59:51 - 59:52] Alexander Gesell: Here, here.
+[59:52 - 59:53] Alexander Gesell: I have to tell them.
+[59:53 - 59:55] Alexander Gesell: You don't have to run any of this.
+[59:55 - 59:58] Alexander Gesell: It's run by the A's, five hours a week.
+[1:00:00 - 1:00:00] Alexander Gesell: They come from us.
+[1:00:00 - 1:00:03] Alexander Gesell: They are pre trained and you're happy.
+[1:00:03 - 1:00:04] Alexander Gesell: Okay?
+[1:00:04 - 1:00:07] Lloyd Yip: What would this tab even look like?
+[1:00:08 - 1:00:09] Alexander Gesell: I design it for you, okay?
+[1:00:09 - 1:00:13] Alexander Gesell: Everything I tell you, I design it for you and send it over and then you know what to put there.
+[1:00:14 - 1:00:15] Alexander Gesell: All right, cool.
+[1:00:16 - 1:00:19] Alexander Gesell: Okay, now, webinar experience.
+[1:00:19 - 1:00:22] Alexander Gesell: You know, here's the real thing.
+[1:00:23 - 1:00:24] Alex iPhone: I don't want you to show now.
+[1:00:24 - 1:00:26] Alexander Gesell: The real presentation of Cedric.
+[1:00:27 - 1:00:29] Alexander Gesell: But Lloyd, if we could create an AI.
+[1:00:29 - 1:00:33] Alexander Gesell: We have all the recordings of all our clients just with a link.
+[1:00:33 - 1:00:36] Alexander Gesell: By the way, if you want to watch the last.
+[1:00:37 - 1:00:39] Alexander Gesell: The Last recording of Cedric.
+[1:00:39 - 1:00:39] Alexander Gesell: Here's a link.
+[1:00:40 - 1:00:42] Alexander Gesell: You know, like, like are the recordings.
+[1:00:42 - 1:00:45] Lloyd Yip: From our clients also in their client folders?
+[1:00:47 - 1:00:53] Alexander Gesell: And most of them, if not, I'm gonna search them just for the case studies.
+[1:00:53 - 1:00:54] Alex iPhone: Together with,.
+[1:00:56 - 1:00:57] Alexander Gesell: Together with.
+[1:00:59 - 1:01:03] Alexander Gesell: I'm gonna actually put all the links, let me put this as to do.
+[1:01:03 - 1:01:05] Alexander Gesell: I would even put the links on.
+[1:01:05 - 1:01:05] Alex iPhone: The,.
+[1:01:09 - 1:01:10] Alexander Gesell: On the due diligence page.
+[1:01:10 - 1:01:12] Alexander Gesell: I think that's super, super powerful.
+[1:01:12 - 1:01:14] Alexander Gesell: Links to recording.
+[1:01:15 - 1:01:15] Edwin Chung: I agree.
+[1:01:16 - 1:01:17] Lloyd Yip: If we have the links for all.
+[1:01:19 - 1:01:24] Lloyd Yip: I didn't operate with the assumption that we actually had the recording links for everyone.
+[1:01:26 - 1:01:28] Alexander Gesell: And if not, I'm just going to ask the client and they're going to.
+[1:01:28 - 1:01:31] Lloyd Yip: Give it to us because I don't know if we actually have them.
+[1:01:31 - 1:01:32] Alexander Gesell: Yeah.
+[1:01:32 - 1:01:48] Alexander Gesell: And then again if you go to onboarding, you, because you have the real 10 minute interview of the client, you just speak a little bit about how was actually the experience of Sedgwick or that case study.
+[1:01:49 - 1:02:00] Alexander Gesell: And then in the roi, you also basically go to one or two case studies that are similar and just say this is basically what happened in their case.
+[1:02:00 - 1:02:02] Alexander Gesell: So now you know how to use case studies.
+[1:02:02 - 1:02:05] Alexander Gesell: Please, we can kick out this thing, by the way.
+[1:02:06 - 1:02:06] Alexander Gesell: No value.
+[1:02:06 - 1:02:10] Alexander Gesell: You have to talk about when, when you actually speak about the thing.
+[1:02:10 - 1:02:13] Alexander Gesell: Okay, so Alex, go back.
+[1:02:15 - 1:02:18] Alexander Gesell: No, there's like a T or like keep it in there.
+[1:02:18 - 1:02:20] Alex iPhone: I, I just said I don't want.
+[1:02:20 - 1:02:23] Alexander Gesell: You to go at the end to case studies and speak about it.
+[1:02:23 - 1:02:27] Alexander Gesell: You speak about the case studies in every tab where you want to lead.
+[1:02:27 - 1:02:29] Alexander Gesell: List, calendar, invite, webinar experience.
+[1:02:29 - 1:02:33] Alexander Gesell: So onboarding and roi, that's when you speak about the case studies.
+[1:02:33 - 1:02:36] Ryan Matsumori: Yeah, I want to understand what you're telling us to do.
+[1:02:36 - 1:02:46] Ryan Matsumori: So if you go back to dealforge Roi, my understanding of what you're instructing us to do is that we'll say, hey, so for example, Cedric was.
+[1:02:47 - 1:02:48] Ryan Matsumori: No, go back.
+[1:02:50 - 1:02:54] Ryan Matsumori: You want us to say, hey, for example, Cedric was sending out a hundred thousand.
+[1:02:54 - 1:02:58] Ryan Matsumori: He had a 60 show rate and he had a 5% close rate.
+[1:02:58 - 1:03:03] Ryan Matsumori: And then we click the next button and then we'll be like, look, these were the results that Cedric got.
+[1:03:03 - 1:03:04] Ryan Matsumori: And then.
+[1:03:06 - 1:03:11] Alexander Gesell: If we, if Lloyd can program, then this would be the most amazing thing.
+[1:03:11 - 1:03:12] Alexander Gesell: I would do it the other way around.
+[1:03:12 - 1:03:19] Alexander Gesell: I would first calculate theirs and I would say, by the way, now let's review this against 2, 3 because.
+[1:03:20 - 1:03:23] Ryan Matsumori: Yeah, because Alex, I think it'll be quite.
+[1:03:23 - 1:03:23] Ryan Matsumori: Maybe it's not.
+[1:03:23 - 1:03:25] Ryan Matsumori: I make up a story in my head.
+[1:03:25 - 1:03:26] Ryan Matsumori: It's going to be quite difficult.
+[1:03:26 - 1:03:31] Ryan Matsumori: We have like 20 plus testimonials for me to remember for 20 people.
+[1:03:31 - 1:03:33] Ryan Matsumori: How many invites there?
+[1:03:34 - 1:03:37] Alexander Gesell: I'm going to see if we can program that.
+[1:03:37 - 1:03:56] Alexander Gesell: So Lloyd, this would be the most powerful thing to do if we can program the auto selection of case studies and a manual version where I can actually manually select them and then a sub cap of ROI where I can literally just say.
+[1:03:56 - 1:03:58] Alexander Gesell: And by the way, this was that rigs.
+[1:03:58 - 1:04:01] Alexander Gesell: This was wa.
+[1:04:02 - 1:04:03] Alexander Gesell: This was Michael.
+[1:04:03 - 1:04:07] Alexander Gesell: And I can literally just say and have a direct comparison.
+[1:04:07 - 1:04:16] Alexander Gesell: It re shows their ROI and then I have like, I see two or three in like the same tab just showing up that I can give them.
+[1:04:16 - 1:04:17] Alex iPhone: The real, the real thing.
+[1:04:18 - 1:04:20] Alexander Gesell: I think this would be so powerful.
+[1:04:20 - 1:04:21] Alexander Gesell: Good that we speak about this.
+[1:04:21 - 1:04:22] Alexander Gesell: This is amazing.
+[1:04:22 - 1:04:23] Alexander Gesell: This would be so powerful.
+[1:04:23 - 1:04:25] Alexander Gesell: So if we could do this have.
+[1:04:25 - 1:04:28] Lloyd Yip: To have corresponding case studies.
+[1:04:29 - 1:04:31] Alexander Gesell: No, I just want just a result.
+[1:04:31 - 1:04:35] Alexander Gesell: So I want basically ones just.
+[1:04:35 - 1:04:36] Alexander Gesell: Didn't you say.
+[1:04:36 - 1:04:37] Lloyd Yip: Didn't you say.
+[1:04:37 - 1:04:39] Alexander Gesell: No, no, no, no, no, no.
+[1:04:39 - 1:04:40] Alex iPhone: I want, I want all.
+[1:04:40 - 1:04:42] Alexander Gesell: I want lead list.
+[1:04:42 - 1:04:47] Alexander Gesell: I want lead list calendar invite in webinar experience.
+[1:04:47 - 1:04:51] Alexander Gesell: I just want the links and in onboarding I don't want anything.
+[1:04:51 - 1:04:59] Alexander Gesell: I just want the little storytelling that the guys get do I want it mainly in roi.
+[1:04:59 - 1:05:01] Lloyd Yip: What do lead lists have?
+[1:05:04 - 1:05:11] Alexander Gesell: No, in lead list I just want probably the AI to give you three names.
+[1:05:11 - 1:05:13] Alexander Gesell: Just say who had a similar.
+[1:05:15 - 1:05:17] Alexander Gesell: I just want to like basically do two things.
+[1:05:18 - 1:05:20] Alexander Gesell: I want to have the names with a similar tab.
+[1:05:24 - 1:05:26] Ryan Matsumori: If I can introduce.
+[1:05:26 - 1:05:29] Ryan Matsumori: I have an idea that I think would make this very simple.
+[1:05:29 - 1:05:31] Ryan Matsumori: But we'll wait for Alex to come back.
+[1:05:31 - 1:05:32] Lloyd Yip: Just share it now.
+[1:05:33 - 1:05:37] Ryan Matsumori: So similar to how we have three different AB tests on the calendar.
+[1:05:37 - 1:05:41] Ryan Matsumori: I think what would make this very simple so Alex.
+[1:05:42 - 1:05:44] Alex iPhone: So let me repeat it please.
+[1:05:44 - 1:05:45] Alexander Gesell: Let me repeat it please.
+[1:05:46 - 1:05:50] Alexander Gesell: So I want the names of the.
+[1:05:50 - 1:05:55] Alex iPhone: Case studies where the similar TAM and their.
+[1:05:55 - 1:05:57] Alexander Gesell: And the results they had.
+[1:05:58 - 1:05:59] Alexander Gesell: I just want to basically saying.
+[1:05:59 - 1:06:08] Alexander Gesell: And by the way, case studies had the same TAM as you and they achieved X, Y, Z by doing it.
+[1:06:09 - 1:06:10] Alex iPhone: That's what I would love to have there.
+[1:06:11 - 1:06:13] Ryan Matsumori: So I have a recommendation.
+[1:06:13 - 1:06:15] Ryan Matsumori: Yeah, so let.
+[1:06:15 - 1:06:21] Ryan Matsumori: I think it's important that we consider all the variables because we don't want to match case studies by tam.
+[1:06:21 - 1:06:27] Ryan Matsumori: We want to match case studies by offering and like there's many different reasons why we're choosing certain case studies.
+[1:06:27 - 1:06:27] Edwin Chung: So.
+[1:06:27 - 1:06:39] Ryan Matsumori: So what I'm recommending here is that dealforge knows like when it's auto populating dealforge it knows which case studies we want to reference.
+[1:06:40 - 1:06:43] Ryan Matsumori: Now how do we actually present that I'll use the calendar as an example.
+[1:06:43 - 1:06:53] Ryan Matsumori: We click A, it shows option A, B and C. What I think would be easy to do is on lead lists, there's a button for their lead list and then there's a button.
+[1:06:53 - 1:06:55] Ryan Matsumori: This is what Cedric's looked like.
+[1:06:55 - 1:06:57] Ryan Matsumori: This is what David's look like.
+[1:06:57 - 1:06:59] Ryan Matsumori: This is what Tom's looked like.
+[1:06:59 - 1:07:00] Ryan Matsumori: Like, these were their lead lists.
+[1:07:00 - 1:07:01] Ryan Matsumori: This is your lead list.
+[1:07:01 - 1:07:03] Ryan Matsumori: These were their tams.
+[1:07:03 - 1:07:04] Ryan Matsumori: This is your tam.
+[1:07:04 - 1:07:06] Ryan Matsumori: Now we'll go to the calendar invite.
+[1:07:06 - 1:07:07] Ryan Matsumori: This is what yours looks like.
+[1:07:07 - 1:07:08] Ryan Matsumori: Then we click.
+[1:07:08 - 1:07:09] Ryan Matsumori: This is what Cedric's looks like.
+[1:07:09 - 1:07:10] Ryan Matsumori: This is what David's looks like.
+[1:07:10 - 1:07:12] Ryan Matsumori: This is what Stan's looks like.
+[1:07:12 - 1:07:13] Ryan Matsumori: Let me go to the roi.
+[1:07:13 - 1:07:14] Alexander Gesell: We can do theirs.
+[1:07:14 - 1:07:15] Alexander Gesell: And then we could click.
+[1:07:15 - 1:07:18] Ryan Matsumori: This is what Cedric's calculations look like.
+[1:07:18 - 1:07:23] Ryan Matsumori: Like where every tab, you can just click the button and it shows the other person's data.
+[1:07:23 - 1:07:24] Alexander Gesell: And we can just go through like that.
+[1:07:25 - 1:07:27] Alex iPhone: Let me think it's true and reflect about it.
+[1:07:28 - 1:07:29] Alex iPhone: But usually there is.
+[1:07:30 - 1:07:33] Alexander Gesell: The way I select case studies is.
+[1:07:33 - 1:07:35] Alex iPhone: I always select one case study for the same tam.
+[1:07:36 - 1:07:37] Alexander Gesell: Okay.
+[1:07:37 - 1:07:39] Alex iPhone: So I usually have three case studies.
+[1:07:39 - 1:07:40] Alexander Gesell: That I want to share them.
+[1:07:40 - 1:07:42] Alexander Gesell: One that has the same tam.
+[1:07:42 - 1:07:43] Alex iPhone: Minimum, Minimum One.
+[1:07:43 - 1:07:44] Alex iPhone: Okay.
+[1:07:44 - 1:07:46] Alex iPhone: I just say this client was similar.
+[1:07:46 - 1:07:48] Alexander Gesell: By tam, regardless which offering they.
+[1:07:48 - 1:07:48] Lloyd Yip: Perfect.
+[1:07:48 - 1:07:49] Lloyd Yip: Perfect.
+[1:07:49 - 1:07:53] Alex iPhone: Then I, I go to one that says this client was similar by offer.
+[1:07:54 - 1:07:54] Edwin Chung: So.
+[1:07:54 - 1:07:56] Ryan Matsumori: So, Alex, all that, that's the same.
+[1:07:56 - 1:08:00] Ryan Matsumori: It's just that when we click, it's like, hey, this is the person that has a similar tam.
+[1:08:00 - 1:08:02] Ryan Matsumori: This is the person that has a similar business model.
+[1:08:02 - 1:08:03] Ryan Matsumori: This is the person this.
+[1:08:03 - 1:08:06] Ryan Matsumori: And it's just the same thing across each screen.
+[1:08:06 - 1:08:07] Ryan Matsumori: And we can give those examples.
+[1:08:07 - 1:08:08] Alexander Gesell: Okay, that's fine.
+[1:08:08 - 1:08:10] Alex iPhone: I think it's through and give all.
+[1:08:10 - 1:08:11] Alexander Gesell: The input to Lloyd and then we.
+[1:08:11 - 1:08:12] Alex iPhone: See how we can build it out.
+[1:08:12 - 1:08:13] Gonzalo G: Okay.
+[1:08:15 - 1:08:17] Alexander Gesell: Lloyd, what are your initial thoughts?
+[1:08:17 - 1:08:24] Lloyd Yip: Yeah, I mean, like, I think once we have a consolidated document of basically feature requests, because we're still very much.
+[1:08:24 - 1:08:26] Ryan Matsumori: Like, yeah, I'm building the figure out what.
+[1:08:27 - 1:08:28] Lloyd Yip: And there's.
+[1:08:28 - 1:08:33] Lloyd Yip: There's almost like feature requests on every single sub tab or tab that.
+[1:08:33 - 1:08:38] Lloyd Yip: This, this is not going to be easy unless we have like a fully consolidated spec.
+[1:08:39 - 1:08:40] Alexander Gesell: Absolutely.
+[1:08:42 - 1:08:43] Alexander Gesell: It's doable.
+[1:08:43 - 1:08:44] Lloyd Yip: We just need to be organized about.
+[1:08:44 - 1:08:45] Alexander Gesell: What we're trying to do.
+[1:08:45 - 1:08:47] Alex iPhone: Yeah, yeah, I'm not going to push this at all to you.
+[1:08:47 - 1:08:49] Alex iPhone: And by the way, guys, this is it.
+[1:08:51 - 1:08:53] Alex iPhone: Wait, sorry, my laptop is out of batteries.
+[1:08:53 - 1:08:54] Alex iPhone: That's why I'm on my phone.
+[1:08:54 - 1:08:57] Alex iPhone: But I just want to basically tell you guys.
+[1:09:00 - 1:09:03] Alex iPhone: So after you basically created with the.
+[1:09:03 - 1:09:05] Ryan Matsumori: AI Armand, did you have to go?
+[1:09:05 - 1:09:06] Ryan Matsumori: How are you on time?
+[1:09:08 - 1:09:12] Gonzalo G: Do you have my, my call canceled, so I'm good.
+[1:09:12 - 1:09:13] Alexander Gesell: Okay.
+[1:09:13 - 1:09:15] Alex iPhone: If you have five minutes more, I finish.
+[1:09:15 - 1:09:16] Lloyd Yip: Cool.
+[1:09:17 - 1:09:19] Alexander Gesell: So basically what I recommend you to.
+[1:09:19 - 1:09:31] Alex iPhone: Do is after now you design this, now you go into GPT, put all the inputs in there and say, please write me the follow up email.
+[1:09:31 - 1:09:33] Alexander Gesell: And the results are insane.
+[1:09:33 - 1:09:35] Alex iPhone: I was like, what the fuck?
+[1:09:35 - 1:09:35] Alexander Gesell: Is it good?
+[1:09:36 - 1:09:37] Alex iPhone: So I probably.
+[1:09:37 - 1:09:41] Alex iPhone: And then I read it, I corrected or added two, three things and that was it.
+[1:09:41 - 1:09:43] Ryan Matsumori: Alex, what's your recommendation?
+[1:09:43 - 1:09:56] Ryan Matsumori: Because I think I looked at one of those emails and like it was ridiculously long email and obviously also AI, like lots of AI was used to generate such a long detailed email.
+[1:09:56 - 1:09:57] Ryan Matsumori: So I'm wondering what's the balance?
+[1:09:58 - 1:10:02] Ryan Matsumori: So they're not so long because the moment they're that long, it's obvious AI is being used.
+[1:10:02 - 1:10:04] Alex iPhone: Yeah, from the essence.
+[1:10:04 - 1:10:06] Alex iPhone: No, I even tell them we use AI.
+[1:10:06 - 1:10:08] Alex iPhone: I tell like I tell clients we're in a 9A.
+[1:10:08 - 1:10:12] Alex iPhone: We use AI for preparation during the call, to refuse the call to the follow up.
+[1:10:12 - 1:10:13] Alex iPhone: That is part of our.
+[1:10:13 - 1:10:15] Lloyd Yip: But there's a separation, Alex.
+[1:10:15 - 1:10:16] Lloyd Yip: There's, there's.
+[1:10:16 - 1:10:23] Lloyd Yip: I think everyone knows that AI is commonplace, but it's a different thing where AI is being used in a way that feels like slop.
+[1:10:23 - 1:10:25] Lloyd Yip: Because that's like the big buzzword, right?
+[1:10:26 - 1:10:28] Lloyd Yip: We don't want our follow up emails that come across as slop.
+[1:10:29 - 1:10:31] Lloyd Yip: Whether a human rights it, there's human slop too.
+[1:10:31 - 1:10:34] Lloyd Yip: You know, before AI sloth was a thing, there was also shitty human sloth.
+[1:10:34 - 1:10:37] Lloyd Yip: So we can't have anything feel like slop.
+[1:10:37 - 1:10:38] Lloyd Yip: It needs to be high quality.
+[1:10:38 - 1:10:40] Lloyd Yip: It needs to be additive and valuable.
+[1:10:40 - 1:10:41] Ryan Matsumori: So we.
+[1:10:41 - 1:10:44] Lloyd Yip: I agree with Ryan that it can't be extremely long.
+[1:10:44 - 1:10:48] Lloyd Yip: It needs to feel like, okay, my life benefited because I read this thing.
+[1:10:49 - 1:10:49] Lloyd Yip: Right.
+[1:10:49 - 1:10:50] Lloyd Yip: So we'll have to work on that.
+[1:10:50 - 1:10:54] Alex iPhone: Yeah, I mean, I'm gonna review the, the one that we wrote yesterday.
+[1:10:55 - 1:11:03] Lloyd Yip: I also don't want to do double work because I already have like an automation for writing like follow up emails after both call one and call two.
+[1:11:03 - 1:11:04] Lloyd Yip: We can adjust those.
+[1:11:04 - 1:11:11] Lloyd Yip: But like these are things that are fully automated and if the logic just needs to be tweaked, that's relatively easy.
+[1:11:11 - 1:11:15] Lloyd Yip: But we don't need to allocate like a ton of extra time rebuilding something that already exists and works.
+[1:11:15 - 1:11:17] Alex iPhone: But, but Lloyd, there's no extra time.
+[1:11:17 - 1:11:21] Alex iPhone: So after everything, after they spoke with GPT and everything is done, you make.
+[1:11:21 - 1:11:22] Alexander Gesell: One click and just say, now give.
+[1:11:22 - 1:11:24] Alex iPhone: Me the follow up email, like that's literally not.
+[1:11:24 - 1:11:27] Lloyd Yip: Yeah, that is the extra time because right now it just shows up in ghl.
+[1:11:29 - 1:11:30] Alexander Gesell: Okay, Yeah.
+[1:11:30 - 1:11:32] Alex iPhone: I mean we can configure that out of the GPT.
+[1:11:32 - 1:11:33] Alex iPhone: That's not the issue.
+[1:11:33 - 1:11:34] Alex iPhone: I just want like.
+[1:11:34 - 1:11:43] Lloyd Yip: Basically what I'm saying is like we need to get you beyond the paradigm of using ChatGPT, I think and we maybe that's a separate discussion that we have to have.
+[1:11:43 - 1:11:49] Lloyd Yip: But I think because you're still using ChatGPT like you're basically using 2024 technology, right, Alex?
+[1:11:49 - 1:11:51] Lloyd Yip: Like we got to get you to 2026.
+[1:11:51 - 1:11:53] Alex iPhone: No, but you have to be able to speak.
+[1:11:53 - 1:11:56] Alex iPhone: Like the conversation with AI is the most important thing.
+[1:11:57 - 1:11:59] Alex iPhone: I don't want one directional outputs.
+[1:11:59 - 1:11:59] Alex iPhone: Okay?
+[1:11:59 - 1:12:01] Alex iPhone: That is the most important thing for me.
+[1:12:01 - 1:12:08] Alex iPhone: For me, the ability to speak and arrive and continue speaking and then have the output, that's the most important thing.
+[1:12:08 - 1:12:09] Alexander Gesell: For me with AI.
+[1:12:09 - 1:12:12] Alex iPhone: I don't care about one static outputs.
+[1:12:12 - 1:12:14] Alexander Gesell: Like this is like not cool.
+[1:12:15 - 1:12:21] Alex iPhone: So as long as I can speak, I don't care what I need to speak and I want to use my voice notes.
+[1:12:22 - 1:12:42] Ryan Matsumori: Is it possible that what outputs to go high level is a link to a chat GPT conversation where we can just start talking with like it gave us the version one, but now we can immediately start talking to it to create version 2 and 3 something like that possible.
+[1:12:44 - 1:12:46] Alex iPhone: I mean we gotta think it's.
+[1:12:46 - 1:12:48] Lloyd Yip: I think, I think there's actually.
+[1:12:49 - 1:12:52] Lloyd Yip: I might have a creative solution for this, but I'll need a few days.
+[1:12:53 - 1:12:55] Lloyd Yip: But there is a way that we can have our cake and eat it too.
+[1:12:55 - 1:12:55] Lloyd Yip: There is a way.
+[1:12:56 - 1:12:56] Lloyd Yip: Let me.
+[1:12:57 - 1:13:06] Lloyd Yip: There's been something that I've been meaning to prototype that could fix this problem and give Alex the chat interface that he wants while also making it easy for you guys.
+[1:13:06 - 1:13:13] Lloyd Yip: So hold, hold this idea because in a few days I might have a better answer that makes everyone happy.
+[1:13:15 - 1:13:15] Alexander Gesell: Cool.
+[1:13:17 - 1:13:18] Alexander Gesell: Okay, cool.
+[1:13:18 - 1:13:23] Alex iPhone: But yeah, this call three I haven't designed yet.
+[1:13:23 - 1:13:28] Alex iPhone: For me it's very important that you do you do this from now on.
+[1:13:29 - 1:13:35] Alexander Gesell: For every single Preparation call one follow a preparation call two follow up call.
+[1:13:35 - 1:13:36] Alex iPhone: One.
+[1:13:38 - 1:13:42] Alexander Gesell: And then preparation call three follow up one you know the rest we.
+[1:13:42 - 1:13:43] Alex iPhone: Teach you next week.
+[1:13:44 - 1:13:46] Alex iPhone: Any questions around this?
+[1:13:47 - 1:14:02] Ryan Matsumori: And you want us to be like that document where it's like call one fireflies email copy 100% this document within a week's time is going to become 100 pages long.
+[1:14:02 - 1:14:03] Alexander Gesell: So that is fine.
+[1:14:03 - 1:14:07] Alex iPhone: I'm going to put this into AI and challenge it and speak with It.
+[1:14:07 - 1:14:13] Ryan Matsumori: I guess is there a more appropriate place to be putting our call?
+[1:14:13 - 1:14:19] Ryan Matsumori: 1 Fireflies email follow up descriptions other than in a process document?
+[1:14:19 - 1:14:21] Ryan Matsumori: Because this process document that has.
+[1:14:21 - 1:14:26] Ryan Matsumori: These are the 10 steps and then like now this document is becoming hundreds of pages long.
+[1:14:26 - 1:14:27] Lloyd Yip: Is there.
+[1:14:27 - 1:14:28] Alex iPhone: I don't know if.
+[1:14:28 - 1:14:30] Alex iPhone: If any of you have an idea, put it in there.
+[1:14:30 - 1:14:31] Alex iPhone: I just want.
+[1:14:31 - 1:14:34] Alex iPhone: I created this quickly because I want you to start using it now.
+[1:14:35 - 1:14:36] Ryan Matsumori: I guess.
+[1:14:36 - 1:14:37] Ryan Matsumori: Yeah, maybe.
+[1:14:37 - 1:14:38] Ryan Matsumori: Maybe it already is.
+[1:14:38 - 1:14:41] Ryan Matsumori: But I guess I prefer it to be in a separate document.
+[1:14:41 - 1:14:46] Ryan Matsumori: Maybe it actually is in a separate document versus inside a process document.
+[1:14:46 - 1:14:48] Alex iPhone: N. It's in a separate document.
+[1:14:48 - 1:14:50] Alex iPhone: I made extra tabs just for this.
+[1:14:50 - 1:14:52] Alex iPhone: For each of your names.
+[1:14:52 - 1:14:53] Alexander Gesell: For each of your names.
+[1:14:53 - 1:14:53] Lloyd Yip: Okay, that.
+[1:14:53 - 1:14:54] Ryan Matsumori: That works.
+[1:14:54 - 1:14:54] Ryan Matsumori: We're good then.
+[1:14:54 - 1:14:55] Gonzalo G: Thanks.
+[1:14:55 - 1:14:56] Alexander Gesell: Okay.
+[1:14:56 - 1:14:57] Alexander Gesell: And you know, the.
+[1:14:57 - 1:14:59] Alex iPhone: The main thing I want to do is three things.
+[1:14:59 - 1:15:05] Alex iPhone: I want to see you do it, I want then to review it and help you become better.
+[1:15:05 - 1:15:13] Alex iPhone: And I want to feed the AI on the results combined with that input and see what actually yields to the best output.
+[1:15:13 - 1:15:15] Alex iPhone: That are the three things I want to do.
+[1:15:16 - 1:15:17] Edwin Chung: Cool.
+[1:15:17 - 1:15:18] Ryan Matsumori: Makes sense.
+[1:15:18 - 1:15:21] Alex iPhone: Okay, guys, Short chicken.
+[1:15:22 - 1:15:23] Alex iPhone: How do you like it so far?
+[1:15:23 - 1:15:24] Alex iPhone: You see?
+[1:15:24 - 1:15:25] Alex iPhone: What do you think about it?
+[1:15:28 - 1:15:28] Alex iPhone: Where.
+[1:15:28 - 1:15:30] Alexander Gesell: Where do you have some concerns?
+[1:15:31 - 1:15:37] Ryan Matsumori: And I think it's just going to take reps because you have like a lot of ideas.
+[1:15:37 - 1:15:39] Ryan Matsumori: There's things that aren't even implemented yet.
+[1:15:39 - 1:15:45] Ryan Matsumori: And so because they're not implemented, it's like how do we kind of do it with what we have right now?
+[1:15:46 - 1:15:49] Ryan Matsumori: And then there's also Lloyd has some automated emails.
+[1:15:49 - 1:15:51] Ryan Matsumori: Lloyd has some automated prep work.
+[1:15:51 - 1:15:55] Ryan Matsumori: You also want us to do the manual email manual prep work.
+[1:15:55 - 1:15:57] Ryan Matsumori: So it's like combining those two things.
+[1:15:58 - 1:15:59] Alex iPhone: There's no manual anymore.
+[1:15:59 - 1:16:01] Alex iPhone: Now you have for everything in AI.
+[1:16:01 - 1:16:03] Alex iPhone: You can just decide if you take Lloyd's or mine.
+[1:16:03 - 1:16:04] Alex iPhone: I rec.
+[1:16:04 - 1:16:08] Alex iPhone: I recommend use mine until Lloyd's is updated with my ideas.
+[1:16:09 - 1:16:10] Alex iPhone: But then we can use any of the two.
+[1:16:11 - 1:16:14] Alex iPhone: And of course that's why I want you to book two meetings, please.
+[1:16:15 - 1:16:19] Alex iPhone: I really need two meetings for a follow up.
+[1:16:19 - 1:16:21] Alexander Gesell: So the first task is today.
+[1:16:21 - 1:16:23] Alex iPhone: I want in my calendar.
+[1:16:23 - 1:16:27] Alexander Gesell: Next please, two time slots with the.
+[1:16:27 - 1:16:35] Alex iPhone: According time it needs to prepare the second follow up call one and prepare the second call together and then the invite to the second call.
+[1:16:36 - 1:16:39] Ryan Matsumori: You know, do you want preparation for first call there as well?
+[1:16:40 - 1:16:42] Alex iPhone: No, I trust this is like easy.
+[1:16:42 - 1:16:44] Alexander Gesell: I trust you guys to be able to do that.
+[1:16:44 - 1:16:44] Alexander Gesell: You.
+[1:16:44 - 1:16:48] Ryan Matsumori: You want preparation for second call is what you want?
+[1:16:48 - 1:16:48] Alexander Gesell: Yeah.
+[1:16:48 - 1:16:51] Alex iPhone: Preparation, follow up call one and preparation.
+[1:16:51 - 1:16:53] Alexander Gesell: As one call you know, it's basically.
+[1:16:53 - 1:16:55] Alex iPhone: You don't write an email yet you.
+[1:16:55 - 1:16:57] Alexander Gesell: Put me, you had, you had, you.
+[1:16:57 - 1:17:04] Alex iPhone: Had a first call with someone and you put me a time slot where we do basically the preparation for call two and the follow up for call one together.
+[1:17:05 - 1:17:06] Alexander Gesell: And I want to, I want to.
+[1:17:06 - 1:17:08] Alex iPhone: Lead the solution call to that.
+[1:17:08 - 1:17:10] Alex iPhone: And that's two of them.
+[1:17:10 - 1:17:11] Gonzalo G: Okay.
+[1:17:12 - 1:17:14] Alexander Gesell: For next week per person.
+[1:17:15 - 1:17:16] Lloyd Yip: Okay.
+[1:17:16 - 1:17:17] Alexander Gesell: Okay.
+[1:17:18 - 1:17:19] Alexander Gesell: And then everything.
+[1:17:19 - 1:17:20] Alexander Gesell: Yeah, and everything.
+[1:17:20 - 1:17:21] Alex iPhone: And everything will make.
+[1:17:21 - 1:17:22] Alexander Gesell: Click.
+[1:17:22 - 1:17:23] Alex iPhone: Once we do it together.
+[1:17:23 - 1:17:25] Alex iPhone: I, I saw it yesterday with Edwin.
+[1:17:25 - 1:17:28] Alex iPhone: Once we do it together, everything will make so much more sense.
+[1:17:29 - 1:17:33] Ryan Matsumori: When we look at your calendar, Alex, what are the things that are flexible?
+[1:17:34 - 1:17:39] Alex iPhone: I think next week I don't, I, I don't have too many things.
+[1:17:40 - 1:17:41] Alexander Gesell: Let me double check.
+[1:17:41 - 1:17:43] Alex iPhone: Next week I don't have any.
+[1:17:44 - 1:17:47] Alex iPhone: Anything I can, Everything that is open is open.
+[1:17:47 - 1:17:49] Alex iPhone: There is no, no other thing I can.
+[1:17:51 - 1:17:52] Gonzalo G: Move.
+[1:17:52 - 1:17:54] Alex iPhone: Like, you know, I have Tuesday to Friday.
+[1:17:54 - 1:17:55] Alex iPhone: The open slots I have.
+[1:17:56 - 1:18:00] Alex iPhone: I have from eight to, from eight to four to three.
+[1:18:01 - 1:18:11] Alex iPhone: On, on basically Tuesday, Wednesday and then Thursday, Friday I only have from 8 to 2 because I have to catch a shell.
+[1:18:11 - 1:18:13] Alex iPhone: And there's a lot of stuff open.
+[1:18:13 - 1:18:13] Alex iPhone: There's like.
+[1:18:13 - 1:18:20] Alex iPhone: I don't have any currently I don't have any deep dive focus blockers in there yet because I wanted to consciously.
+[1:18:20 - 1:18:21] Alexander Gesell: Keep it open for you guys.
+[1:18:22 - 1:18:24] Alex iPhone: But I, I sent you a screenshot of my calendar.
+[1:18:24 - 1:18:25] Alexander Gesell: That helps.
+[1:18:26 - 1:18:27] Ryan Matsumori: No, that's.
+[1:18:27 - 1:18:27] Gonzalo G: I know.
+[1:18:27 - 1:18:28] Edwin Chung: Okay.
+[1:18:28 - 1:18:29] Ryan Matsumori: It's all good.
+[1:18:29 - 1:18:32] Ryan Matsumori: So for example, Alex, there I just sent this to you.
+[1:18:32 - 1:18:36] Ryan Matsumori: On Thursday the 10th, I have a first call with Noel.
+[1:18:36 - 1:18:39] Ryan Matsumori: So after that I sent you and I an hour.
+[1:18:39 - 1:18:40] Ryan Matsumori: We're gonna.
+[1:18:40 - 1:18:41] Ryan Matsumori: Where we're gonna meet exactly.
+[1:18:41 - 1:18:43] Ryan Matsumori: Go through the process of creating the email.
+[1:18:43 - 1:18:46] Ryan Matsumori: And then we're gonna go through the process of prepping for the second call.
+[1:18:46 - 1:18:47] Alexander Gesell: Exactly.
+[1:18:47 - 1:18:49] Alexander Gesell: And you make sure in the call.
+[1:18:49 - 1:18:53] Alex iPhone: When you invite Noel that I also have time.
+[1:18:53 - 1:18:55] Alex iPhone: The week after you select the time where I also have time.
+[1:18:56 - 1:18:57] Alexander Gesell: So you want to.
+[1:18:57 - 1:18:58] Gonzalo G: Just to clarify.
+[1:18:58 - 1:18:59] Lloyd Yip: So then you want, you want us.
+[1:18:59 - 1:19:01] Alexander Gesell: To do that and then you also.
+[1:19:01 - 1:19:03] Lloyd Yip: Want us to record the stuff.
+[1:19:03 - 1:19:06] Alexander Gesell: Yeah, every 100%.
+[1:19:06 - 1:19:11] Alex iPhone: There's not a single preparation for any call that you do by yourself.
+[1:19:11 - 1:19:13] Alex iPhone: That is not where you didn't put a meeting for yourself.
+[1:19:13 - 1:19:15] Alex iPhone: And we recorded on fireplace.
+[1:19:15 - 1:19:15] Alex iPhone: Not a single one.
+[1:19:15 - 1:19:16] Alexander Gesell: Armando,.
+[1:19:22 - 1:19:25] Alex iPhone: This is like for the next month I'm going to be super strict on this.
+[1:19:25 - 1:19:25] Ryan Matsumori: Alex.
+[1:19:25 - 1:19:27] Ryan Matsumori: When I look at my calendar, I.
+[1:19:27 - 1:19:35] Ryan Matsumori: Given our structures, I only have one call next week where we can meet after that call to do the follow up email and the Prep.
+[1:19:36 - 1:19:36] Ryan Matsumori: I don't have two.
+[1:19:36 - 1:19:38] Ryan Matsumori: I only have one that matches our schedules.
+[1:19:40 - 1:19:42] Alex iPhone: Then do one for next week and.
+[1:19:43 - 1:19:44] Alexander Gesell: Do three for the week after.
+[1:19:44 - 1:19:47] Alexander Gesell: I want to have do four per person in the next two weeks.
+[1:19:50 - 1:19:50] Ryan Matsumori: Okay.
+[1:19:50 - 1:19:53] Ryan Matsumori: And when you're traveling to Cartagena, are you free?
+[1:19:54 - 1:19:58] Alex iPhone: I travel to Cartagena on Monday.
+[1:19:58 - 1:19:58] Lloyd Yip: Tuesday.
+[1:20:01 - 1:20:02] Alex iPhone: I'm gonna work on Tuesday.
+[1:20:03 - 1:20:04] Alex iPhone: I'm just in Cartagena.
+[1:20:05 - 1:20:09] Alex iPhone: Let me double check if anyone puts it wrong in there, because.
+[1:20:09 - 1:20:10] Ryan Matsumori: And Tuesday.
+[1:20:10 - 1:20:11] Ryan Matsumori: Do you have any webinar stuff?
+[1:20:11 - 1:20:13] Alex iPhone: No, no, no, no.
+[1:20:13 - 1:20:14] Alex iPhone: I just took over for.
+[1:20:14 - 1:20:16] Alex iPhone: I just took over for.
+[1:20:17 - 1:20:18] Alexander Gesell: Wait, let me.
+[1:20:18 - 1:20:19] Alex iPhone: Let me double check that blocker.
+[1:20:19 - 1:20:23] Alex iPhone: So I'm not working Mondays, but on Tuesdays.
+[1:20:23 - 1:20:24] Alex iPhone: Let me just make this free.
+[1:20:25 - 1:20:27] Alex iPhone: Tuesday should be free.
+[1:20:27 - 1:20:28] Alex iPhone: No, it says busy.
+[1:20:28 - 1:20:29] Alex iPhone: Good that you call it out.
+[1:20:29 - 1:20:30] Alexander Gesell: It should be free.
+[1:20:30 - 1:20:31] Alex iPhone: Okay.
+[1:20:31 - 1:20:31] Alexander Gesell: There you go.
+[1:20:34 - 1:20:35] Alexander Gesell: Okay.
+[1:20:35 - 1:20:37] Alex iPhone: Is the expectation clear?
+[1:20:38 - 1:20:38] Ryan Matsumori: Yep.
+[1:20:38 - 1:20:39] Ryan Matsumori: I'm sending those right now.
+[1:20:40 - 1:20:40] Alexander Gesell: Okay.
+[1:20:41 - 1:20:43] Alexander Gesell: And you know, it feels a lot,.
+[1:20:43 - 1:20:44] Alex iPhone: But once this is in your system,.
+[1:20:45 - 1:20:47] Alexander Gesell: This is making you a lot of money.
+[1:20:47 - 1:20:48] Edwin Chung: So.
+[1:20:51 - 1:20:56] Alex iPhone: This is gonna probably pay off more than any training you did ever in sales.
+[1:21:01 - 1:21:02] Alex iPhone: Okie dokie.
+[1:21:03 - 1:21:04] Gonzalo G: Good.
+[1:21:05 - 1:21:07] Alex iPhone: Then this is it, guys.
+[1:21:08 - 1:21:11] Alexander Gesell: More next Wednesday, so I'm gonna do next week.
+[1:21:11 - 1:21:13] Alex iPhone: Oh, wait, double check.
+[1:21:14 - 1:21:16] Alex iPhone: Which days am I gonna do next week?
+[1:21:16 - 1:21:21] Alexander Gesell: I'm gonna do Tuesdays and Wednesday.
+[1:21:21 - 1:21:21] Alexander Gesell: Next week?
+[1:21:21 - 1:21:24] Alexander Gesell: I can't do Thursday Friday, Lloyd.
+[1:21:24 - 1:21:26] Alex iPhone: So due to.
+[1:21:27 - 1:21:29] Alex iPhone: Due to some other commitments I have.
+[1:21:30 - 1:21:35] Alex iPhone: So I. Yeah, I do Tuesday and.
+[1:21:35 - 1:21:36] Alexander Gesell: Wednesday next week with you guys.
+[1:21:38 - 1:21:39] Lloyd Yip: Just remind me next week.
+[1:21:40 - 1:21:41] Alexander Gesell: Okay.
+[1:21:41 - 1:21:42] Lloyd Yip: Going on all of them as well.
+[1:21:42 - 1:21:44] Alexander Gesell: But you actually can't do Friday as.
+[1:21:44 - 1:21:47] Alex iPhone: Well because we have with our business model advisor.
+[1:21:49 - 1:21:51] Alexander Gesell: A call on Friday.
+[1:21:51 - 1:21:55] Alex iPhone: So you can either move or can that call wait.
+[1:21:55 - 1:21:57] Lloyd Yip: Cancel the entire Friday call?
+[1:21:57 - 1:21:59] Alexander Gesell: Yeah, okay.
+[1:22:00 - 1:22:00] Lloyd Yip: Yeah, sure.
+[1:22:01 - 1:22:02] Alexander Gesell: Okay.
+[1:22:03 - 1:22:05] Alexander Gesell: Okay, good, guys.
+[1:22:06 - 1:22:06] Edwin Chung: Okay.
+[1:22:07 - 1:22:08] Alex iPhone: Have fun selling.
+[1:22:08 - 1:22:11] Ryan Matsumori: Let's close some deals, bros. Let's close them.
+[1:22:11 - 1:22:12] Alex iPhone: Let's close some deals.
+[1:22:12 - 1:22:15] Lloyd Yip: Alex, you want to send me your meets link for separate.
+[1:22:15 - 1:22:16] Alex iPhone: Yeah, I just call you on WhatsApp.
+[1:22:16 - 1:22:18] Alex iPhone: Do you want a meet or you want WhatsApp?
+[1:22:18 - 1:22:20] Lloyd Yip: No, no, no, it doesn't really.
+[1:22:20 - 1:22:21] Lloyd Yip: Perfect.
+[1:22:21 - 1:22:21] Lloyd Yip: Bye.
+[1:22:21 - 1:22:21] Alexander Gesell: Bye.
+[1:22:22 - 1:22:23] Ryan Matsumori: The recording.
+Title: Sales Team Training Meeting
+Host Email: lloyd@quantum-scaling.com
+Organizer Email: lloyd@quantum-scaling.com
+Calendar Id: ufie906597bk4qj7mb3rgnurdv
+Fireflies Users: ryan@quantum-scaling.com, geri@quantum-scaling.com, alex@quantum-scaling.com, melissa@quantum-scaling.com, lloyd@attractandscale.com, gonzalo@quantum-scaling.com, armando@quantum-scaling.com, edwin@quantum-scaling.com, ryan@ig-institute.com, ag@imaginegrowth.institute, santiago@ig-institute.com
+Participants: alex@quantum-scaling.com, ag@imaginegrowth.institute, ryan@quantum-scaling.com, santiago@ig-institute.com, melissa@quantum-scaling.com, geri@quantum-scaling.com, lloyd@attractandscale.com, lloyd@quantum-scaling.com, armando@quantum-scaling.com, armandovalencia848@gmail.com, gonzalo@quantum-scaling.com, mkd.dev.discovery@gmail.com, edwin@quantum-scaling.com, ryan@ig-institute.com, santiago@quantum-scaling.com
+Date: 1788537600000
+Transcript Url: https://app.fireflies.ai/view/01M159RN42F3Y4R7ATF12WQ0DG
+Audio Url: https://cdn.fireflies.ai/01M159RN42F3Y4R7ATF12WQ0DG/audio.mp3?Expires=1788861671&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZmlyZWZsaWVzLmFpLzAxTTE1OVJONDJGM1k0UjdBVEYxMldRMERHL2F1ZGlvLm1wMyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4ODg2MTY3MX19fV19&Signature=ing50RVHEh3SabJW~xEdT4KUKdaUg~Sf6LOJa0aojCZwiSfBBeH8HLvYZ7v2NaEGG-yetD7mka2L0EJ5CK~aYJ9F448ea3Mim6EIGM8Lb0PjIqwfFkc5I7bneW1IeRe5rRoHLijbnMzpm3JuZ3FmnwCd5xSal~i-PViOzL569kFMXncUTc-HaT8ndDn-Nt4FX68hjYMRRtCG~hPVk8setv5lSBtNssgszjPL~nMmGBLkIET4Ssjmb3m6GvKOotv2W1VPFa56x3nomszeHyLMUnPfzaDcUld0vt4hg6erI9eF1G6FEgpyXEywCd1rUbsxkhkwzJbgVkj8fjaaZGN6Pg__&Key-Pair-Id=KSZO9HH55DSRO
+Video Url: https://cdn.fireflies.ai/01M159RN42F3Y4R7ATF12WQ0DG/video.mp4?Expires=1788861671&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZmlyZWZsaWVzLmFpLzAxTTE1OVJONDJGM1k0UjdBVEYxMldRMERHL3ZpZGVvLm1wNCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4ODg2MTY3MX19fV19&Signature=LtzJZ3JQMzuGvUIYi4GyobTF6~xwP6-FgPO6r4Gj7Tge~RDNzVimAygItoqKE~Vulvw8Em6kskIAfMVaAfNeCliFD9eyvZyAhFvoAxmmaTNsjc-ErBTZ5ObS76K6x~7z9ZwSh6oJtWIGiwiaBdWmen9WiyFK-dz1eTH01QiBOHq2eBxUEs7SQ1pfwdtSNtOor8TdxvE7ADfgowWcME9kPWgXmGtiAzQA2yN0KVYCDedpNr-msKg4dYkSfJ0IxuMpRltCNl910vGFDi7tjXHeQyrYrMP6~4y9KJzmD5Kz4vOTlOGFPNxrDTE6QwCSxQXrDNWn0Tu40QSqHKXR7ENDKw__&Key-Pair-Id=KSZO9HH55DSRO
+Duration: 83.76000213623047
+Meeting Attendees: alex@quantum-scaling.com, ag@imaginegrowth.institute, ryan@quantum-scaling.com, santiago@ig-institute.com, melissa@quantum-scaling.com, geri@quantum-scaling.com, lloyd@attractandscale.com, lloyd@quantum-scaling.com, armando@quantum-scaling.com, armandovalencia848@gmail.com, gonzalo@quantum-scaling.com, mkd.dev.discovery@gmail.com, edwin@quantum-scaling.com, ryan@ig-institute.com
+Cal Id: ufie906597bk4qj7mb3rgnurdv_20260904T160000Z
+Calendar Type: google
+Meeting Link: https://us06web.zoom.us/j/82376675797?pwd=lHivuZi6KjxKlsKQkI7HTYLahnevQr.1
+Is Live: false
