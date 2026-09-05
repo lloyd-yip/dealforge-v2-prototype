@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Quantum Scaling — Client Portal</title>
@@ -794,6 +797,15 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
   font-size:11.5px;color:#52525b;line-height:1.55;}
 @media(max-width:780px){.cs-grid{grid-template-columns:1fr;}
   .cs-card + .cs-card{border-left:none;border-top:1px solid rgba(255,255,255,0.06);}}
+
+/* PROTOTYPE ONLY — hard refresh, strip before porting */
+.pv-refresh{position:fixed;right:16px;bottom:16px;z-index:9500;display:flex;align-items:center;gap:7px;
+  padding:9px 14px;border-radius:999px;border:1px solid rgba(255,255,255,0.14);
+  background:rgba(18,18,20,0.92);backdrop-filter:blur(8px);color:#d4d4d8;
+  font-size:12px;font-weight:500;font-family:inherit;cursor:pointer;
+  box-shadow:0 6px 22px rgba(0,0,0,.45);transition:all 160ms ease;}
+.pv-refresh:hover{background:rgba(32,32,36,0.96);color:#fafafa;border-color:rgba(255,255,255,0.26);}
+.pv-refresh .pv-i{font-size:14px;line-height:1;}
 </style>
 <!-- PROTOTYPE ONLY: serves every /api/* call from ../fixtures/. Never hits production.
      Not part of V2 — strip this tag when porting changes back. -->
@@ -6762,6 +6774,19 @@ function closeCaseStudyMatches(){
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape' && document.getElementById('cs-ov').classList.contains('open')) closeCaseStudyMatches();
 });
+</script>
+
+<!-- PROTOTYPE ONLY — hard refresh. Strips the cache and reloads clean. Remove when porting. -->
+<button class="pv-refresh" onclick="pvHardRefresh()" title="Reload the prototype, bypassing cache">
+  <span class="pv-i">&#8635;</span> Refresh prototype
+</button>
+<script>
+function pvHardRefresh(){
+  try{ if(window.caches&&caches.keys) caches.keys().then(k=>k.forEach(n=>caches.delete(n))); }catch(e){}
+  const u=new URL(window.location.href);
+  u.searchParams.set('v', Date.now());
+  window.location.replace(u.toString());
+}
 </script>
 </body>
 </html>

@@ -177,6 +177,176 @@
             "email": null,
             "linkedin_url": null,
             "revealed": false
+          },
+          {
+            "name": "Dana Whitfield",
+            "title": "VP Manufacturing Operations",
+            "company": "Ardent Steelworks",
+            "website": "ardentsteel.com",
+            "industry": "Metal Fabrication",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Peter Lindqvist",
+            "title": "COO",
+            "company": "Baltic Precision AB",
+            "website": "balticprecision.se",
+            "industry": "Precision Engineering",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Rosalind Achebe",
+            "title": "Director of Plant Operations",
+            "company": "Kestrel Polymers",
+            "website": "kestrelpolymers.com",
+            "industry": "Plastics & Polymers",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Miguel Santos",
+            "title": "Head of Operations",
+            "company": "Verano Industrial Group",
+            "website": "veranoindustrial.com",
+            "industry": "Industrial Distribution",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Hannah Beckett",
+            "title": "Chief Operating Officer",
+            "company": "Thornfield Maintenance",
+            "website": "thornfieldmaint.co.uk",
+            "industry": "Facilities & Maintenance",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Jonas Reuter",
+            "title": "VP Operations",
+            "company": "Ostmark Fertigung GmbH",
+            "website": "ostmark-fertigung.de",
+            "industry": "Contract Manufacturing",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Claire Dumont",
+            "title": "Operations Director",
+            "company": "Perrin Process Solutions",
+            "website": "perrinprocess.fr",
+            "industry": "Process Engineering",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Owen Bradshaw",
+            "title": "Managing Partner",
+            "company": "Halcyon Industrial Advisors",
+            "website": "halcyonadvisors.com",
+            "industry": "Management Consulting",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Ingrid Halvorsen",
+            "title": "COO",
+            "company": "Fjordline Marine Services",
+            "website": "fjordlinemarine.no",
+            "industry": "Marine & Offshore Services",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Rafael Ortiz",
+            "title": "VP Supply Chain Operations",
+            "company": "Cordova Components",
+            "website": "cordovacomponents.com",
+            "industry": "Component Manufacturing",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Beatrice Nolan",
+            "title": "Head of Continuous Improvement",
+            "company": "Ledgeworth Manufacturing",
+            "website": "ledgeworthmfg.com",
+            "industry": "Industrial Manufacturing",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Stefan Brandt",
+            "title": "Chief Operations Officer",
+            "company": "Rheinwerk Systems",
+            "website": "rheinwerksystems.de",
+            "industry": "Industrial Systems",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Amara Osei",
+            "title": "Director of Operations",
+            "company": "Pinnacle Plant Group",
+            "website": "pinnacleplant.com",
+            "industry": "Plant Services",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Douglas Findlay",
+            "title": "Founder & Principal",
+            "company": "Findlay Operations Partners",
+            "website": "findlayops.com",
+            "industry": "Operations Consulting",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Lotte Jansen",
+            "title": "VP Operational Excellence",
+            "company": "Delft Industrial Services",
+            "website": "delftindustrial.nl",
+            "industry": "Industrial Services",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Marcus Ellery",
+            "title": "COO",
+            "company": "Trenton Machining Works",
+            "website": "trentonmachining.com",
+            "industry": "Machining & Tooling",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
+          },
+          {
+            "name": "Yusuf Karim",
+            "title": "Head of Manufacturing Ops",
+            "company": "Aldergate Fabrication",
+            "website": "aldergatefab.co.uk",
+            "industry": "Metal Fabrication",
+            "email": null,
+            "linkedin_url": null,
+            "revealed": false
           }
         ]
       }
