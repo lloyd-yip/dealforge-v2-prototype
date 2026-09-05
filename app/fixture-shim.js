@@ -9,7 +9,12 @@
  */
 (function () {
   'use strict';
-  var FIXTURES = '../fixtures/';
+  // The portal rewrites the URL to /<jobId>/<tab-slug> when a tab is clicked, which
+  // breaks every relative path. Capture the real base NOW, at load, before that happens.
+  var BASE = window.location.pathname.replace(/\/app\/[^/]*$/, '/');
+  if (BASE === window.location.pathname) BASE = '/';
+  window.__PROTO_BASE = BASE;
+  var FIXTURES = BASE + 'fixtures/';
   var JOB_FIXTURE = FIXTURES + 'jobs/demo-prospect.json';
   var CASE_STUDIES = FIXTURES + 'case-studies/library.json';
 

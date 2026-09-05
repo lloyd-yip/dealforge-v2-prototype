@@ -6744,7 +6744,8 @@ async function openCaseStudyMatches(){
   ov.classList.add('open'); document.body.style.overflow = 'hidden';
   if (__csData) return;
   try{
-    const r = await fetch('../fixtures/case-studies/matched-demo-prospect.json');
+    const base = window.__PROTO_BASE || '/';
+    const r = await fetch(base + 'fixtures/case-studies/matched-demo-prospect.json');
     __csData = await r.json();
   }catch(e){
     document.getElementById('cs-grid').innerHTML =
@@ -6783,9 +6784,9 @@ document.addEventListener('keydown', e => {
 <script>
 function pvHardRefresh(){
   try{ if(window.caches&&caches.keys) caches.keys().then(k=>k.forEach(n=>caches.delete(n))); }catch(e){}
-  const u=new URL(window.location.href);
-  u.searchParams.set('v', Date.now());
-  window.location.replace(u.toString());
+  // always return to the real page, not the rewritten /<jobId>/<tab> path
+  const base = window.__PROTO_BASE || '/';
+  window.location.replace(base + 'app/portal.html?v=' + Date.now());
 }
 </script>
 </body>
