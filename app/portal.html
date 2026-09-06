@@ -759,51 +759,51 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
 .cs-modal-cta { font-size: 12px; color: #52525b; text-align: center; }
 
 /* ── V2: case-study match modal ─────────────────────────────────────────── */
-.cs-match-trigger{display:inline-flex;align-items:center;gap:7px;margin:-2px 0 18px;padding:7px 13px 7px 10px;
+.csm-match-trigger{display:inline-flex;align-items:center;gap:7px;margin:-2px 0 18px;padding:7px 13px 7px 10px;
   background:rgba(52,211,153,0.06);border:1px solid rgba(52,211,153,0.22);border-radius:8px;
   color:#6ee7b7;font-size:12.5px;font-weight:500;font-family:inherit;cursor:pointer;
   transition:background 160ms ease,border-color 160ms ease,transform 160ms ease;}
-.cs-match-trigger:hover{background:rgba(52,211,153,0.11);border-color:rgba(52,211,153,0.4);transform:translateY(-1px);}
-.cs-match-chev{font-size:15px;line-height:1;opacity:.75;}
-.cs-ov{position:fixed;inset:0;z-index:9000;display:none;align-items:center;justify-content:center;
+.csm-match-trigger:hover{background:rgba(52,211,153,0.11);border-color:rgba(52,211,153,0.4);transform:translateY(-1px);}
+.csm-match-chev{font-size:15px;line-height:1;opacity:.75;}
+.csm-ov{position:fixed;inset:0;z-index:9000;display:none;align-items:center;justify-content:center;
   background:rgba(4,4,6,0.84);backdrop-filter:blur(5px);padding:40px 20px;overflow-y:auto;}
-.cs-ov.open{display:flex;}
-.cs-modal{width:100%;max-width:820px;background:#111113;border:1px solid rgba(255,255,255,0.09);
+.csm-ov.open{display:flex;}
+.csm-modal{width:100%;max-width:820px;background:#111113;border:1px solid rgba(255,255,255,0.09);
   border-radius:14px;box-shadow:0 24px 70px rgba(0,0,0,.6);animation:csIn 200ms ease-out;}
 @keyframes csIn{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:none;}}
-.cs-head{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;
+.csm-head{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;
   padding:22px 26px 16px;border-bottom:1px solid rgba(255,255,255,0.06);}
-.cs-head h3{margin:0 0 5px;font-size:18px;font-weight:600;color:#fafafa;letter-spacing:-0.01em;}
-.cs-head p{margin:0;font-size:12.5px;color:#71717a;line-height:1.5;}
-.cs-x{flex:0 0 auto;width:30px;height:30px;border-radius:7px;border:1px solid rgba(255,255,255,0.1);
+.csm-head h3{margin:0 0 5px;font-size:18px;font-weight:600;color:#fafafa;letter-spacing:-0.01em;}
+.csm-head p{margin:0;font-size:12.5px;color:#71717a;line-height:1.5;}
+.csm-x{flex:0 0 auto;width:30px;height:30px;border-radius:7px;border:1px solid rgba(255,255,255,0.1);
   background:transparent;color:#a1a1aa;font-size:17px;line-height:1;cursor:pointer;transition:all 150ms ease;}
-.cs-x:hover{background:rgba(255,255,255,0.07);color:#fafafa;}
-.cs-grid{display:grid;grid-template-columns:1fr 1fr;}
-.cs-card{padding:22px 26px 24px;}
-.cs-card + .cs-card{border-left:1px solid rgba(255,255,255,0.06);}
-.cs-axis{display:inline-block;margin-bottom:16px;padding:4px 9px;border-radius:5px;font-size:9.5px;
+.csm-x:hover{background:rgba(255,255,255,0.07);color:#fafafa;}
+.csm-grid{display:grid;grid-template-columns:1fr 1fr;}
+.csm-card{padding:22px 26px 24px;}
+.csm-card + .csm-card{border-left:1px solid rgba(255,255,255,0.06);}
+.csm-axis{display:inline-block;margin-bottom:16px;padding:4px 9px;border-radius:5px;font-size:9.5px;
   font-weight:700;letter-spacing:0.09em;text-transform:uppercase;}
-.cs-axis.market{background:rgba(52,211,153,0.11);color:#6ee7b7;}
-.cs-axis.offer{background:rgba(139,148,255,0.12);color:#a5b4fc;}
-.cs-id{display:flex;align-items:center;gap:13px;margin-bottom:18px;}
-.cs-photo{width:52px;height:52px;border-radius:50%;object-fit:cover;flex:0 0 auto;
+.csm-axis.market{background:rgba(52,211,153,0.11);color:#6ee7b7;}
+.csm-axis.offer{background:rgba(139,148,255,0.12);color:#a5b4fc;}
+.csm-id{display:flex;align-items:center;gap:13px;margin-bottom:18px;}
+.csm-photo{width:52px;height:52px;border-radius:50%;object-fit:cover;flex:0 0 auto;
   background:#1c1c1f;border:1px solid rgba(255,255,255,0.1);}
-.cs-idtext{min-width:0;}
-.cs-name{font-size:15.5px;font-weight:600;color:#fafafa;line-height:1.25;}
-.cs-logo{height:17px;width:auto;max-width:130px;object-fit:contain;margin-top:6px;opacity:.85;display:block;}
-.cs-co-fallback{font-size:12.5px;color:#71717a;margin-top:3px;}
-.cs-facts{display:flex;flex-direction:column;gap:13px;}
-.cs-fact{}
-.cs-flabel{font-size:9.5px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;
+.csm-idtext{min-width:0;}
+.csm-name{font-size:15.5px;font-weight:600;color:#fafafa;line-height:1.25;}
+.csm-logo{height:17px;width:auto;max-width:130px;object-fit:contain;margin-top:6px;opacity:.85;display:block;}
+.csm-co-fallback{font-size:12.5px;color:#71717a;margin-top:3px;}
+.csm-facts{display:flex;flex-direction:column;gap:13px;}
+.csm-fact{}
+.csm-flabel{font-size:9.5px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;
   color:#52525b;margin-bottom:4px;}
-.cs-fval{font-size:13.5px;line-height:1.5;color:#d4d4d8;}
-.cs-tamrow{display:flex;align-items:baseline;gap:9px;}
-.cs-tambig{font-size:22px;font-weight:600;color:#fafafa;letter-spacing:-0.01em;}
-.cs-tamvs{font-size:12.5px;color:#71717a;}
-.cs-foot{padding:13px 26px 16px;border-top:1px solid rgba(255,255,255,0.06);
+.csm-fval{font-size:13.5px;line-height:1.5;color:#d4d4d8;}
+.csm-tamrow{display:flex;align-items:baseline;gap:9px;}
+.csm-tambig{font-size:22px;font-weight:600;color:#fafafa;letter-spacing:-0.01em;}
+.csm-tamvs{font-size:12.5px;color:#71717a;}
+.csm-foot{padding:13px 26px 16px;border-top:1px solid rgba(255,255,255,0.06);
   font-size:11.5px;color:#52525b;line-height:1.55;}
-@media(max-width:780px){.cs-grid{grid-template-columns:1fr;}
-  .cs-card + .cs-card{border-left:none;border-top:1px solid rgba(255,255,255,0.06);}}
+@media(max-width:780px){.csm-grid{grid-template-columns:1fr;}
+  .csm-card + .csm-card{border-left:none;border-top:1px solid rgba(255,255,255,0.06);}}
 
 /* PROTOTYPE ONLY — hard refresh, strip before porting */
 .pv-refresh{position:fixed;right:16px;bottom:16px;z-index:9500;display:flex;align-items:center;gap:7px;
@@ -816,7 +816,7 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
 </style>
 <!-- PROTOTYPE ONLY: serves every /api/* call from ../fixtures/. Never hits production.
      Not part of V2 — strip this tag when porting changes back. -->
-<script src="fixture-shim.js?v=4"></script>
+<script src="fixture-shim.js?v=5"></script>
 <script>
 /* __PROTO_BASE_FROM_TAG — the portal rewrites the URL to /<jobId>/<tab-slug> on tab
    click, which breaks relative paths. A <script> tag's .src is absolute and resolved
@@ -1022,8 +1022,8 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
       </div>
 
       <!-- V2: case-study match trigger -->
-      <button class="cs-match-trigger" onclick="openCaseStudyMatches()">
-        <span class="cs-match-chev">›</span> Two clients with a market like yours
+      <button class="csm-match-trigger" onclick="openCaseStudyMatches()">
+        <span class="csm-match-chev">›</span> Two clients with a market like yours
       </button>
 
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;">
@@ -1912,8 +1912,8 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
 <!-- ═══════════════════════════════ -->
 <div class="tab-content" id="tab-cases">
   <div class="cs-wrap">
-    <h2 class="cs-title">Client Results</h2>
-    <p class="cs-sub">Real clients. Find yours by stage and industry.</p>
+    <h2 class="csm-title">Client Results</h2>
+    <p class="csm-sub">Real clients. Find yours by stage and industry.</p>
 
     <div class="cs-filter-block">
       <div class="cs-filter-block-label">By Stage</div>
@@ -1939,71 +1939,71 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
     </div>
 
     <!-- Flat grid — filtered by stage + industry -->
-    <div class="cs-grid" style="margin-top:8px">
+    <div class="csm-grid" style="margin-top:8px">
       <!-- CONSULTING & PROFESSIONAL SERVICES -->
-      <div class="cs-card" data-stage="early" data-industry="consulting"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/68ed3683e1a55e6a4e9ba2b2.png" alt="Forrest Dombrow" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Forrest Dombrow</div><span class="cs-stage-pill early">Early</span></div>
-      <div class="cs-card" data-stage="growth" data-industry="consulting"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674ef79f7e55822fec2d7444.png" alt="Tejas Parikh" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Tejas Parikh</div><span class="cs-stage-pill growth">Growth</span></div>
-      <div class="cs-card" data-stage="scale" data-industry="consulting"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f03369264c909cbec8e5a.png" alt="Michael Prothman" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Michael Prothman</div><span class="cs-stage-pill scale">Scale</span></div>
-      <div class="cs-card" data-stage="large" data-industry="consulting"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f01e34c1c7a4f0d447b16.png" alt="Simon Mueller" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Simon Mueller</div><span class="cs-stage-pill large">Large</span></div>
+      <div class="csm-card" data-stage="early" data-industry="consulting"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/68ed3683e1a55e6a4e9ba2b2.png" alt="Forrest Dombrow" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Forrest Dombrow</div><span class="cs-stage-pill early">Early</span></div>
+      <div class="csm-card" data-stage="growth" data-industry="consulting"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674ef79f7e55822fec2d7444.png" alt="Tejas Parikh" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Tejas Parikh</div><span class="cs-stage-pill growth">Growth</span></div>
+      <div class="csm-card" data-stage="scale" data-industry="consulting"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f03369264c909cbec8e5a.png" alt="Michael Prothman" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Michael Prothman</div><span class="cs-stage-pill scale">Scale</span></div>
+      <div class="csm-card" data-stage="large" data-industry="consulting"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f01e34c1c7a4f0d447b16.png" alt="Simon Mueller" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Simon Mueller</div><span class="cs-stage-pill large">Large</span></div>
 
       <!-- SOFTWARE -->
-      <div class="cs-card" data-stage="early" data-industry="software"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6952c28fd2e1fcd23a6502eb.png" alt="Olivier Delrue" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Olivier Delrue</div><span class="cs-stage-pill early">Early</span></div>
-      <div class="cs-card" data-stage="growth" data-industry="software"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f0432cc7dd1a016471f4f.png" alt="Philipp Von Schulthess" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Philipp Von Schulthess</div><span class="cs-stage-pill growth">Growth</span></div>
-      <div class="cs-card" data-stage="scale" data-industry="software"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674eff20fc9c332261ea0030.png" alt="Mark & Luke-Ross Edwards" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Mark &amp; Luke-Ross Edwards</div><span class="cs-stage-pill scale">Scale</span></div>
-      <div class="cs-card" data-stage="large" data-industry="software"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6751ba01405b833374f2e4e1.png" alt="Cedric Le Rouzo" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Cedric Le Rouzo</div><span class="cs-stage-pill large">Large</span></div>
+      <div class="csm-card" data-stage="early" data-industry="software"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6952c28fd2e1fcd23a6502eb.png" alt="Olivier Delrue" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Olivier Delrue</div><span class="cs-stage-pill early">Early</span></div>
+      <div class="csm-card" data-stage="growth" data-industry="software"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f0432cc7dd1a016471f4f.png" alt="Philipp Von Schulthess" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Philipp Von Schulthess</div><span class="cs-stage-pill growth">Growth</span></div>
+      <div class="csm-card" data-stage="scale" data-industry="software"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674eff20fc9c332261ea0030.png" alt="Mark & Luke-Ross Edwards" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Mark &amp; Luke-Ross Edwards</div><span class="cs-stage-pill scale">Scale</span></div>
+      <div class="csm-card" data-stage="large" data-industry="software"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6751ba01405b833374f2e4e1.png" alt="Cedric Le Rouzo" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Cedric Le Rouzo</div><span class="cs-stage-pill large">Large</span></div>
 
       <!-- COACHING & TRAINING -->
-      <div class="cs-card" data-stage="early" data-industry="coaching"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f012c7e5582c05e2d7897.png" alt="Darrin Glesser" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Darrin Glesser</div><span class="cs-stage-pill early">Early</span></div>
-      <div class="cs-card" data-stage="growth" data-industry="coaching"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f027750c85455316472b9.png" alt="Karl Lashkari" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Karl Lashkari</div><span class="cs-stage-pill growth">Growth</span></div>
-      <div class="cs-card" data-stage="scale" data-industry="coaching"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/67614bfc63c0feb81ed495dd.png" alt="Brooks Golden" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Brooks Golden</div><span class="cs-stage-pill scale">Scale</span></div>
-      <div class="cs-card" data-stage="large" data-industry="coaching"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6859bc2fd6043d118c0172f0.png" alt="Alex Gesell" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Alex Gesell</div><span class="cs-stage-pill large">Large</span></div>
+      <div class="csm-card" data-stage="early" data-industry="coaching"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f012c7e5582c05e2d7897.png" alt="Darrin Glesser" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Darrin Glesser</div><span class="cs-stage-pill early">Early</span></div>
+      <div class="csm-card" data-stage="growth" data-industry="coaching"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f027750c85455316472b9.png" alt="Karl Lashkari" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Karl Lashkari</div><span class="cs-stage-pill growth">Growth</span></div>
+      <div class="csm-card" data-stage="scale" data-industry="coaching"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/67614bfc63c0feb81ed495dd.png" alt="Brooks Golden" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Brooks Golden</div><span class="cs-stage-pill scale">Scale</span></div>
+      <div class="csm-card" data-stage="large" data-industry="coaching"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6859bc2fd6043d118c0172f0.png" alt="Alex Gesell" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Alex Gesell</div><span class="cs-stage-pill large">Large</span></div>
 
       <!-- AGENCIES -->
-      <div class="cs-card" data-stage="early" data-industry="agencies"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/68ea9fdc59ec0a7ed430b470.png" alt="Nick Uresin" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Nick Uresin</div><span class="cs-stage-pill early">Early</span></div>
-      <div class="cs-card" data-stage="growth" data-industry="agencies"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f05b563f24e4af2f7deae.png" alt="Chehadeh Abou Hala" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Chehadeh Abou Hala</div><span class="cs-stage-pill growth">Growth</span></div>
-      <div class="cs-card" data-stage="scale" data-industry="agencies"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6752e29629695a2bf06ce629.png" alt="Shamayah Sarrucco" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Shamayah Sarrucco</div><span class="cs-stage-pill scale">Scale</span></div>
-      <div class="cs-card" data-stage="large" data-industry="agencies"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f050e4c1c7a3229447c2b.png" alt="Felix Petzel" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Felix Petzel</div><span class="cs-stage-pill large">Large</span></div>
+      <div class="csm-card" data-stage="early" data-industry="agencies"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/68ea9fdc59ec0a7ed430b470.png" alt="Nick Uresin" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Nick Uresin</div><span class="cs-stage-pill early">Early</span></div>
+      <div class="csm-card" data-stage="growth" data-industry="agencies"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f05b563f24e4af2f7deae.png" alt="Chehadeh Abou Hala" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Chehadeh Abou Hala</div><span class="cs-stage-pill growth">Growth</span></div>
+      <div class="csm-card" data-stage="scale" data-industry="agencies"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6752e29629695a2bf06ce629.png" alt="Shamayah Sarrucco" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Shamayah Sarrucco</div><span class="cs-stage-pill scale">Scale</span></div>
+      <div class="csm-card" data-stage="large" data-industry="agencies"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f050e4c1c7a3229447c2b.png" alt="Felix Petzel" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Felix Petzel</div><span class="cs-stage-pill large">Large</span></div>
 
       <!-- OTHER B2B (Financial, Investors, etc.) -->
-      <div class="cs-card" data-stage="early" data-industry="other"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674ef862cc7dd1ddfb4718dd.png" alt="Bora Ger" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Bora Ger</div><span class="cs-stage-pill early">Early</span></div>
-      <div class="cs-card" data-stage="early" data-industry="other"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6859a09d937ff4092b29c994.png" alt="Jason Rotman" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Jason Rotman</div><span class="cs-stage-pill early">Early</span></div>
-      <div class="cs-card" data-stage="growth" data-industry="other"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/68599a61ba48d3780e9be369.png" alt="Lynn Rousseau" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Lynn Rousseau</div><span class="cs-stage-pill growth">Growth</span></div>
-      <div class="cs-card" data-stage="growth" data-industry="other"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674ef62763f24e438cf7d49e.png" alt="Greg Smart" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Greg Smart</div><span class="cs-stage-pill growth">Growth</span></div>
-      <div class="cs-card" data-stage="scale" data-industry="other"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6859969791351a4efb4588d4.png" alt="Jan Young" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Jan Young</div><span class="cs-stage-pill scale">Scale</span></div>
-      <div class="cs-card" data-stage="scale" data-industry="other"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6859a5f124572ea3e10af505.png" alt="Daniel White" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Daniel White</div><span class="cs-stage-pill scale">Scale</span></div>
-      <div class="cs-card" data-stage="large" data-industry="other"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/68ec2610dba3a00c0db33b55.png" alt="Cymron Bancil" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Cymron Bancil</div><span class="cs-stage-pill large">Large</span></div>
-      <div class="cs-card" data-stage="large" data-industry="other"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f001250c85458fd647223.png" alt="Divij Rakhra" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Divij Rakhra</div><span class="cs-stage-pill large">Large</span></div>
+      <div class="csm-card" data-stage="early" data-industry="other"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674ef862cc7dd1ddfb4718dd.png" alt="Bora Ger" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Bora Ger</div><span class="cs-stage-pill early">Early</span></div>
+      <div class="csm-card" data-stage="early" data-industry="other"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6859a09d937ff4092b29c994.png" alt="Jason Rotman" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Jason Rotman</div><span class="cs-stage-pill early">Early</span></div>
+      <div class="csm-card" data-stage="growth" data-industry="other"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/68599a61ba48d3780e9be369.png" alt="Lynn Rousseau" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Lynn Rousseau</div><span class="cs-stage-pill growth">Growth</span></div>
+      <div class="csm-card" data-stage="growth" data-industry="other"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674ef62763f24e438cf7d49e.png" alt="Greg Smart" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Greg Smart</div><span class="cs-stage-pill growth">Growth</span></div>
+      <div class="csm-card" data-stage="scale" data-industry="other"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6859969791351a4efb4588d4.png" alt="Jan Young" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Jan Young</div><span class="cs-stage-pill scale">Scale</span></div>
+      <div class="csm-card" data-stage="scale" data-industry="other"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6859a5f124572ea3e10af505.png" alt="Daniel White" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Daniel White</div><span class="cs-stage-pill scale">Scale</span></div>
+      <div class="csm-card" data-stage="large" data-industry="other"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/68ec2610dba3a00c0db33b55.png" alt="Cymron Bancil" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Cymron Bancil</div><span class="cs-stage-pill large">Large</span></div>
+      <div class="csm-card" data-stage="large" data-industry="other"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f001250c85458fd647223.png" alt="Divij Rakhra" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Divij Rakhra</div><span class="cs-stage-pill large">Large</span></div>
     </div>
 
   </div>
 </div>
 
 <!-- ── Case Study Modal ── -->
-<div class="cs-modal-overlay" id="cs-modal-overlay" onclick="if(event.target===this)csModalClose()">
-  <div class="cs-modal">
-    <button class="cs-modal-close" onclick="csModalClose()">✕</button>
-    <div class="cs-modal-header">
-      <img class="cs-modal-photo" id="cs-modal-photo" src="" alt="">
+<div class="csm-modal-overlay" id="csm-modal-overlay" onclick="if(event.target===this)csModalClose()">
+  <div class="csm-modal">
+    <button class="csm-modal-close" onclick="csModalClose()">✕</button>
+    <div class="csm-modal-header">
+      <img class="csm-modal-photo" id="csm-modal-photo" src="" alt="">
       <div>
-        <div class="cs-modal-name" id="cs-modal-name"></div>
-        <div class="cs-modal-company" id="cs-modal-company"></div>
-        <div class="cs-modal-pills" id="cs-modal-pills"></div>
+        <div class="csm-modal-name" id="csm-modal-name"></div>
+        <div class="csm-modal-company" id="csm-modal-company"></div>
+        <div class="csm-modal-pills" id="csm-modal-pills"></div>
       </div>
     </div>
-    <div class="cs-modal-stats" id="cs-modal-stats" style="display:none">
-      <div class="cs-modal-stat">
-        <div class="cs-modal-stat-label">Before</div>
-        <div class="cs-modal-stat-value" id="cs-modal-before"></div>
+    <div class="csm-modal-stats" id="csm-modal-stats" style="display:none">
+      <div class="csm-modal-stat">
+        <div class="csm-modal-stat-label">Before</div>
+        <div class="csm-modal-stat-value" id="csm-modal-before"></div>
       </div>
-      <div class="cs-modal-stat">
-        <div class="cs-modal-stat-label">After</div>
-        <div class="cs-modal-stat-value" id="cs-modal-after"></div>
+      <div class="csm-modal-stat">
+        <div class="csm-modal-stat-label">After</div>
+        <div class="csm-modal-stat-value" id="csm-modal-after"></div>
       </div>
     </div>
-    <div class="cs-modal-metric" id="cs-modal-metric" style="display:none"></div>
-    <div class="cs-modal-result" id="cs-modal-result"></div>
-    <div class="cs-modal-quote" id="cs-modal-quote" style="display:none"></div>
-    <div class="cs-modal-cta">Ask your rep about their full case study on Call 2.</div>
+    <div class="csm-modal-metric" id="csm-modal-metric" style="display:none"></div>
+    <div class="csm-modal-result" id="csm-modal-result"></div>
+    <div class="csm-modal-quote" id="csm-modal-quote" style="display:none"></div>
+    <div class="csm-modal-cta">Ask your rep about their full case study on Call 2.</div>
   </div>
 </div>
 
@@ -2808,7 +2808,7 @@ function csFilter(type, value) {
   else _csIndustry = value;
   document.querySelectorAll('.cs-filter').forEach(b => b.classList.toggle('active', b.dataset.v === _csStage));
   document.querySelectorAll('.cs-industry-btn').forEach(b => b.classList.toggle('active', b.dataset.v === _csIndustry));
-  document.querySelectorAll('.cs-card').forEach(card => {
+  document.querySelectorAll('.csm-card').forEach(card => {
     const stageOk    = _csStage    === 'all' || card.dataset.stage    === _csStage;
     const industryOk = _csIndustry === 'all' || card.dataset.industry === _csIndustry;
     card.style.display = (stageOk && industryOk) ? '' : 'none';
@@ -2878,52 +2878,52 @@ const CS_CLIENTS = {
 };
 
 function csModalOpen(card) {
-  const name     = card.querySelector('.cs-card-name').textContent;
-  const photo    = card.querySelector('.cs-card-photo').src;
+  const name     = card.querySelector('.csm-card-name').textContent;
+  const photo    = card.querySelector('.csm-card-photo').src;
   const stage    = card.dataset.stage;
   const industry = card.dataset.industry;
   const client   = CS_CLIENTS[name] || null;
 
-  document.getElementById('cs-modal-photo').src = photo;
-  document.getElementById('cs-modal-name').textContent = name;
+  document.getElementById('csm-modal-photo').src = photo;
+  document.getElementById('csm-modal-name').textContent = name;
 
-  const companyEl = document.getElementById('cs-modal-company');
+  const companyEl = document.getElementById('csm-modal-company');
   companyEl.textContent = client?.company || '';
   companyEl.style.display = client?.company ? '' : 'none';
 
-  const pills = document.getElementById('cs-modal-pills');
+  const pills = document.getElementById('csm-modal-pills');
   pills.innerHTML = `
     <span class="cs-stage-pill ${stage}" style="margin-top:6px">${CS_STAGE_LABELS[stage]}</span>
     <span style="font-size:11px;color:#52525b;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:6px;padding:4px 10px;margin-top:6px;">${CS_INDUSTRY_LABELS[industry]}</span>
   `;
 
-  const statsEl = document.getElementById('cs-modal-stats');
+  const statsEl = document.getElementById('csm-modal-stats');
   if (client?.before && client?.after) {
-    document.getElementById('cs-modal-before').textContent = client.before;
-    document.getElementById('cs-modal-after').textContent = client.after;
+    document.getElementById('csm-modal-before').textContent = client.before;
+    document.getElementById('csm-modal-after').textContent = client.after;
     statsEl.style.display = 'flex';
   } else { statsEl.style.display = 'none'; }
 
-  const metricEl = document.getElementById('cs-modal-metric');
+  const metricEl = document.getElementById('csm-modal-metric');
   if (client?.metric) { metricEl.textContent = client.metric; metricEl.style.display = 'inline-block'; }
   else { metricEl.style.display = 'none'; }
 
-  document.getElementById('cs-modal-result').textContent = client?.result || CS_RESULTS[stage]?.[industry] || CS_RESULTS[stage]?.other || '';
+  document.getElementById('csm-modal-result').textContent = client?.result || CS_RESULTS[stage]?.[industry] || CS_RESULTS[stage]?.other || '';
 
-  const quoteEl = document.getElementById('cs-modal-quote');
+  const quoteEl = document.getElementById('csm-modal-quote');
   if (client?.quote) { quoteEl.textContent = client.quote; quoteEl.style.display = ''; }
   else { quoteEl.style.display = 'none'; }
 
-  document.getElementById('cs-modal-overlay').classList.add('open');
+  document.getElementById('csm-modal-overlay').classList.add('open');
 }
 
 function csModalClose() {
-  document.getElementById('cs-modal-overlay').classList.remove('open');
+  document.getElementById('csm-modal-overlay').classList.remove('open');
 }
 
-// Wire up click handlers on all cs-cards (document delegation — works in all browsers)
+// Wire up click handlers on all csm-cards (document delegation — works in all browsers)
 document.addEventListener('click', function(e) {
-  var card = e.target.closest && e.target.closest('.cs-card');
+  var card = e.target.closest && e.target.closest('.csm-card');
   if (card) csModalOpen(card);
 });
 
@@ -6741,17 +6741,17 @@ function rerunApolloSearch() {
 </script>
 
 <!-- ══ V2: case-study match modal ══ -->
-<div class="cs-ov" id="cs-ov" onclick="if(event.target===this)closeCaseStudyMatches()">
-  <div class="cs-modal" role="dialog" aria-modal="true" aria-labelledby="cs-title">
-    <div class="cs-head">
+<div class="csm-ov" id="csm-ov" onclick="if(event.target===this)closeCaseStudyMatches()">
+  <div class="csm-modal" role="dialog" aria-modal="true" aria-labelledby="csm-title">
+    <div class="csm-head">
       <div>
-        <h3 id="cs-title">Clients we've done this for</h3>
-        <p id="cs-sub">Two of our clients, picked because their market or their offer looks like yours.</p>
+        <h3 id="csm-title">Clients we've done this for</h3>
+        <p id="csm-sub">Two of our clients, picked because their market or their offer looks like yours.</p>
       </div>
-      <button class="cs-x" onclick="closeCaseStudyMatches()" aria-label="Close">&times;</button>
+      <button class="csm-x" onclick="closeCaseStudyMatches()" aria-label="Close">&times;</button>
     </div>
-    <div class="cs-grid" id="cs-grid"></div>
-    <div class="cs-foot" id="cs-foot"></div>
+    <div class="csm-grid" id="csm-grid"></div>
+    <div class="csm-foot" id="csm-foot"></div>
   </div>
 </div>
 <script>
@@ -6759,7 +6759,7 @@ function rerunApolloSearch() {
    GET /api/jobs/:id/case-study-matches. See docs/data-contract.md. */
 let __csData = null;
 async function openCaseStudyMatches(){
-  const ov = document.getElementById('cs-ov');
+  const ov = document.getElementById('csm-ov');
   ov.classList.add('open'); document.body.style.overflow = 'hidden';
   if (__csData) return;
   try{
@@ -6767,56 +6767,56 @@ async function openCaseStudyMatches(){
     const r = await fetch(base + 'fixtures/case-studies/matched-demo-prospect.json');
     __csData = await r.json();
   }catch(e){
-    document.getElementById('cs-grid').innerHTML =
-      '<div class="cs-card"><div class="cs-body">Could not load matches.</div></div>';
+    document.getElementById('csm-grid').innerHTML =
+      '<div class="csm-card"><div class="cs-body">Could not load matches.</div></div>';
     return;
   }
   const esc = t => String(t||'').replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
   const fmt = n => Number(n||0).toLocaleString();
   const yours = (__csData.prospect && __csData.prospect.tam) || 0;
-  document.getElementById('cs-grid').innerHTML = __csData.matches.map(m => `
-    <div class="cs-card ${m.axis}">
-      <span class="cs-axis ${m.axis}">${esc(m.axis_label)}</span>
-      <div class="cs-id">
-        <img class="cs-photo" src="${esc(m.photo_url)}" alt="${esc(m.client_name)}"
+  document.getElementById('csm-grid').innerHTML = __csData.matches.map(m => `
+    <div class="csm-card ${m.axis}">
+      <span class="csm-axis ${m.axis}">${esc(m.axis_label)}</span>
+      <div class="csm-id">
+        <img class="csm-photo" src="${esc(m.photo_url)}" alt="${esc(m.client_name)}"
              onerror="this.style.visibility='hidden'">
-        <div class="cs-idtext">
-          <div class="cs-name">${esc(m.client_name)}</div>
+        <div class="csm-idtext">
+          <div class="csm-name">${esc(m.client_name)}</div>
           ${m.logo_url
-            ? `<img class="cs-logo" src="${esc(m.logo_url)}" alt="${esc(m.company)}"
-                    onerror="this.outerHTML='<div class=\'cs-co-fallback\'>${esc(m.company)}</div>'">`
-            : `<div class="cs-co-fallback">${esc(m.company)}</div>`}
+            ? `<img class="csm-logo" src="${esc(m.logo_url)}" alt="${esc(m.company)}"
+                    onerror="this.outerHTML='<div class=\'csm-co-fallback\'>${esc(m.company)}</div>'">`
+            : `<div class="csm-co-fallback">${esc(m.company)}</div>`}
         </div>
       </div>
-      <div class="cs-facts">
-        <div class="cs-fact">
-          <div class="cs-flabel">Who they sell to</div>
-          <div class="cs-fval">${esc(m.sells_to)}</div>
+      <div class="csm-facts">
+        <div class="csm-fact">
+          <div class="csm-flabel">Who they sell to</div>
+          <div class="csm-fval">${esc(m.sells_to)}</div>
         </div>
-        <div class="cs-fact">
-          <div class="cs-flabel">Their offer</div>
-          <div class="cs-fval">${esc(m.offer)}</div>
+        <div class="csm-fact">
+          <div class="csm-flabel">Their offer</div>
+          <div class="csm-fval">${esc(m.offer)}</div>
         </div>
-        <div class="cs-fact">
-          <div class="cs-flabel">Their addressable market</div>
-          <div class="cs-tamrow">
-            <span class="cs-tambig">${fmt(m.tam)}</span>
-            <span class="cs-tamvs">yours: ${fmt(yours)}</span>
+        <div class="csm-fact">
+          <div class="csm-flabel">Their addressable market</div>
+          <div class="csm-tamrow">
+            <span class="csm-tambig">${fmt(m.tam)}</span>
+            <span class="csm-tamvs">yours: ${fmt(yours)}</span>
           </div>
         </div>
       </div>
     </div>`).join('');
   const needs = __csData.matches.filter(m => (m.testimonial||'').startsWith('none')).length;
-  document.getElementById('cs-foot').innerHTML =
+  document.getElementById('csm-foot').innerHTML =
     'Market sizes are estimates produced the same way as yours.' +
     (needs ? ' <span style="color:#a16207">' + needs + ' of these clients has no recorded video testimonial yet.</span>' : '');
 }
 function closeCaseStudyMatches(){
-  document.getElementById('cs-ov').classList.remove('open');
+  document.getElementById('csm-ov').classList.remove('open');
   document.body.style.overflow = '';
 }
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape' && document.getElementById('cs-ov').classList.contains('open')) closeCaseStudyMatches();
+  if (e.key === 'Escape' && document.getElementById('csm-ov').classList.contains('open')) closeCaseStudyMatches();
 });
 </script>
 
