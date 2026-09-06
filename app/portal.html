@@ -766,44 +766,58 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
 .csm-match-trigger:hover{background:rgba(52,211,153,0.11);border-color:rgba(52,211,153,0.4);transform:translateY(-1px);}
 .csm-match-chev{font-size:15px;line-height:1;opacity:.75;}
 .csm-ov{position:fixed;inset:0;z-index:9000;display:none;align-items:center;justify-content:center;
-  background:rgba(4,4,6,0.84);backdrop-filter:blur(5px);padding:40px 20px;overflow-y:auto;}
+  background:rgba(4,4,6,0.86);backdrop-filter:blur(6px);padding:40px 20px;overflow-y:auto;}
 .csm-ov.open{display:flex;}
-.csm-modal{width:100%;max-width:820px;background:#111113;border:1px solid rgba(255,255,255,0.09);
-  border-radius:14px;box-shadow:0 24px 70px rgba(0,0,0,.6);animation:csIn 200ms ease-out;}
+.csm-modal{width:100%;max-width:760px;background:#111113;border:1px solid rgba(255,255,255,0.09);
+  border-radius:16px;box-shadow:0 24px 70px rgba(0,0,0,.6);animation:csIn 200ms ease-out;overflow:hidden;}
 @keyframes csIn{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:none;}}
 .csm-head{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;
-  padding:22px 26px 16px;border-bottom:1px solid rgba(255,255,255,0.06);}
-.csm-head h3{margin:0 0 5px;font-size:18px;font-weight:600;color:#fafafa;letter-spacing:-0.01em;}
-.csm-head p{margin:0;font-size:12.5px;color:#71717a;line-height:1.5;}
-.csm-x{flex:0 0 auto;width:30px;height:30px;border-radius:7px;border:1px solid rgba(255,255,255,0.1);
+  padding:24px 28px 20px;}
+.csm-head h3{margin:0 0 6px;font-size:19px;font-weight:600;color:#fafafa;letter-spacing:-0.015em;}
+.csm-head p{margin:0;font-size:13px;color:#71717a;line-height:1.5;}
+.csm-x{flex:0 0 auto;width:30px;height:30px;border-radius:8px;border:1px solid rgba(255,255,255,0.1);
   background:transparent;color:#a1a1aa;font-size:17px;line-height:1;cursor:pointer;transition:all 150ms ease;}
 .csm-x:hover{background:rgba(255,255,255,0.07);color:#fafafa;}
-.csm-grid{display:grid;grid-template-columns:1fr 1fr;}
-.csm-card{padding:22px 26px 24px;}
-.csm-card + .csm-card{border-left:1px solid rgba(255,255,255,0.06);}
-.csm-axis{display:inline-block;margin-bottom:16px;padding:4px 9px;border-radius:5px;font-size:9.5px;
-  font-weight:700;letter-spacing:0.09em;text-transform:uppercase;}
-.csm-axis.market{background:rgba(52,211,153,0.11);color:#6ee7b7;}
-.csm-axis.offer{background:rgba(139,148,255,0.12);color:#a5b4fc;}
-.csm-id{display:flex;align-items:center;gap:13px;margin-bottom:18px;}
-.csm-photo{width:52px;height:52px;border-radius:50%;object-fit:cover;flex:0 0 auto;
-  background:#1c1c1f;border:1px solid rgba(255,255,255,0.1);}
+.csm-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:rgba(255,255,255,0.07);
+  border-top:1px solid rgba(255,255,255,0.07);}
+.csm-card{background:#111113;padding:24px 26px 26px;}
+
+/* axis: a quiet line with a colour dot, not a shouty pill */
+.csm-axis{display:flex;align-items:center;gap:7px;margin-bottom:20px;
+  font-size:11.5px;font-weight:500;color:#8b8b93;letter-spacing:0.01em;}
+.csm-axis::before{content:'';width:6px;height:6px;border-radius:50%;flex:0 0 auto;}
+.csm-axis.market::before{background:#34d399;}
+.csm-axis.offer::before{background:#8b94ff;}
+
+/* identity: photo, name, then the logo on its own light chip */
+.csm-id{display:flex;align-items:center;gap:14px;margin-bottom:8px;}
+.csm-photo{width:58px;height:58px;border-radius:50%;object-fit:cover;flex:0 0 auto;
+  background:#1c1c1f;border:1px solid rgba(255,255,255,0.12);}
 .csm-idtext{min-width:0;}
-.csm-name{font-size:15.5px;font-weight:600;color:#fafafa;line-height:1.25;}
-.csm-logo{height:17px;width:auto;max-width:130px;object-fit:contain;margin-top:6px;opacity:.85;display:block;}
-.csm-co-fallback{font-size:12.5px;color:#71717a;margin-top:3px;}
-.csm-facts{display:flex;flex-direction:column;gap:13px;}
-.csm-fact{}
-.csm-flabel{font-size:9.5px;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;
-  color:#52525b;margin-bottom:4px;}
+.csm-name{font-size:17px;font-weight:600;color:#fafafa;line-height:1.2;letter-spacing:-0.01em;}
+.csm-co{font-size:13px;color:#8b8b93;margin-top:4px;line-height:1.3;}
+/* Logos in this set are wildly inconsistent — some are white-on-transparent,
+   some are SVGs using fill="currentColor" (i.e. black). Neither survives on a
+   single background. A light chip plus brightness(0) renders every one of them
+   as the same dark silhouette: always visible, brand shape intact. */
+.csm-logochip{display:flex;align-items:center;justify-content:center;
+  margin:14px 0 20px;padding:10px 18px;background:#f4f4f5;border-radius:8px;
+  width:100%;height:52px;box-sizing:border-box;}
+.csm-logo{max-height:30px;max-width:100%;width:auto;object-fit:contain;
+  filter:brightness(0);opacity:.8;display:block;}
+
+/* facts: fixed label column so the eye scans straight down the values */
+.csm-facts{display:flex;flex-direction:column;gap:14px;
+  padding-top:20px;border-top:1px solid rgba(255,255,255,0.07);}
+.csm-fact{display:grid;grid-template-columns:74px 1fr;gap:14px;align-items:baseline;}
+.csm-flabel{font-size:12px;color:#5f5f68;line-height:1.45;}
 .csm-fval{font-size:13.5px;line-height:1.5;color:#d4d4d8;}
-.csm-tamrow{display:flex;align-items:baseline;gap:9px;}
-.csm-tambig{font-size:22px;font-weight:600;color:#fafafa;letter-spacing:-0.01em;}
-.csm-tamvs{font-size:12.5px;color:#71717a;}
-.csm-foot{padding:13px 26px 16px;border-top:1px solid rgba(255,255,255,0.06);
+.csm-tam .csm-fval{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+.csm-tambig{font-size:20px;font-weight:600;color:#fafafa;letter-spacing:-0.015em;line-height:1.1;}
+.csm-tamvs{font-size:12px;color:#71717a;}
+.csm-foot{padding:15px 28px 18px;border-top:1px solid rgba(255,255,255,0.07);
   font-size:11.5px;color:#52525b;line-height:1.55;}
-@media(max-width:780px){.csm-grid{grid-template-columns:1fr;}
-  .csm-card + .csm-card{border-left:none;border-top:1px solid rgba(255,255,255,0.06);}}
+@media(max-width:760px){.csm-grid{grid-template-columns:1fr;}}
 
 /* PROTOTYPE ONLY — hard refresh, strip before porting */
 .pv-refresh{position:fixed;right:16px;bottom:16px;z-index:9500;display:flex;align-items:center;gap:7px;
@@ -6775,33 +6789,34 @@ async function openCaseStudyMatches(){
   const fmt = n => Number(n||0).toLocaleString();
   const yours = (__csData.prospect && __csData.prospect.tam) || 0;
   document.getElementById('csm-grid').innerHTML = __csData.matches.map(m => `
-    <div class="csm-card ${m.axis}">
-      <span class="csm-axis ${m.axis}">${esc(m.axis_label)}</span>
+    <div class="csm-card">
+      <div class="csm-axis ${m.axis}">${esc(m.axis_label)}</div>
       <div class="csm-id">
         <img class="csm-photo" src="${esc(m.photo_url)}" alt="${esc(m.client_name)}"
              onerror="this.style.visibility='hidden'">
         <div class="csm-idtext">
           <div class="csm-name">${esc(m.client_name)}</div>
-          ${m.logo_url
-            ? `<img class="csm-logo" src="${esc(m.logo_url)}" alt="${esc(m.company)}"
-                    onerror="this.outerHTML='<div class=\'csm-co-fallback\'>${esc(m.company)}</div>'">`
-            : `<div class="csm-co-fallback">${esc(m.company)}</div>`}
+          <div class="csm-co">${esc(m.company)}</div>
         </div>
       </div>
+      ${m.logo_url ? `<div class="csm-logochip">
+        <img class="csm-logo" src="${esc(m.logo_url)}" alt="${esc(m.company)} logo"
+             onerror="this.closest('.csm-logochip').style.display='none'">
+      </div>` : ''}
       <div class="csm-facts">
         <div class="csm-fact">
-          <div class="csm-flabel">Who they sell to</div>
+          <div class="csm-flabel">Sells to</div>
           <div class="csm-fval">${esc(m.sells_to)}</div>
         </div>
         <div class="csm-fact">
-          <div class="csm-flabel">Their offer</div>
+          <div class="csm-flabel">Offer</div>
           <div class="csm-fval">${esc(m.offer)}</div>
         </div>
-        <div class="csm-fact">
-          <div class="csm-flabel">Their addressable market</div>
-          <div class="csm-tamrow">
+        <div class="csm-fact csm-tam">
+          <div class="csm-flabel">Market</div>
+          <div class="csm-fval">
             <span class="csm-tambig">${fmt(m.tam)}</span>
-            <span class="csm-tamvs">yours: ${fmt(yours)}</span>
+            <span class="csm-tamvs">buyers &middot; yours ${fmt(yours)}</span>
           </div>
         </div>
       </div>

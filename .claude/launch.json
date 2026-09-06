@@ -4,7 +4,13 @@
     {
       "name": "dealforge-v2-prototype",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8080", "--directory", "app"],
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8080",
+        "--directory",
+        "."
+      ],
       "port": 8080
     }
   ]
