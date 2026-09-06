@@ -2279,7 +2279,12 @@ function switchTab(i, opts) {
   if (opts.push === false) return;
   if (!window.__JOB_ID) return;
   const slug = (window.TAB_SLUGS && window.TAB_SLUGS[i]) || 'how-it-works';
-  const newUrl = '/' + window.__JOB_ID + '/' + slug + window.location.search;
+  // PROTOTYPE ONLY — production DealForge is served from the domain root, so it
+  // builds this as '/' + jobId. GitHub Pages serves us from /dealforge-v2-prototype/,
+  // and a hardcoded leading slash discards that prefix: the address bar then shows a
+  // URL that 404s on reload and strands you on a cached copy. Prefix with the base.
+  // Strip this line when porting back; keep the original '/' + window.__JOB_ID.
+  const newUrl = (window.__PROTO_BASE || '/') + window.__JOB_ID + '/' + slug + window.location.search;
   if (newUrl !== window.location.pathname + window.location.search) {
     history.replaceState({ tab: i }, '', newUrl);
   }
