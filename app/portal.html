@@ -6861,7 +6861,9 @@ let __civ = null;
 async function loadInviteExamples(){
   if (__civ) return __civ;
   const base = window.__PROTO_BASE || '/';
-  const r = await fetch(base + 'fixtures/case-studies/invite-examples.json');
+  // Cache-bust: without this the browser happily serves yesterday's JSON next to
+  // today's HTML, which reads as 'the fix didn't deploy'.
+  const r = await fetch(base + 'fixtures/case-studies/invite-examples.json?v=' + Date.now());
   __civ = await r.json();
   const strip = document.getElementById('civ-strip');
   __civ.examples.forEach((ex,i) => {
@@ -6927,7 +6929,7 @@ async function openCaseStudyMatches(){
   if (__csData) return;
   try{
     const base = window.__PROTO_BASE || '/';
-    const r = await fetch(base + 'fixtures/case-studies/matched-demo-prospect.json');
+    const r = await fetch(base + 'fixtures/case-studies/matched-demo-prospect.json?v=' + Date.now());
     __csData = await r.json();
   }catch(e){
     document.getElementById('csm-grid').innerHTML =
