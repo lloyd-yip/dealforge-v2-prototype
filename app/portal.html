@@ -6904,9 +6904,9 @@ function showInvite(i){
         f.invites!=null ? `<div class="civ-metric"><div class="civ-mv">${n(f.invites)}</div><div class="civ-ml">invites sent</div></div>` : '',
         f.registrations!=null ? `<div class="civ-metric"><div class="civ-mv">${n(f.registrations)}<span class="civ-pct">${f.invite_to_reg_pct}%</span></div><div class="civ-ml">registered</div></div>` : '',
         f.attendees!=null ? `<div class="civ-metric"><div class="civ-mv">${n(f.attendees)}<span class="civ-pct">${f.reg_to_attend_pct}%</span></div><div class="civ-ml">showed up live</div></div>` : '',
-        /* A metric we don't have is left out entirely. An em-dash under "calls
-           booked" reads as zero to a prospect, which would be a lie. */
-        f.booked_calls!=null ? `<div class="civ-metric"><div class="civ-mv">${n(f.booked_calls)}</div><div class="civ-ml">calls booked</div></div>` : ''
+        /* Booked calls deliberately omitted: a call is booked during or after the
+           webinar, so it measures the webinar and the follow-up — not the invite.
+           This tab answers "did the invite work?", and nothing else. */
       ].filter(Boolean).join('')}</div>
       <div class="civ-copyhead">The invite copy they used</div>
       <div class="civ-copy">${fmtInviteCopy(ex.event_description)}</div>
