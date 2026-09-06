@@ -816,7 +816,7 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
 </style>
 <!-- PROTOTYPE ONLY: serves every /api/* call from ../fixtures/. Never hits production.
      Not part of V2 — strip this tag when porting changes back. -->
-<script src="fixture-shim.js?v=5"></script>
+<script src="fixture-shim.js?v=6"></script>
 <script>
 /* __PROTO_BASE_FROM_TAG — the portal rewrites the URL to /<jobId>/<tab-slug> on tab
    click, which breaks relative paths. A <script> tag's .src is absolute and resolved
@@ -1912,8 +1912,8 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
 <!-- ═══════════════════════════════ -->
 <div class="tab-content" id="tab-cases">
   <div class="cs-wrap">
-    <h2 class="csm-title">Client Results</h2>
-    <p class="csm-sub">Real clients. Find yours by stage and industry.</p>
+    <h2 class="cs-title">Client Results</h2>
+    <p class="cs-sub">Real clients. Find yours by stage and industry.</p>
 
     <div class="cs-filter-block">
       <div class="cs-filter-block-label">By Stage</div>
@@ -1939,71 +1939,71 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
     </div>
 
     <!-- Flat grid — filtered by stage + industry -->
-    <div class="csm-grid" style="margin-top:8px">
+    <div class="cs-grid" style="margin-top:8px">
       <!-- CONSULTING & PROFESSIONAL SERVICES -->
-      <div class="csm-card" data-stage="early" data-industry="consulting"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/68ed3683e1a55e6a4e9ba2b2.png" alt="Forrest Dombrow" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Forrest Dombrow</div><span class="cs-stage-pill early">Early</span></div>
-      <div class="csm-card" data-stage="growth" data-industry="consulting"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674ef79f7e55822fec2d7444.png" alt="Tejas Parikh" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Tejas Parikh</div><span class="cs-stage-pill growth">Growth</span></div>
-      <div class="csm-card" data-stage="scale" data-industry="consulting"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f03369264c909cbec8e5a.png" alt="Michael Prothman" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Michael Prothman</div><span class="cs-stage-pill scale">Scale</span></div>
-      <div class="csm-card" data-stage="large" data-industry="consulting"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f01e34c1c7a4f0d447b16.png" alt="Simon Mueller" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Simon Mueller</div><span class="cs-stage-pill large">Large</span></div>
+      <div class="cs-card" data-stage="early" data-industry="consulting"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/68ed3683e1a55e6a4e9ba2b2.png" alt="Forrest Dombrow" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Forrest Dombrow</div><span class="cs-stage-pill early">Early</span></div>
+      <div class="cs-card" data-stage="growth" data-industry="consulting"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674ef79f7e55822fec2d7444.png" alt="Tejas Parikh" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Tejas Parikh</div><span class="cs-stage-pill growth">Growth</span></div>
+      <div class="cs-card" data-stage="scale" data-industry="consulting"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f03369264c909cbec8e5a.png" alt="Michael Prothman" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Michael Prothman</div><span class="cs-stage-pill scale">Scale</span></div>
+      <div class="cs-card" data-stage="large" data-industry="consulting"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f01e34c1c7a4f0d447b16.png" alt="Simon Mueller" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Simon Mueller</div><span class="cs-stage-pill large">Large</span></div>
 
       <!-- SOFTWARE -->
-      <div class="csm-card" data-stage="early" data-industry="software"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6952c28fd2e1fcd23a6502eb.png" alt="Olivier Delrue" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Olivier Delrue</div><span class="cs-stage-pill early">Early</span></div>
-      <div class="csm-card" data-stage="growth" data-industry="software"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f0432cc7dd1a016471f4f.png" alt="Philipp Von Schulthess" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Philipp Von Schulthess</div><span class="cs-stage-pill growth">Growth</span></div>
-      <div class="csm-card" data-stage="scale" data-industry="software"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674eff20fc9c332261ea0030.png" alt="Mark & Luke-Ross Edwards" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Mark &amp; Luke-Ross Edwards</div><span class="cs-stage-pill scale">Scale</span></div>
-      <div class="csm-card" data-stage="large" data-industry="software"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6751ba01405b833374f2e4e1.png" alt="Cedric Le Rouzo" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Cedric Le Rouzo</div><span class="cs-stage-pill large">Large</span></div>
+      <div class="cs-card" data-stage="early" data-industry="software"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6952c28fd2e1fcd23a6502eb.png" alt="Olivier Delrue" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Olivier Delrue</div><span class="cs-stage-pill early">Early</span></div>
+      <div class="cs-card" data-stage="growth" data-industry="software"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f0432cc7dd1a016471f4f.png" alt="Philipp Von Schulthess" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Philipp Von Schulthess</div><span class="cs-stage-pill growth">Growth</span></div>
+      <div class="cs-card" data-stage="scale" data-industry="software"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674eff20fc9c332261ea0030.png" alt="Mark & Luke-Ross Edwards" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Mark &amp; Luke-Ross Edwards</div><span class="cs-stage-pill scale">Scale</span></div>
+      <div class="cs-card" data-stage="large" data-industry="software"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6751ba01405b833374f2e4e1.png" alt="Cedric Le Rouzo" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Cedric Le Rouzo</div><span class="cs-stage-pill large">Large</span></div>
 
       <!-- COACHING & TRAINING -->
-      <div class="csm-card" data-stage="early" data-industry="coaching"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f012c7e5582c05e2d7897.png" alt="Darrin Glesser" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Darrin Glesser</div><span class="cs-stage-pill early">Early</span></div>
-      <div class="csm-card" data-stage="growth" data-industry="coaching"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f027750c85455316472b9.png" alt="Karl Lashkari" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Karl Lashkari</div><span class="cs-stage-pill growth">Growth</span></div>
-      <div class="csm-card" data-stage="scale" data-industry="coaching"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/67614bfc63c0feb81ed495dd.png" alt="Brooks Golden" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Brooks Golden</div><span class="cs-stage-pill scale">Scale</span></div>
-      <div class="csm-card" data-stage="large" data-industry="coaching"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6859bc2fd6043d118c0172f0.png" alt="Alex Gesell" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Alex Gesell</div><span class="cs-stage-pill large">Large</span></div>
+      <div class="cs-card" data-stage="early" data-industry="coaching"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f012c7e5582c05e2d7897.png" alt="Darrin Glesser" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Darrin Glesser</div><span class="cs-stage-pill early">Early</span></div>
+      <div class="cs-card" data-stage="growth" data-industry="coaching"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f027750c85455316472b9.png" alt="Karl Lashkari" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Karl Lashkari</div><span class="cs-stage-pill growth">Growth</span></div>
+      <div class="cs-card" data-stage="scale" data-industry="coaching"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/67614bfc63c0feb81ed495dd.png" alt="Brooks Golden" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Brooks Golden</div><span class="cs-stage-pill scale">Scale</span></div>
+      <div class="cs-card" data-stage="large" data-industry="coaching"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6859bc2fd6043d118c0172f0.png" alt="Alex Gesell" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Alex Gesell</div><span class="cs-stage-pill large">Large</span></div>
 
       <!-- AGENCIES -->
-      <div class="csm-card" data-stage="early" data-industry="agencies"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/68ea9fdc59ec0a7ed430b470.png" alt="Nick Uresin" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Nick Uresin</div><span class="cs-stage-pill early">Early</span></div>
-      <div class="csm-card" data-stage="growth" data-industry="agencies"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f05b563f24e4af2f7deae.png" alt="Chehadeh Abou Hala" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Chehadeh Abou Hala</div><span class="cs-stage-pill growth">Growth</span></div>
-      <div class="csm-card" data-stage="scale" data-industry="agencies"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6752e29629695a2bf06ce629.png" alt="Shamayah Sarrucco" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Shamayah Sarrucco</div><span class="cs-stage-pill scale">Scale</span></div>
-      <div class="csm-card" data-stage="large" data-industry="agencies"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f050e4c1c7a3229447c2b.png" alt="Felix Petzel" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Felix Petzel</div><span class="cs-stage-pill large">Large</span></div>
+      <div class="cs-card" data-stage="early" data-industry="agencies"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/68ea9fdc59ec0a7ed430b470.png" alt="Nick Uresin" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Nick Uresin</div><span class="cs-stage-pill early">Early</span></div>
+      <div class="cs-card" data-stage="growth" data-industry="agencies"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f05b563f24e4af2f7deae.png" alt="Chehadeh Abou Hala" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Chehadeh Abou Hala</div><span class="cs-stage-pill growth">Growth</span></div>
+      <div class="cs-card" data-stage="scale" data-industry="agencies"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6752e29629695a2bf06ce629.png" alt="Shamayah Sarrucco" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Shamayah Sarrucco</div><span class="cs-stage-pill scale">Scale</span></div>
+      <div class="cs-card" data-stage="large" data-industry="agencies"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f050e4c1c7a3229447c2b.png" alt="Felix Petzel" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Felix Petzel</div><span class="cs-stage-pill large">Large</span></div>
 
       <!-- OTHER B2B (Financial, Investors, etc.) -->
-      <div class="csm-card" data-stage="early" data-industry="other"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674ef862cc7dd1ddfb4718dd.png" alt="Bora Ger" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Bora Ger</div><span class="cs-stage-pill early">Early</span></div>
-      <div class="csm-card" data-stage="early" data-industry="other"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6859a09d937ff4092b29c994.png" alt="Jason Rotman" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Jason Rotman</div><span class="cs-stage-pill early">Early</span></div>
-      <div class="csm-card" data-stage="growth" data-industry="other"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/68599a61ba48d3780e9be369.png" alt="Lynn Rousseau" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Lynn Rousseau</div><span class="cs-stage-pill growth">Growth</span></div>
-      <div class="csm-card" data-stage="growth" data-industry="other"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674ef62763f24e438cf7d49e.png" alt="Greg Smart" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Greg Smart</div><span class="cs-stage-pill growth">Growth</span></div>
-      <div class="csm-card" data-stage="scale" data-industry="other"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6859969791351a4efb4588d4.png" alt="Jan Young" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Jan Young</div><span class="cs-stage-pill scale">Scale</span></div>
-      <div class="csm-card" data-stage="scale" data-industry="other"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6859a5f124572ea3e10af505.png" alt="Daniel White" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Daniel White</div><span class="cs-stage-pill scale">Scale</span></div>
-      <div class="csm-card" data-stage="large" data-industry="other"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/68ec2610dba3a00c0db33b55.png" alt="Cymron Bancil" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Cymron Bancil</div><span class="cs-stage-pill large">Large</span></div>
-      <div class="csm-card" data-stage="large" data-industry="other"><img class="csm-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f001250c85458fd647223.png" alt="Divij Rakhra" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="csm-card-name">Divij Rakhra</div><span class="cs-stage-pill large">Large</span></div>
+      <div class="cs-card" data-stage="early" data-industry="other"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674ef862cc7dd1ddfb4718dd.png" alt="Bora Ger" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Bora Ger</div><span class="cs-stage-pill early">Early</span></div>
+      <div class="cs-card" data-stage="early" data-industry="other"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6859a09d937ff4092b29c994.png" alt="Jason Rotman" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Jason Rotman</div><span class="cs-stage-pill early">Early</span></div>
+      <div class="cs-card" data-stage="growth" data-industry="other"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/68599a61ba48d3780e9be369.png" alt="Lynn Rousseau" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Lynn Rousseau</div><span class="cs-stage-pill growth">Growth</span></div>
+      <div class="cs-card" data-stage="growth" data-industry="other"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674ef62763f24e438cf7d49e.png" alt="Greg Smart" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Greg Smart</div><span class="cs-stage-pill growth">Growth</span></div>
+      <div class="cs-card" data-stage="scale" data-industry="other"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6859969791351a4efb4588d4.png" alt="Jan Young" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Jan Young</div><span class="cs-stage-pill scale">Scale</span></div>
+      <div class="cs-card" data-stage="scale" data-industry="other"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/6859a5f124572ea3e10af505.png" alt="Daniel White" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Daniel White</div><span class="cs-stage-pill scale">Scale</span></div>
+      <div class="cs-card" data-stage="large" data-industry="other"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/68ec2610dba3a00c0db33b55.png" alt="Cymron Bancil" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Cymron Bancil</div><span class="cs-stage-pill large">Large</span></div>
+      <div class="cs-card" data-stage="large" data-industry="other"><img class="cs-card-photo" src="https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f001250c85458fd647223.png" alt="Divij Rakhra" onerror="this.style.background='rgba(52,180,51,0.15)'"><div class="cs-card-name">Divij Rakhra</div><span class="cs-stage-pill large">Large</span></div>
     </div>
 
   </div>
 </div>
 
 <!-- ── Case Study Modal ── -->
-<div class="csm-modal-overlay" id="csm-modal-overlay" onclick="if(event.target===this)csModalClose()">
-  <div class="csm-modal">
-    <button class="csm-modal-close" onclick="csModalClose()">✕</button>
-    <div class="csm-modal-header">
-      <img class="csm-modal-photo" id="csm-modal-photo" src="" alt="">
+<div class="cs-modal-overlay" id="cs-modal-overlay" onclick="if(event.target===this)csModalClose()">
+  <div class="cs-modal">
+    <button class="cs-modal-close" onclick="csModalClose()">✕</button>
+    <div class="cs-modal-header">
+      <img class="cs-modal-photo" id="cs-modal-photo" src="" alt="">
       <div>
-        <div class="csm-modal-name" id="csm-modal-name"></div>
-        <div class="csm-modal-company" id="csm-modal-company"></div>
-        <div class="csm-modal-pills" id="csm-modal-pills"></div>
+        <div class="cs-modal-name" id="cs-modal-name"></div>
+        <div class="cs-modal-company" id="cs-modal-company"></div>
+        <div class="cs-modal-pills" id="cs-modal-pills"></div>
       </div>
     </div>
-    <div class="csm-modal-stats" id="csm-modal-stats" style="display:none">
-      <div class="csm-modal-stat">
-        <div class="csm-modal-stat-label">Before</div>
-        <div class="csm-modal-stat-value" id="csm-modal-before"></div>
+    <div class="cs-modal-stats" id="cs-modal-stats" style="display:none">
+      <div class="cs-modal-stat">
+        <div class="cs-modal-stat-label">Before</div>
+        <div class="cs-modal-stat-value" id="cs-modal-before"></div>
       </div>
-      <div class="csm-modal-stat">
-        <div class="csm-modal-stat-label">After</div>
-        <div class="csm-modal-stat-value" id="csm-modal-after"></div>
+      <div class="cs-modal-stat">
+        <div class="cs-modal-stat-label">After</div>
+        <div class="cs-modal-stat-value" id="cs-modal-after"></div>
       </div>
     </div>
-    <div class="csm-modal-metric" id="csm-modal-metric" style="display:none"></div>
-    <div class="csm-modal-result" id="csm-modal-result"></div>
-    <div class="csm-modal-quote" id="csm-modal-quote" style="display:none"></div>
-    <div class="csm-modal-cta">Ask your rep about their full case study on Call 2.</div>
+    <div class="cs-modal-metric" id="cs-modal-metric" style="display:none"></div>
+    <div class="cs-modal-result" id="cs-modal-result"></div>
+    <div class="cs-modal-quote" id="cs-modal-quote" style="display:none"></div>
+    <div class="cs-modal-cta">Ask your rep about their full case study on Call 2.</div>
   </div>
 </div>
 
@@ -2808,7 +2808,7 @@ function csFilter(type, value) {
   else _csIndustry = value;
   document.querySelectorAll('.cs-filter').forEach(b => b.classList.toggle('active', b.dataset.v === _csStage));
   document.querySelectorAll('.cs-industry-btn').forEach(b => b.classList.toggle('active', b.dataset.v === _csIndustry));
-  document.querySelectorAll('.csm-card').forEach(card => {
+  document.querySelectorAll('.cs-card').forEach(card => {
     const stageOk    = _csStage    === 'all' || card.dataset.stage    === _csStage;
     const industryOk = _csIndustry === 'all' || card.dataset.industry === _csIndustry;
     card.style.display = (stageOk && industryOk) ? '' : 'none';
@@ -2878,52 +2878,52 @@ const CS_CLIENTS = {
 };
 
 function csModalOpen(card) {
-  const name     = card.querySelector('.csm-card-name').textContent;
-  const photo    = card.querySelector('.csm-card-photo').src;
+  const name     = card.querySelector('.cs-card-name').textContent;
+  const photo    = card.querySelector('.cs-card-photo').src;
   const stage    = card.dataset.stage;
   const industry = card.dataset.industry;
   const client   = CS_CLIENTS[name] || null;
 
-  document.getElementById('csm-modal-photo').src = photo;
-  document.getElementById('csm-modal-name').textContent = name;
+  document.getElementById('cs-modal-photo').src = photo;
+  document.getElementById('cs-modal-name').textContent = name;
 
-  const companyEl = document.getElementById('csm-modal-company');
+  const companyEl = document.getElementById('cs-modal-company');
   companyEl.textContent = client?.company || '';
   companyEl.style.display = client?.company ? '' : 'none';
 
-  const pills = document.getElementById('csm-modal-pills');
+  const pills = document.getElementById('cs-modal-pills');
   pills.innerHTML = `
     <span class="cs-stage-pill ${stage}" style="margin-top:6px">${CS_STAGE_LABELS[stage]}</span>
     <span style="font-size:11px;color:#52525b;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:6px;padding:4px 10px;margin-top:6px;">${CS_INDUSTRY_LABELS[industry]}</span>
   `;
 
-  const statsEl = document.getElementById('csm-modal-stats');
+  const statsEl = document.getElementById('cs-modal-stats');
   if (client?.before && client?.after) {
-    document.getElementById('csm-modal-before').textContent = client.before;
-    document.getElementById('csm-modal-after').textContent = client.after;
+    document.getElementById('cs-modal-before').textContent = client.before;
+    document.getElementById('cs-modal-after').textContent = client.after;
     statsEl.style.display = 'flex';
   } else { statsEl.style.display = 'none'; }
 
-  const metricEl = document.getElementById('csm-modal-metric');
+  const metricEl = document.getElementById('cs-modal-metric');
   if (client?.metric) { metricEl.textContent = client.metric; metricEl.style.display = 'inline-block'; }
   else { metricEl.style.display = 'none'; }
 
-  document.getElementById('csm-modal-result').textContent = client?.result || CS_RESULTS[stage]?.[industry] || CS_RESULTS[stage]?.other || '';
+  document.getElementById('cs-modal-result').textContent = client?.result || CS_RESULTS[stage]?.[industry] || CS_RESULTS[stage]?.other || '';
 
-  const quoteEl = document.getElementById('csm-modal-quote');
+  const quoteEl = document.getElementById('cs-modal-quote');
   if (client?.quote) { quoteEl.textContent = client.quote; quoteEl.style.display = ''; }
   else { quoteEl.style.display = 'none'; }
 
-  document.getElementById('csm-modal-overlay').classList.add('open');
+  document.getElementById('cs-modal-overlay').classList.add('open');
 }
 
 function csModalClose() {
-  document.getElementById('csm-modal-overlay').classList.remove('open');
+  document.getElementById('cs-modal-overlay').classList.remove('open');
 }
 
-// Wire up click handlers on all csm-cards (document delegation — works in all browsers)
+// Wire up click handlers on all cs-cards (document delegation — works in all browsers)
 document.addEventListener('click', function(e) {
-  var card = e.target.closest && e.target.closest('.csm-card');
+  var card = e.target.closest && e.target.closest('.cs-card');
   if (card) csModalOpen(card);
 });
 
