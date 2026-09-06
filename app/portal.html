@@ -853,8 +853,17 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
 .civ-mv .civ-pct{font-size:12px;font-weight:500;color:#188038;margin-left:5px;}
 .civ-copyhead{padding:18px 22px 8px;font-size:10.5px;font-weight:700;letter-spacing:0.08em;
   text-transform:uppercase;color:#80868b;}
-.civ-copy{padding:0 22px 20px;font-size:13px;line-height:1.62;color:#3c4043;
-  white-space:pre-wrap;max-height:340px;overflow-y:auto;}
+.civ-copy{padding:0 22px 20px;font-size:13px;line-height:1.6;color:#3c4043;
+  max-height:340px;overflow-y:auto;}
+.civ-copy p{margin:0 0 11px;}
+.civ-copy p:last-child{margin-bottom:0;}
+.civ-copy h4{margin:20px 0 8px;font-size:10.5px;font-weight:700;letter-spacing:0.08em;
+  text-transform:uppercase;color:#1967d2;}
+.civ-copy h4:first-child{margin-top:0;}
+.civ-copy ul{margin:0 0 12px;padding:0;list-style:none;}
+.civ-copy li{position:relative;padding-left:16px;margin:0 0 5px;}
+.civ-copy li::before{content:'';position:absolute;left:3px;top:8px;width:4px;height:4px;
+  border-radius:50%;background:#9aa0a6;}
 .civ-foot{padding:11px 22px 14px;border-top:1px solid #e8eaed;background:#fafafa;
   font-size:11px;color:#80868b;line-height:1.5;}
 @media(max-width:700px){.civ-funnel{grid-template-columns:repeat(2,1fr);}}
@@ -6825,6 +6834,29 @@ function rerunApolloSearch() {
 /* V2 — real client invite examples. Fixture-backed; in production this is
    GET /api/jobs/:id/invite-examples, reading the Airtable/Supabase Clients
    rows whose "Use on tabs" includes "Calendar Invite". */
+
+/* The stored copy is clean, structured plain text — headings in caps, bullets
+   on their own lines, one blank line between paragraphs. Dumping it into a
+   pre-wrap div threw all of that away and turned the blank lines into gaping
+   holes. Rebuild the structure instead: caps lines become headings, bullet
+   lines group into lists, blank lines become paragraph margins. */
+function fmtInviteCopy(raw){
+  const esc = t => String(t||'').replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+  const isHeading = l =>
+    l.length < 60 && /[A-Z]/.test(l) && l === l.toUpperCase() && !/[.?!]$/.test(l);
+  const isBullet = l => /^[•·▪–-]\s+/.test(l) || /^[✅✔❯→]/.test(l);
+  const out = []; let list = [];
+  const flush = () => { if (list.length){ out.push('<ul>' + list.join('') + '</ul>'); list = []; } };
+  String(raw||'').split('\n').forEach(line => {
+    const l = line.trim();
+    if (!l) { flush(); return; }
+    if (isBullet(l)) { list.push('<li>' + esc(l.replace(/^[•·▪–-]\s+/,'')) + '</li>'); return; }
+    flush();
+    out.push(isHeading(l) ? '<h4>' + esc(l) + '</h4>' : '<p>' + esc(l) + '</p>');
+  });
+  flush();
+  return out.join('');
+}
 let __civ = null;
 async function loadInviteExamples(){
   if (__civ) return __civ;
@@ -6877,7 +6909,7 @@ function showInvite(i){
         f.booked_calls!=null ? `<div class="civ-metric"><div class="civ-mv">${n(f.booked_calls)}</div><div class="civ-ml">calls booked</div></div>` : ''
       ].filter(Boolean).join('')}</div>
       <div class="civ-copyhead">The invite copy they used</div>
-      <div class="civ-copy">${esc(ex.event_description)}</div>
+      <div class="civ-copy">${fmtInviteCopy(ex.event_description)}</div>
       <div class="civ-foot">Verbatim from ${esc(ex.company)}'s own invite. Percentages are of the previous step.</div>
     </div>`;
   panel.classList.add('on'); if (row) row.style.display = 'none';
