@@ -1,125 +1,141 @@
 {
   "_readme": "The 9-slide webinar storyline Alex describes at 46:59-48:09 in the 2026-09-04 sales training. He was pointing at a list on his screen ('it's like 1,2,3,4,5,6,7,8,9') and narrated each step aloud. These are the STEPS - the job each slide does - not the headlines. Headlines are written per prospect from the brief.",
   "_lineage": "Fireflies transcript -> the brief (extracted_data) -> these slides. Every slide declares the brief field it reads from in 'source'. Where source is null the brief has no field for it yet and the copy here is INFERRED - Geri's transcript-to-brief step needs to start emitting those four.",
-  "_style": "Sparse. Alex: 'probably you give them one sentence to it', 'just one sentence, like really'. The whole storyline is 'two, three minutes' across nine slides - about fifteen seconds each. A headline and one line. Never a paragraph.",
+  "_style": "Sparse and instantly legible. Alex: 'just one sentence, like really'. Nine slides in 'two, three minutes' is roughly fifteen seconds each. Each slide is a headline, a sub-line that completes the thought, and at most one supporting line. A COO reading it at a glance must know what the slide is claiming before they finish it.",
   "_case_study_warning": "Slide 6 is the PROSPECT'S case study - one of THEIR clients, shown to THEIR audience. It is NOT a Quantum Scaling client. The QS case-study library (Airtable) is used on the Lead List and Calendar Invite, where we are proving OUR results to the prospect. Different direction. Do not wire Airtable into this slide.",
   "job_id": "00000000-0000-4000-8000-000000000001",
   "slides": [
     {
       "n": 1,
-      "step": "Bold claim",
+      "step": "The bold claim",
+      "purpose": "State the one thing they haven't considered.",
       "source": "extracted_data.webinar_angle",
-      "headline": "Your margin isn't leaking in the machines. It's leaking in the handoffs.",
-      "line": "A 90-minute working session for industrial operators carrying cost they can't see.",
-      "inferred": false
+      "inferred": false,
+      "headline": "Your margin isn't leaking in the machines.",
+      "sub": "It's leaking in the handoffs between them.",
+      "line": "90 minutes for operations leaders carrying cost they can't see on any report."
     },
     {
       "n": 2,
       "step": "Who this is for",
+      "purpose": "Let them self-identify in one read.",
       "source": "extracted_data.icp",
-      "headline": "Built for one room, not a general audience.",
-      "line": "COOs and VP Operations at 50-500 person industrial and manufacturing firms across North America and Western Europe.",
-      "inferred": false
+      "inferred": false,
+      "headline": "You run operations at a plant of 50 to 500 people.",
+      "sub": "Cost per unit is creeping up and nobody can tell you exactly why.",
+      "line": "Industrial and manufacturing firms across North America and Western Europe."
     },
     {
       "n": 3,
-      "step": "The problem, made big",
-      "source": "extracted_data.customer_pain",
-      "headline": "Referrals stopped scaling, and nothing replaced them.",
-      "line": "Growth is entirely referral-driven and has flattened - with no repeatable way to reach new operators.",
-      "inferred": false
+      "step": "The problem",
+      "purpose": "Name the thing they live with daily.",
+      "source": "extracted_data.webinar_angle",
+      "inferred": true,
+      "headline": "Every handoff costs you time nobody measures.",
+      "sub": "Shift to shift. Cell to cell. Production to quality.",
+      "line": "Your machines run at spec. The gaps between them are where the hours go — and no line on your P&L is called “handoff”.",
+      "inferred_from": "Derived from extracted_data.webinar_angle ('why industrial firms lose margin in the handoffs, not the machines'), stated from the COO's seat. NOT from extracted_data.customer_pain — that field holds the PROSPECT'S lead-generation problem, which a COO is not watching this webinar to hear about."
     },
     {
       "n": 4,
-      "step": "The cost of not changing",
+      "step": "The cost of waiting",
+      "purpose": "Make a year of inaction concrete, in their money.",
       "source": null,
-      "headline": "On your own most conservative numbers, this is what a year of waiting costs.",
-      "line": "Three retainers a month not won, at a $32,000 deal size, is $1.1M of contracted revenue that never enters the pipeline. Deliberately the low estimate — the real figure is larger.",
       "inferred": true,
-      "inferred_from": "Alex 47:15 'you make the problem big and demonstrate the impact of not changing — just one sentence'. The NUMBER follows his conservative-inputs rule at 48:41: 'you always calculate with the lowest possible inputs you can find… I even downgraded by another 5%. I really want to go as low as somehow possible.' Stating the loss at the low end is what makes it unarguable. Math: extracted_data.goals (3 retainers/mo) x business.deal_size ($32,000).",
-      "source_transcript": "TRANSCRIPT-sales-training-2026-09-04.txt"
+      "headline": "A quarter of your changeover time is waste.",
+      "sub": "On a $40M cost base, that is real EBITDA walking out every year.",
+      "line": "We use the low end of what we've measured elsewhere, not the best case. The number on your floor is almost certainly bigger.",
+      "inferred_from": "Alex 47:15 — 'make the problem big and demonstrate the impact of not changing, just one sentence'. Sized from the ICP's own cost base, and stated conservatively per Alex 48:41 ('always calculate with the lowest possible inputs… I really want to go as low as somehow possible'). The brief has no ICP-side cost-of-inaction field."
     },
     {
       "n": 5,
-      "step": "The dream state",
-      "source": "extracted_data.goals + extracted_data.result_delivered",
-      "headline": "Three new retainers a month. No new delivery hires.",
-      "line": "Operating cost per unit down 18-30% within two quarters.",
-      "inferred": false
+      "step": "What good looks like",
+      "purpose": "Show the destination in their units.",
+      "source": "extracted_data.result_delivered",
+      "inferred": false,
+      "headline": "Cost per unit down 18 to 30%.",
+      "sub": "Within two quarters.",
+      "line": "Same machines. Same people. No capital spend."
     },
     {
       "n": 6,
-      "step": "Case study - before and after",
+      "step": "Proof",
+      "purpose": "One plant that already did it.",
       "source": "extracted_data.case_study",
-      "headline": "A 200-person plastics manufacturer in Ohio.",
-      "line": "Changeover time cut 40%. $1.1M annualised saving.",
-      "before": "Changeover eating a full shift; margin invisible below the line item.",
-      "after": "40% faster changeover, $1.1M a year back.",
       "inferred": false,
-      "note": "The PROSPECT'S client, not ours. Dummy data in the prototype - in production this comes from the prospect's own case study in the brief."
+      "headline": "A 200-person plastics manufacturer in Ohio.",
+      "sub": "Changeover time cut 40%. $1.1M back a year.",
+      "line": "",
+      "before": "Changeover ate a full shift. The cost sat invisible inside overhead.",
+      "after": "40% faster changeover. $1.1M annualised, straight to the bottom line.",
+      "note": "The PROSPECT'S client, not a Quantum Scaling client. Never wire the QS Airtable library into this slide."
     },
     {
       "n": 7,
-      "step": "The journey to results",
+      "step": "How it goes",
+      "purpose": "Remove the fear of a long, vague engagement.",
       "source": null,
-      "headline": "Start from the three clients a month. Work backwards.",
-      "line": "We don't start from what we can send. We start from the result you want, then reverse-engineer the invite volume that gets you there — calibrated to what your delivery team can actually absorb.",
       "inferred": true,
-      "inferred_from": "Alex 51:39-51:57 verbatim: 'I always say we invite 1.2 million… but your results, what you actually want to achieve is three clients per month. Now let's back engineer that. That's a reverse engineer process.' Plus Ryan 52:23: 'we're going to calibrate this to what you can actually handle, your capacity.' This slide is a REVERSE-ENGINEER, not a calendar timeline — the earlier draft had that wrong.",
-      "source_transcript": "TRANSCRIPT-sales-training-2026-09-04.txt"
+      "headline": "You'll know inside 90 days whether it's working.",
+      "sub": "Weeks 1–2 we measure. Weeks 3–8 we change one line. Then you decide.",
+      "line": "No plant-wide rollout on day one. We prove it on a single cell first, on your numbers.",
+      "inferred_from": "Written from the ICP's seat — a COO's journey through the engagement. The earlier draft used Alex's reverse-engineer of invite volume (51:39), which is how QS sells to the PROSPECT, not how the prospect delivers to a COO. Wrong audience. The brief has no ICP-side timeline field."
     },
     {
       "n": 8,
-      "step": "Risk removed",
+      "step": "What could go wrong",
+      "purpose": "Say their objections out loud before they do.",
       "source": null,
-      "headline": "Four risks, moved off your side of the table.",
-      "line": "Not a guarantee. Structure.",
+      "inferred": true,
+      "headline": "You've been burned by consultants before.",
+      "sub": "Here's what's different, structurally.",
+      "line": "",
       "risks": [
         {
-          "risk": "Investment risk",
-          "answer": "Modelled on your lowest numbers, not your best month. If it only works at the optimistic end, we say so."
+          "risk": "“Another binder nobody opens”",
+          "answer": "We change one line and leave it running. You keep the method, not a slide deck."
         },
         {
-          "risk": "Failure risk",
-          "answer": "Diagnosis before build. We size the market first — if it isn't there, you don't proceed."
+          "risk": "“It'll disrupt production”",
+          "answer": "One cell, off your critical path, until the numbers hold."
         },
         {
-          "risk": "Communication gap risk",
-          "answer": "One operator owns your account end to end. No handoff to a delivery team you've never met."
+          "risk": "“My team has no spare hours”",
+          "answer": "We measure. Your supervisors keep running the floor."
         },
         {
-          "risk": "Time investment risk",
-          "answer": "Your team stays on delivery. Roughly an hour a week from you, once it's running."
+          "risk": "“The savings won't be real”",
+          "answer": "Measured against your baseline, in your finance team's numbers, not ours."
         }
       ],
-      "inferred": true,
-      "inferred_from": "Alex names the four risks verbatim at 47:54: 'the investment risk, the failure risk, the communication gap risk, the time investment risk'. The ANSWERS are inferred, and deliberately structural rather than guarantee-based, because Alex at 35:11: 'you only use guarantees if you really need it.'",
-      "source_transcript": "TRANSCRIPT-sales-training-2026-09-04.txt"
+      "inferred_from": "Alex names four risk categories at 47:54 (investment, failure, communication gap, time). Those are the CATEGORIES; the wording here is what each one sounds like in a COO's head, because that is who is watching. Answers are structural rather than guarantee-based, per Alex 35:11: 'you only use guarantees if you really need it.'"
     },
     {
       "n": 9,
-      "step": "The offer, and three ways in",
+      "step": "Where to start",
+      "purpose": "Three ways in, each worth taking on its own.",
       "source": "extracted_data.business.positioning",
-      "headline": "Three ways in. Each one leaves you with something.",
-      "line": "Whether or not you go further.",
+      "inferred": true,
+      "headline": "Three ways to start.",
+      "sub": "Each one leaves you with something, whether or not we work together.",
+      "line": "",
       "ctas": [
         {
-          "cta": "A deep analysis of your situation",
-          "detail": "We size your addressable market and show you the arithmetic. You keep it."
+          "cta": "A teardown of one changeover",
+          "detail": "We time it, cost it, show you where the hours sit. You keep the analysis."
         },
         {
-          "cta": "A custom demo",
-          "detail": "The system running on your numbers and your market, not a generic walkthrough."
+          "cta": "See it running on your numbers",
+          "detail": "Your volumes and your cost base, not a generic model."
         },
         {
-          "cta": "[ third CTA not specified in the call ]",
-          "detail": "Alex named two of the three. This slot needs his input."
+          "cta": "[ third option — needs Alex ]",
+          "detail": "Alex named two of the three CTAs on the call. Left blank rather than invented."
         }
       ],
-      "inferred": true,
-      "inferred_from": "Alex 47:59: 'you go into your solution offering and you give three key CTAs that are high value with a deep analysis of their situation and create a custom demo.' Only TWO of the three are named in the transcript. The third is left explicitly blank rather than invented — Alex has to fill it.",
-      "source_transcript": "TRANSCRIPT-sales-training-2026-09-04.txt"
+      "inferred_from": "Alex 47:59 — 'three key CTAs that are high value with a deep analysis of their situation and create a custom demo'. Only TWO are named on the tape; the third stays blank."
     }
   ],
-  "_inferred_note": "Slides 4, 7, 8 and 9 have no brief field yet. Their copy is inferred from the 2026-09-04 sales-training transcript, where Alex teaches his method for each. Every one records its derivation and timestamp in 'inferred_from' so it can be checked against the tape. Slide 9's third CTA is left BLANK on purpose: Alex named only two."
+  "_inferred_note": "Slides 4, 7, 8 and 9 have no brief field yet. Their copy is inferred from the 2026-09-04 sales-training transcript, where Alex teaches his method for each. Every one records its derivation and timestamp in 'inferred_from' so it can be checked against the tape. Slide 9's third CTA is left BLANK on purpose: Alex named only two.",
+  "_audience": "WHOSE SEAT THIS IS WRITTEN FROM — read before editing a single line. Three audiences stack in DealForge and it is easy to write for the wrong one. (1) Quantum Scaling builds the tool. (2) The PROSPECT is the firm buying QS's system — here, Arcline Operations Group, a consulting firm. (3) The prospect's ICP is who actually WATCHES these slides — here, a COO or VP Operations at a 50-500 person industrial manufacturer. EVERY WORD ON THESE SLIDES IS ADDRESSED TO (3). A line about Arcline's retainers, deal size, close rate or lead flow is meaningless to a COO and instantly signals the deck was not built for them. CAUTION: the brief mixes the two. webinar_angle, result_delivered, case_study and positioning describe the ICP's world and are safe to use. customer_pain, goals, deal_size, close_rate and sales_cycle describe the PROSPECT'S OWN business and must never appear on a slide."
 }
