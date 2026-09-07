@@ -7227,5 +7227,26 @@ function pvHardRefresh(){
   window.location.replace(base + 'app/portal.html?v=' + Date.now());
 }
 </script>
+
+<script>
+/* PROTOTYPE ONLY — self-updating build check.
+   GitHub Pages caches HTML and we cannot set headers on it, so a normal reload
+   keeps serving the copy the browser already has. The page therefore asks the
+   server (cache-busted) what the current build is; if it differs from the one
+   baked into this file, it reloads itself once with a fresh query string.
+   The one-shot guard stops any chance of a reload loop. */
+(function(){
+  try{
+    var base = window.__PROTO_BASE || '/';
+    if (sessionStorage.getItem('pvReloaded') === '1') { sessionStorage.removeItem('pvReloaded'); return; }
+    fetch(base + 'version.json?cb=' + Date.now()).then(function(r){ return r.json(); }).then(function(v){
+      if (v && v.build && window.__BUILD_ID && v.build !== window.__BUILD_ID) {
+        sessionStorage.setItem('pvReloaded','1');
+        location.replace(base + 'app/portal.html?v=' + v.build);
+      }
+    }).catch(function(){});
+  }catch(e){}
+})();
+</script>
 </body>
 </html>
