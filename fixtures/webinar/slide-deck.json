@@ -112,28 +112,16 @@
     },
     {
       "n": 9,
-      "step": "Where to start",
-      "purpose": "Three ways in, each worth taking on its own.",
+      "step": "The close",
+      "purpose": "One ask. Nothing to weigh up.",
       "source": "extracted_data.business.positioning",
       "inferred": true,
-      "headline": "Three ways to start.",
-      "sub": "Each one leaves you with something, whether or not we work together.",
-      "line": "",
-      "ctas": [
-        {
-          "cta": "A teardown of one changeover",
-          "detail": "We time it, cost it, show you where the hours sit. You keep the analysis."
-        },
-        {
-          "cta": "See it running on your numbers",
-          "detail": "Your volumes and your cost base, not a generic model."
-        },
-        {
-          "cta": "[ third option — needs Alex ]",
-          "detail": "Alex named two of the three CTAs on the call. Left blank rather than invented."
-        }
-      ],
-      "inferred_from": "Alex 47:59 — 'three key CTAs that are high value with a deep analysis of their situation and create a custom demo'. Only TWO are named on the tape; the third stays blank."
+      "headline": "You could do this yourself.",
+      "sub": "Most operations teams can't spare the six months it takes to find where the hours go.",
+      "line": "We've already done it. Your supervisors keep running the floor — we bring the method and the measurement.",
+      "inferred_from": "Lloyd's direction 2026-09-07: make the final slide a single clean call to action — 'doing this yourself is going to be very difficult, we can do it for you.' NOTE this is a deliberate divergence from Alex 47:59, who asked for 'three key CTAs'. Lloyd's call: one ask on the closing slide beats three, because three is a decision and one is a next step. If Alex wants the three back, the earlier version is in git history at d7c04fc.",
+      "cta": "Book a changeover teardown",
+      "cta_note": "30 minutes. You keep the analysis either way."
     }
   ],
   "_inferred_note": "Slides 4, 7, 8 and 9 have no brief field yet. Their copy is inferred from the 2026-09-04 sales-training transcript, where Alex teaches his method for each. Every one records its derivation and timestamp in 'inferred_from' so it can be checked against the tape. Slide 9's third CTA is left BLANK on purpose: Alex named only two.",
