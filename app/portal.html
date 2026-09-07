@@ -868,6 +868,40 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
   font-size:11px;color:#80868b;line-height:1.5;}
 @media(max-width:700px){.civ-funnel{grid-template-columns:repeat(2,1fr);}}
 
+
+/* ── V2: the 9-slide webinar storyline (Alex, 46:59-48:09) ─────────────── */
+.wsd-slide{display:none;flex:1;flex-direction:column;justify-content:center;
+  padding:52px 60px;background:#0d0d10;border-radius:14px;min-height:380px;position:relative;overflow:hidden;}
+.wsd-slide.on{display:flex;}
+.wsd-slide::before{content:'';position:absolute;top:-90px;left:-90px;width:380px;height:380px;
+  background:radial-gradient(circle,var(--prospect-primary-alpha,rgba(52,211,153,.13)) 0%,transparent 70%);pointer-events:none;}
+.wsd-step{position:relative;font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--prospect-primary,#34d399);margin-bottom:20px;}
+.wsd-h{position:relative;font-size:30px;font-weight:600;line-height:1.2;letter-spacing:-.02em;color:#fafafa;margin:0 0 18px;max-width:19ch;}
+.wsd-l{position:relative;font-size:15px;line-height:1.6;color:#a1a1aa;max-width:52ch;margin:0;}
+/* the few slides that carry a small structured payload */
+.wsd-cols{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:26px;max-width:640px;}
+.wsd-col{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:14px 16px;}
+.wsd-ct{font-size:12px;font-weight:600;color:#e4e4e7;margin-bottom:5px;}
+.wsd-cd{font-size:12.5px;color:#8b8b93;line-height:1.5;}
+.wsd-ba{position:relative;display:grid;grid-template-columns:1fr auto 1fr;gap:18px;align-items:center;margin-top:26px;max-width:660px;}
+.wsd-bacell{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:15px 17px;}
+.wsd-balab{font-size:9.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#5f5f68;margin-bottom:6px;}
+.wsd-batext{font-size:13px;color:#d4d4d8;line-height:1.5;}
+.wsd-arrow{color:#3f3f46;font-size:20px;}
+/* rail */
+.wsd-rail{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin:16px 0 0;padding:12px 14px;
+  background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);border-radius:10px;}
+.wsd-dot{display:inline-flex;align-items:center;gap:7px;padding:5px 11px;border-radius:999px;border:1px solid transparent;
+  background:transparent;color:#71717a;font-size:11.5px;font-family:inherit;cursor:pointer;transition:all 140ms ease;white-space:nowrap;}
+.wsd-dot:hover{background:rgba(255,255,255,.06);color:#d4d4d8;}
+.wsd-dot.on{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.18);color:#fafafa;}
+.wsd-num{width:17px;height:17px;border-radius:50%;background:rgba(255,255,255,.09);display:inline-flex;
+  align-items:center;justify-content:center;font-size:9.5px;font-weight:700;flex:0 0 auto;}
+.wsd-dot.on .wsd-num{background:var(--prospect-primary,#34d399);color:#08120d;}
+.wsd-inf{margin-left:auto;font-size:10.5px;color:#a16207;background:rgba(245,158,11,.1);
+  border:1px solid rgba(245,158,11,.28);border-radius:6px;padding:4px 9px;}
+
 /* PROTOTYPE ONLY — hard refresh, strip before porting */
 .pv-refresh{position:fixed;right:16px;bottom:16px;z-index:9500;display:flex;align-items:center;gap:7px;
   padding:9px 14px;border-radius:999px;border:1px solid rgba(255,255,255,0.14);
@@ -1332,6 +1366,8 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
 
     <div class="webinar-body">
       <div class="slide-area">
+        <!-- V2: slides 2-9 of Alex's storyline. Slide 1 is the hero below (the bold claim). -->
+        <div id="wsd-slides"></div>
         <!-- Slide 1: Hero with real QS brand -->
         <div class="slide active" id="slide-0">
           <div class="slide-1" id="slide-1-el" style="flex:1;display:flex;flex-direction:column;">
@@ -1516,6 +1552,7 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
       <div id="wap-modal-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:10px;"></div>
     </div>
   </div>
+  <div class="wsd-rail" id="wsd-rail"></div>
   </div><!-- /subtab-panel 0 (Live Preview) -->
 
   <!-- ── Sub-tab 1: How We Build It — AI+Expert engine → 5-step timeline ── -->
@@ -6830,6 +6867,60 @@ function rerunApolloSearch() {
   </div>
 </div>
 
+
+<script>
+/* V2 — the 9-slide webinar storyline Alex describes at 46:59-48:09.
+   Fixture-backed; in production this is GET /api/jobs/:id/webinar-deck, built
+   by the same transcript -> brief pipeline that feeds every other tab.
+   Slide 1 is the existing hero (the bold claim); 2-9 render here. */
+let __wsd = null, __wsdIdx = 0;
+async function loadWebinarDeck(){
+  if (__wsd) return __wsd;
+  const base = window.__PROTO_BASE || '/';
+  const r = await fetch(base + 'fixtures/webinar/slide-deck.json?v=' + Date.now());
+  __wsd = await r.json();
+  const esc = t => String(t||'').replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+  document.getElementById('wsd-slides').innerHTML = __wsd.slides.slice(1).map(sl => {
+    let extra = '';
+    if (sl.risks) extra = '<div class="wsd-cols">' + sl.risks.map(r =>
+      `<div class="wsd-col"><div class="wsd-ct">${esc(r.risk)}</div><div class="wsd-cd">${esc(r.answer)}</div></div>`).join('') + '</div>';
+    if (sl.ctas) extra = '<div class="wsd-cols">' + sl.ctas.map(c =>
+      `<div class="wsd-col"><div class="wsd-ct">${esc(c.cta)}</div><div class="wsd-cd">${esc(c.detail)}</div></div>`).join('') + '</div>';
+    if (sl.before) extra = `<div class="wsd-ba">
+        <div class="wsd-bacell"><div class="wsd-balab">Before</div><div class="wsd-batext">${esc(sl.before)}</div></div>
+        <div class="wsd-arrow">&rarr;</div>
+        <div class="wsd-bacell"><div class="wsd-balab">After</div><div class="wsd-batext">${esc(sl.after)}</div></div>
+      </div>`;
+    return `<div class="wsd-slide" data-n="${sl.n}">
+      <div class="wsd-step">${sl.n}. ${esc(sl.step)}</div>
+      <h2 class="wsd-h">${esc(sl.headline)}</h2>
+      <p class="wsd-l">${esc(sl.line)}</p>${extra}</div>`;
+  }).join('');
+  document.getElementById('wsd-rail').innerHTML =
+    __wsd.slides.map(sl => `<button class="wsd-dot${sl.n===1?' on':''}" data-n="${sl.n}" onclick="wsdGo(${sl.n})">
+        <span class="wsd-num">${sl.n}</span>${esc(sl.step)}</button>`).join('')
+    + '<span class="wsd-inf" id="wsd-inf"></span>';
+  wsdGo(1);
+  return __wsd;
+}
+function wsdGo(n){
+  __wsdIdx = n;
+  const hero = document.getElementById('slide-0');
+  if (hero) hero.style.display = (n === 1) ? 'flex' : 'none';
+  document.querySelectorAll('.wsd-slide').forEach(el =>
+    el.classList.toggle('on', Number(el.dataset.n) === n));
+  document.querySelectorAll('.wsd-dot').forEach(el =>
+    el.classList.toggle('on', Number(el.dataset.n) === n));
+  const sl = __wsd && __wsd.slides.find(x => x.n === n);
+  const inf = document.getElementById('wsd-inf');
+  /* Say so on the slide itself when the brief has no field for it and the copy
+     was inferred. A rep should never present an invented line believing it came
+     out of the prospect's own transcript. */
+  if (inf) inf.textContent = (sl && sl.inferred) ? 'inferred — no brief field yet' : '';
+}
+document.addEventListener('DOMContentLoaded', () => { loadWebinarDeck().catch(()=>{}); });
+if (document.readyState !== 'loading') loadWebinarDeck().catch(()=>{});
+</script>
 <script>
 /* V2 — real client invite examples. Fixture-backed; in production this is
    GET /api/jobs/:id/invite-examples, reading the Airtable/Supabase Clients
