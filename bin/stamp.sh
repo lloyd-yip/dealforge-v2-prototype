@@ -9,7 +9,7 @@ printf '{"build":"%s"}\n' "$ID" > version.json
 python3 - "$ID" <<'PY'
 import re,sys
 bid=sys.argv[1]; p='app/portal.html'; s=open(p).read()
-if 'window.__BUILD_ID' in s:
+if re.search(r"window\.__BUILD_ID\s*=\s*'", s):   # the ASSIGNMENT, not the comparison
     s=re.sub(r"window\.__BUILD_ID\s*=\s*'[^']*'", f"window.__BUILD_ID = '{bid}'", s, count=1)
 else:
     s=s.replace('<head>', f"<head>\n<script>window.__BUILD_ID = '{bid}';</script>", 1)
