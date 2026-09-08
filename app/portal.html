@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script>window.__BUILD_ID = '20260908-020331';</script>
+<script>window.__BUILD_ID = '20260908-021113';</script>
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
@@ -497,7 +497,9 @@ html[data-mode="prospect"] .rep-only { display: none !important; }
 .roi-vol { background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 20px 22px; margin-bottom: 32px; }
 .roi-vol-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
 .roi-vol-tam { font-size: 12px; color: #52525b; font-weight: 500; }
-.roi-vol-opts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.roi-vol-opts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+.roi-vol-opts.is-single { grid-template-columns: 1fr; }
+.roi-vol-opt[hidden] { display: none; }
 .roi-vol-opt { display: flex; flex-direction: column; gap: 4px; text-align: left; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 14px 16px; cursor: pointer; transition: all 130ms; font-family: inherit; }
 .roi-vol-opt:hover:not(.active) { border-color: rgba(255,255,255,0.18); background: rgba(255,255,255,0.04); }
 .roi-vol-opt.active { border-color: rgba(52,180,51,0.55); background: rgba(52,180,51,0.07); }
@@ -505,13 +507,6 @@ html[data-mode="prospect"] .rep-only { display: none !important; }
 .roi-vol-opt.active .roi-vol-name { color: #34b433; }
 .roi-vol-num { font-size: 21px; font-weight: 700; color: #e4e4e7; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
 .roi-vol-why { font-size: 11px; color: #52525b; line-height: 1.4; }
-.roi-cap-row { display: flex; align-items: center; gap: 14px; margin-top: 14px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,0.06); flex-wrap: wrap; }
-.roi-cap-row[hidden] { display: none; }
-.roi-cap-label { font-size: 13px; color: #a1a1aa; font-weight: 500; }
-.roi-cap-input { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.12); border-radius: 9px; padding: 9px 14px; font-size: 17px; font-weight: 700; color: #e4e4e7; width: 110px; outline: none; font-family: inherit; }
-.roi-cap-input:focus { border-color: rgba(52,180,51,0.55); }
-.roi-vol-note { font-size: 12.5px; color: #71717a; line-height: 1.6; margin-top: 13px; }
-.roi-vol-note b { color: #a1a1aa; font-weight: 700; }
 
 /* Frozen (non-adjustable) input field */
 .roi-field-big.is-frozen { background: rgba(255,255,255,0.015); border-style: dashed; }
@@ -1938,25 +1933,14 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
               <button class="roi-vol-opt active" id="vol-max" onclick="setVolMode('max')">
                 <span class="roi-vol-name">Maximum</span>
                 <span class="roi-vol-num" id="vol-max-n">—</span>
-                <span class="roi-vol-why">Whole market every 4 months</span>
+                <span class="roi-vol-why" id="vol-max-why"></span>
               </button>
               <button class="roi-vol-opt" id="vol-sustain" onclick="setVolMode('sustain')">
                 <span class="roi-vol-name">Sustainable</span>
                 <span class="roi-vol-num" id="vol-sustain-n">—</span>
-                <span class="roi-vol-why">Each contact once a year</span>
-              </button>
-              <button class="roi-vol-opt" id="vol-capacity" onclick="setVolMode('capacity')">
-                <span class="roi-vol-name">Your capacity</span>
-                <span class="roi-vol-num" id="vol-capacity-n">—</span>
-                <span class="roi-vol-why">Set by calls you can take</span>
+                <span class="roi-vol-why" id="vol-sustain-why"></span>
               </button>
             </div>
-            <div class="roi-cap-row" id="roi-cap-row" hidden>
-              <label class="roi-cap-label" for="cap-calls">Sales calls you can handle per month</label>
-              <input class="roi-cap-input" type="number" id="cap-calls" min="1" placeholder="e.g. 20"
-                     oninput="setCapCalls(this.value)">
-            </div>
-            <div class="roi-vol-note" id="roi-vol-note"></div>
           </div>
 
           <!-- Inputs start EMPTY + shimmering (roi-loading). resolveRoiInputs()
@@ -2935,37 +2919,28 @@ const SHOW_RATE = 0.70;
 // of this money never reaches QS anyway. This is their variable operating cost.
 const COST_PER_100K = 500;
 
-// ── Outreach volume: three settings off the same TAM ──────────────────────
-//   max      — TAM / 4   · burn the whole market every 4 months (3 touches/yr)
-//   sustain  — TAM / 12  · one touch per contact per year, floored at 30K
-//   capacity — back-solved from how many sales calls they can actually take,
-//              then clamped: never above max, never below the 30K floor.
+// ── Outreach volume: two settings off the same TAM ────────────────────────
+//   max     — TAM / 4   · the most this market can give
+//   sustain — TAM / 12, floored at 30K · the pace they could hold indefinitely
+// Throttling below this is a conversation the rep has, not a third control.
 const VOLUME_FLOOR = 30000;
-let TAM_TOTAL = 0;                 // set by the personalization pass
-let _volMode  = 'max';        // matches the Lead List figure on load; rep steps down from here
-let _capCalls = null;              // rep-entered max sales calls / month
+let TAM_TOTAL = 0;            // set by the personalization pass
+let _volMode  = 'max';        // matches the Lead List figure on load
 
 let MONTHLY_INVITES = 30000;
 
-// Invites needed per HELD call at the current rates — the back-solve constant.
-function invitesPerHeldCall() {
-  const per = RATES.attend[_modes.attend] * RATES.booking[_modes.booking] * SHOW_RATE;
-  return per > 0 ? 1 / per : 3400;
-}
-
-function volumeMax()     { return TAM_TOTAL > 0 ? Math.round(TAM_TOTAL / 4)  : VOLUME_FLOOR; }
+function volumeMax()     { return TAM_TOTAL > 0 ? Math.max(VOLUME_FLOOR, Math.round(TAM_TOTAL / 4)) : VOLUME_FLOOR; }
 function volumeSustain() { return TAM_TOTAL > 0 ? Math.max(VOLUME_FLOOR, Math.round(TAM_TOTAL / 12)) : VOLUME_FLOOR; }
-function volumeCapacity() {
-  if (!_capCalls || _capCalls <= 0) return null;
-  const wanted = Math.round(_capCalls * invitesPerHeldCall());
-  return Math.min(volumeMax(), Math.max(VOLUME_FLOOR, wanted));
-}
+function resolveVolume() { return _volMode === 'max' ? volumeMax() : volumeSustain(); }
 
-// Resolve the selected mode to an actual monthly send volume.
-function resolveVolume() {
-  if (_volMode === 'max')      return volumeMax();
-  if (_volMode === 'capacity') return volumeCapacity() ?? volumeSustain();
-  return volumeSustain();
+// How often the whole market gets touched at a given volume. Derived, never
+// hardcoded — at the 30K floor the real cycle is neither 4 nor 12 months, and
+// a fixed label would be wrong exactly there.
+function cycleLabel(vol) {
+  if (!(TAM_TOTAL > 0) || !(vol > 0)) return '';
+  const m = TAM_TOTAL / vol;
+  const r = m < 1.5 ? Math.round(m * 2) / 2 : Math.round(m);
+  return 'Whole market every ' + (r === 1 ? 'month' : r + ' months');
 }
 
 // Ramp: index = month (1-based). Month 1 = onboarding (0). Full velocity Month 6+.
@@ -3314,62 +3289,38 @@ function roiCalcAndNext() {
 // ── Outreach volume selector ──────────────────────────────────────────────
 function setVolMode(mode) {
   _volMode = mode;
-  ['max','sustain','capacity'].forEach(m => {
+  ['max','sustain'].forEach(m => {
     const b = document.getElementById('vol-' + m);
     if (b) b.classList.toggle('active', m === mode);
   });
-  const row = document.getElementById('roi-cap-row');
-  if (row) row.hidden = mode !== 'capacity';
-  if (mode === 'capacity') {
-    const inp = document.getElementById('cap-calls');
-    if (inp) setTimeout(() => inp.focus(), 50);
-  }
   updateVolUI();
   roiCalc();
 }
 
-function setCapCalls(v) {
-  const n = parseInt(v, 10);
-  _capCalls = (!isNaN(n) && n > 0) ? n : null;
-  updateVolUI();
-  roiCalc();
-}
-
-// Paint the three option numbers + the explanatory note under them.
+// Paint both option numbers and their derived touch-frequency lines.
 function updateVolUI() {
   const tamEl = document.getElementById('roi-vol-tam');
   if (tamEl) tamEl.textContent = TAM_TOTAL > 0 ? 'from a ' + fmtN(TAM_TOTAL) + ' market' : '';
 
-  const mx = volumeMax(), su = volumeSustain(), cap = volumeCapacity();
+  const mx = volumeMax(), su = volumeSustain();
   const set = (id, v) => { const e = document.getElementById(id); if (e) e.textContent = v; };
-  set('vol-max-n',      fmtN(mx) + '/mo');
-  set('vol-sustain-n',  fmtN(su) + '/mo');
-  set('vol-capacity-n', cap ? fmtN(cap) + '/mo' : '—');
+  set('vol-max-n',       fmtN(mx) + '/mo');
+  set('vol-sustain-n',   fmtN(su) + '/mo');
+  set('vol-max-why',     cycleLabel(mx));
+  set('vol-sustain-why', cycleLabel(su));
 
-  const note = document.getElementById('roi-vol-note');
-  if (!note) return;
-  const per = invitesPerHeldCall();
-  if (_volMode === 'capacity') {
-    if (!_capCalls) { note.textContent = 'Tell us how many sales calls a month you can actually take.'; return; }
-    const wanted = Math.round(_capCalls * per);
-    if (wanted > mx) {
-      // Their calendar has room; the market does not. Say so plainly.
-      const reachable = Math.round(mx / per);
-      note.innerHTML = `To hold <b>${_capCalls}</b> calls a month you would need about <b>${fmtN(wanted)}</b> invites — more than your market holds. At maximum volume this market gives you about <b>${reachable}</b> calls a month. Your market is the constraint here, not your calendar.`;
-    } else if (wanted < VOLUME_FLOOR) {
-      // The floor overshoots what they asked for. Don't print a contradiction.
-      const atFloor = Math.round(VOLUME_FLOOR / per);
-      note.innerHTML = `${fmtN(VOLUME_FLOOR)} a month is our minimum volume, and it already puts about <b>${atFloor}</b> calls a month in front of you — more than the ${_capCalls} you asked for.`;
-    } else {
-      note.innerHTML = `Throttled to your calendar: about <b>${fmtN(wanted)}</b> invites a month to hold <b>${_capCalls}</b> calls. You are the constraint, not the market — there is room to go further whenever you want it.`;
-    }
-  } else if (_volMode === 'max') {
-    note.innerHTML = `Every contact in your market hears from you roughly <b>three times a year</b>. The most this market can give you.`;
-  } else {
-    note.innerHTML = su > (TAM_TOTAL / 12)
-      ? `Your market divided over a year comes to less than our ${fmtN(VOLUME_FLOOR)} minimum, so this is the floor.`
-      : `Every contact hears from you <b>once a year</b>. The pace you could hold indefinitely.`;
+  const susBtn = document.getElementById('vol-sustain');
+  const collapsed = mx === su;
+  if (susBtn) susBtn.hidden = collapsed;
+  const opts = document.querySelector('.roi-vol-opts');
+  if (opts) opts.classList.toggle('is-single', collapsed);
+  if (collapsed && _volMode !== 'max') {
+    _volMode = 'max';
+    const mxBtn = document.getElementById('vol-max');
+    if (mxBtn) mxBtn.classList.add('active');
   }
+  const nameEl = document.querySelector('#vol-max .roi-vol-name');
+  if (nameEl) nameEl.textContent = collapsed ? 'Outreach' : 'Maximum';
 }
 
 // ── Sub-tab 1: real client funnels ────────────────────────────────────────
