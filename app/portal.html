@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script>window.__BUILD_ID = '20260908-024200';</script>
+<script>window.__BUILD_ID = '20260908-024506';</script>
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
@@ -3360,7 +3360,7 @@ async function loadRoiComparisons() {
         </div>
         ${e.logo_url ? `<span class="rcx-logochip"><img class="rcx-logo" src="${asset(e.logo_url)}" alt=""></span>` : ''}
       </div>
-      <div class="rcx-tam">${fmtN(e.tam)} market · ${e.webinars_run} webinars run</div>
+      <div class="rcx-tam">${fmtN(e.tam)} market · ${e.webinars_run === 1 ? 'first webinar' : e.webinars_run + ' webinars run'}</div>
       <div class="rcx-funnel">${[
         [c.invites,       'invites sent'],
         [c.registrations, 'registered'],
@@ -3371,7 +3371,7 @@ async function loadRoiComparisons() {
         + (j < all.length - 1 ? '<div class="rcx-arrow">→</div>' : '')
       ).join('')}</div>
       <div class="rcx-rate">${[
-        `Across ${e.webinars_run} webinars`,
+        e.webinars_run === 1 ? 'From one webinar' : `Across ${e.webinars_run} webinars`,
         c.invites_per_booked_call ? `one booked call per <b>${fmtN(c.invites_per_booked_call)}</b> invites` : null,
         c.reg_to_attend_pct != null ? `${c.reg_to_attend_pct}% of registrants showed up` : null,
         c.attend_to_booked_pct != null ? `<b>${c.attend_to_booked_pct}%</b> of attendees booked a call` : null,
