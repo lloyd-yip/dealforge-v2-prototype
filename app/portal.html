@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script>window.__BUILD_ID = '20260908-022927';</script>
+<script>window.__BUILD_ID = '20260908-024200';</script>
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
@@ -543,6 +543,7 @@ html[data-mode="prospect"] .rep-only { display: none !important; }
 .rcx-arrow { color: #3f3f46; font-size: 14px; }
 .rcx-rate { font-size: 12px; color: #71717a; margin: 14px 0 0 54px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.05); }
 .rcx-rate b { color: #a1a1aa; font-weight: 700; }
+.rcx-selfrep { display: inline-block; margin-left: 4px; padding: 1px 6px; font-size: 9px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: #71717a; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 4px; cursor: help; }
 .rcx-foot { font-size: 13px; color: #71717a; line-height: 1.65; margin-top: 26px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.06); }
 .rcx-foot b { color: #34b433; font-weight: 700; }
 @media (max-width: 720px) {
@@ -3360,16 +3361,22 @@ async function loadRoiComparisons() {
         ${e.logo_url ? `<span class="rcx-logochip"><img class="rcx-logo" src="${asset(e.logo_url)}" alt=""></span>` : ''}
       </div>
       <div class="rcx-tam">${fmtN(e.tam)} market · ${e.webinars_run} webinars run</div>
-      <div class="rcx-funnel">
-        <div class="rcx-step"><span class="rcx-n">${fmtN(c.invites)}</span><span class="rcx-l">invites sent</span></div>
-        <div class="rcx-arrow">→</div>
-        <div class="rcx-step"><span class="rcx-n">${fmtN(c.registrations)}</span><span class="rcx-l">registered</span></div>
-        <div class="rcx-arrow">→</div>
-        <div class="rcx-step"><span class="rcx-n">${fmtN(c.attendees)}</span><span class="rcx-l">attended</span></div>
-        <div class="rcx-arrow">→</div>
-        <div class="rcx-step is-end"><span class="rcx-n">${c.booked_calls}</span><span class="rcx-l">calls booked</span></div>
-      </div>
-      <div class="rcx-rate">Across ${e.webinars_run} webinars · one booked call per <b>${fmtN(c.invites_per_booked_call)}</b> invites · ${c.reg_to_attend_pct}% of registrants showed up</div>
+      <div class="rcx-funnel">${[
+        [c.invites,       'invites sent'],
+        [c.registrations, 'registered'],
+        [c.attendees,     'attended'],
+        [c.booked_calls,  'calls booked'],
+      ].filter(([v]) => v != null).map(([v, label], j, all) =>
+        `<div class="rcx-step${j === all.length - 1 ? ' is-end' : ''}"><span class="rcx-n">${fmtN(v)}</span><span class="rcx-l">${label}</span></div>`
+        + (j < all.length - 1 ? '<div class="rcx-arrow">→</div>' : '')
+      ).join('')}</div>
+      <div class="rcx-rate">${[
+        `Across ${e.webinars_run} webinars`,
+        c.invites_per_booked_call ? `one booked call per <b>${fmtN(c.invites_per_booked_call)}</b> invites` : null,
+        c.reg_to_attend_pct != null ? `${c.reg_to_attend_pct}% of registrants showed up` : null,
+        c.attend_to_booked_pct != null ? `<b>${c.attend_to_booked_pct}%</b> of attendees booked a call` : null,
+      ].filter(Boolean).join(' · ')}${e.stats_basis && e.stats_basis.indexOf('interview') > -1
+        ? ' <span class="rcx-selfrep" title="Figures the client gave in their own recorded case-study interview, not measured in our stats database.">self-reported</span>' : ''}</div>
     </div>`;
   }).join('');
 
@@ -3377,13 +3384,13 @@ async function loadRoiComparisons() {
   // the prospect's own projection: at campaign level the real booking rate is
   // below the model's, so that comparison argues against the projection.
   const tot = sorted.reduce((a, e) => ({
-    runs:  a.runs  + e.webinars_run,
-    inv:   a.inv   + e.campaign.invites,
-    calls: a.calls + e.campaign.booked_calls,
-  }), { runs: 0, inv: 0, calls: 0 });
+    runs:  a.runs  + (e.webinars_run || 0),
+    att:   a.att   + (e.campaign.attendees || 0),
+    calls: a.calls + (e.campaign.booked_calls || 0),
+  }), { runs: 0, att: 0, calls: 0 });
   const foot = document.getElementById('rcx-foot');
   if (foot) {
-    foot.innerHTML = `Across <b>${tot.runs}</b> webinars these ${sorted.length} clients sent <b>${fmtN(tot.inv)}</b> invites and booked <b>${tot.calls}</b> sales calls.`;
+    foot.innerHTML = `Across <b>${tot.runs}</b> webinars these ${sorted.length} clients put <b>${fmtN(tot.att)}</b> people in a room and booked <b>${tot.calls}</b> sales calls.`;
   }
   const sub = document.getElementById('rcx-sub');
   if (sub && TAM_TOTAL > 0) {
