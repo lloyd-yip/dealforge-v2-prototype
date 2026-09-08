@@ -1,0 +1,51 @@
+{
+  "_readme": "The VA sub-tab on Calendar Invite. Spec is Alex verbatim at 59:53-1:00:03 of the 2026-09-04 training: 'I have to tell them: you don't have to run any of this. It's run by the VAs, five hours a week. They come from us. They are pre trained and you're happy.' Alex offered to design the tab ('I design it for you and send it over') and had not by the time this was built, so the layout is ours; the CLAIMS are his.",
+  "_talk_time": "About 30 seconds. Three beats and three proof points. Nothing to read aloud.",
+  "_proof_note": "These are QUANTUM SCALING'S OWN clients, which is correct here — this tab proves OUR delivery model to the prospect. Contrast the webinar slides, where any case study belongs to the PROSPECT and must never come from this library.",
+  "headline": "You don't run any of this.",
+  "sub": "A trained assistant does. Around five hours a week.",
+  "beats": [
+    {
+      "t": "They come from us",
+      "d": "You are not hiring, screening or onboarding anyone."
+    },
+    {
+      "t": "Pre-trained on the system",
+      "d": "They arrive knowing the invite flow, the tracking and the follow-up."
+    },
+    {
+      "t": "You show up to present",
+      "d": "The webinar is yours. Everything around it isn't your job."
+    }
+  ],
+  "proof": [
+    {
+      "id": "karl-lashkari",
+      "name": "Karl Lashkari",
+      "company": "Men of Mastery",
+      "claim": "A trained VA runs about 80% of the system.",
+      "detail": "He shows up only where his face is required.",
+      "photo_url": "https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f027750c85455316472b9.png"
+    },
+    {
+      "id": "felix-petzel",
+      "name": "Felix Petzel",
+      "company": "Panda Media",
+      "claim": "A whole outbound team down to one assistant.",
+      "detail": "Runs the system on about an hour a week. Margin went 30% to 90%.",
+      "photo_url": "https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f050e4c1c7a3229447c2b.png"
+    },
+    {
+      "id": "philipp-von-schulthess",
+      "name": "Philipp Von Schulthess",
+      "company": "Oxoia",
+      "claim": "16 hours a week to almost none.",
+      "detail": "Once his assistant took the process over.",
+      "photo_url": "https://storage.googleapis.com/msgsndr/G7ZOWCq78JrzUjlLMCxt/media/674f0432cc7dd1a016471f4f.png"
+    }
+  ],
+  "open_questions": [
+    "Is 'five hours a week' the ASSISTANT'S workload or the client's involvement? Alex's phrasing ('it's run by the VAs, five hours a week') reads as the assistant's, and the client's time is near zero. Written that way. If it means the client's five hours, the headline is wrong.",
+    "'They come from us' — does QS place the assistant, or train one the client already has? Written as QS placing them, which is what the words say, but it is a commercial claim worth confirming."
+  ]
+}
