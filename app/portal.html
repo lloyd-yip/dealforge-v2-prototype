@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script>window.__BUILD_ID = '20260908-024506';</script>
+<script>window.__BUILD_ID = '20260908-030043';</script>
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
@@ -535,20 +535,19 @@ html[data-mode="prospect"] .rep-only { display: none !important; }
 .rcx-logochip { margin-left: auto; display: flex; align-items: center; justify-content: center; background: #f4f4f5; border-radius: 7px; padding: 0 12px; height: 42px; flex-shrink: 0; }
 .rcx-logo { height: 22px; width: auto; max-width: 104px; object-fit: contain; display: block; filter: brightness(0); opacity: .8; }
 .rcx-tam { font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #52525b; margin: 12px 0 12px 54px; }
-.rcx-funnel { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-left: 54px; }
-.rcx-step { display: flex; flex-direction: column; gap: 2px; min-width: 74px; }
-.rcx-n { font-size: 20px; font-weight: 700; color: #e4e4e7; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; line-height: 1.1; }
-.rcx-step.is-end .rcx-n { color: #34b433; }
-.rcx-l { font-size: 10.5px; color: #52525b; font-weight: 500; }
-.rcx-arrow { color: #3f3f46; font-size: 14px; }
-.rcx-rate { font-size: 12px; color: #71717a; margin: 14px 0 0 54px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.05); }
+.rcx-metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-left: 54px; }
+.rcx-metric { display: flex; flex-direction: column; gap: 3px; }
+.rcx-n { font-size: 26px; font-weight: 700; color: #e4e4e7; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; line-height: 1.05; }
+.rcx-metric.is-end .rcx-n { color: #34b433; }
+.rcx-l { font-size: 10.5px; color: #52525b; font-weight: 500; line-height: 1.35; }
+.rcx-rate { font-size: 12px; color: #71717a; margin: 13px 0 0 54px; }
 .rcx-rate b { color: #a1a1aa; font-weight: 700; }
 .rcx-selfrep { display: inline-block; margin-left: 4px; padding: 1px 6px; font-size: 9px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: #71717a; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 4px; cursor: help; }
 .rcx-foot { font-size: 13px; color: #71717a; line-height: 1.65; margin-top: 26px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.06); }
 .rcx-foot b { color: #34b433; font-weight: 700; }
 @media (max-width: 720px) {
   .roi-vol-opts { grid-template-columns: 1fr; }
-  .rcx-tam, .rcx-funnel, .rcx-rate { margin-left: 0; }
+  .rcx-tam, .rcx-metrics, .rcx-rate { margin-left: 0; }
 }
 
 /* ── ROI Model (3-slide) ─────────────────────────────── */
@@ -3346,9 +3345,14 @@ async function loadRoiComparisons() {
   // Fixture paths are app-relative; the portal is served under a /:jobId route,
   // so resolve them against the app dir rather than the current URL.
   const asset = u => u ? (window.__PROTO_BASE || '/') + 'app/' + u : '';
-  grid.innerHTML = sorted.map((e, i) => {
+  // Show three, not everything — Alex works with three case studies (2026-09-04
+  // training, 1:07:39). Every card renders the SAME two numbers: attendees and
+  // booked calls. That is the only pair every client actually has, so the cards
+  // stay identical instead of one having four steps and the next having two.
+  grid.innerHTML = sorted.slice(0, 3).map((e, i) => {
     const c = e.campaign;
     const closest = i === 0 && TAM_TOTAL > 0;
+    const selfRep = (e.stats_basis || '').indexOf('interview') > -1;
     return `
     <div class="rcx-card${closest ? ' is-match' : ''}">
       ${closest ? '<div class="rcx-match">Closest market to yours</div>' : ''}
@@ -3360,37 +3364,28 @@ async function loadRoiComparisons() {
         </div>
         ${e.logo_url ? `<span class="rcx-logochip"><img class="rcx-logo" src="${asset(e.logo_url)}" alt=""></span>` : ''}
       </div>
-      <div class="rcx-tam">${fmtN(e.tam)} market · ${e.webinars_run === 1 ? 'first webinar' : e.webinars_run + ' webinars run'}</div>
-      <div class="rcx-funnel">${[
-        [c.invites,       'invites sent'],
-        [c.registrations, 'registered'],
-        [c.attendees,     'attended'],
-        [c.booked_calls,  'calls booked'],
-      ].filter(([v]) => v != null).map(([v, label], j, all) =>
-        `<div class="rcx-step${j === all.length - 1 ? ' is-end' : ''}"><span class="rcx-n">${fmtN(v)}</span><span class="rcx-l">${label}</span></div>`
-        + (j < all.length - 1 ? '<div class="rcx-arrow">→</div>' : '')
-      ).join('')}</div>
-      <div class="rcx-rate">${[
-        e.webinars_run === 1 ? 'From one webinar' : `Across ${e.webinars_run} webinars`,
-        c.invites_per_booked_call ? `one booked call per <b>${fmtN(c.invites_per_booked_call)}</b> invites` : null,
-        c.reg_to_attend_pct != null ? `${c.reg_to_attend_pct}% of registrants showed up` : null,
-        c.attend_to_booked_pct != null ? `<b>${c.attend_to_booked_pct}%</b> of attendees booked a call` : null,
-      ].filter(Boolean).join(' · ')}${e.stats_basis && e.stats_basis.indexOf('interview') > -1
-        ? ' <span class="rcx-selfrep" title="Figures the client gave in their own recorded case-study interview, not measured in our stats database.">self-reported</span>' : ''}</div>
+      <div class="rcx-tam">${fmtN(e.tam)} market · ${e.webinars_run === 1 ? 'first webinar' : e.webinars_run + ' webinars'}</div>
+      <div class="rcx-metrics">
+        <div class="rcx-metric"><span class="rcx-n">${fmtN(c.attendees)}</span><span class="rcx-l">people in the room</span></div>
+        <div class="rcx-metric is-end"><span class="rcx-n">${c.booked_calls}</span><span class="rcx-l">sales calls booked</span></div>
+        <div class="rcx-metric"><span class="rcx-n">${c.attend_to_booked_pct}%</span><span class="rcx-l">of attendees booked</span></div>
+      </div>
+      ${selfRep ? '<div class="rcx-rate"><span class="rcx-selfrep" title="Figures the client gave in their own words, not measured in our stats database.">self-reported</span></div>' : ''}
     </div>`;
   }).join('');
 
   // Aggregate across the shown clients. Deliberately NOT a comparison against
   // the prospect's own projection: at campaign level the real booking rate is
   // below the model's, so that comparison argues against the projection.
-  const tot = sorted.reduce((a, e) => ({
+  const tot = sorted.slice(0, 3).reduce((a, e) => ({
     runs:  a.runs  + (e.webinars_run || 0),
     att:   a.att   + (e.campaign.attendees || 0),
     calls: a.calls + (e.campaign.booked_calls || 0),
   }), { runs: 0, att: 0, calls: 0 });
+  const shown = Math.min(3, sorted.length);
   const foot = document.getElementById('rcx-foot');
   if (foot) {
-    foot.innerHTML = `Across <b>${tot.runs}</b> webinars these ${sorted.length} clients put <b>${fmtN(tot.att)}</b> people in a room and booked <b>${tot.calls}</b> sales calls.`;
+    foot.innerHTML = `Across <b>${tot.runs}</b> webinars these ${shown} clients put <b>${fmtN(tot.att)}</b> people in a room and booked <b>${tot.calls}</b> sales calls.`;
   }
   const sub = document.getElementById('rcx-sub');
   if (sub && TAM_TOTAL > 0) {
