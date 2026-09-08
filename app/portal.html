@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script>window.__BUILD_ID = '20260908-011818';</script>
+<script>window.__BUILD_ID = '20260908-020331';</script>
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
@@ -493,6 +493,68 @@ html[data-mode="prospect"] .rep-only { display: none !important; }
 .chat-text { font-size: 12px; color: #a1a1aa; line-height: 1.4; }
 
 /* ═══ TAB 4: ROI MODEL ═══ */
+/* Outreach volume selector — three settings off the same TAM (.roi-vol*) */
+.roi-vol { background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 20px 22px; margin-bottom: 32px; }
+.roi-vol-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
+.roi-vol-tam { font-size: 12px; color: #52525b; font-weight: 500; }
+.roi-vol-opts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.roi-vol-opt { display: flex; flex-direction: column; gap: 4px; text-align: left; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 14px 16px; cursor: pointer; transition: all 130ms; font-family: inherit; }
+.roi-vol-opt:hover:not(.active) { border-color: rgba(255,255,255,0.18); background: rgba(255,255,255,0.04); }
+.roi-vol-opt.active { border-color: rgba(52,180,51,0.55); background: rgba(52,180,51,0.07); }
+.roi-vol-name { font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #71717a; }
+.roi-vol-opt.active .roi-vol-name { color: #34b433; }
+.roi-vol-num { font-size: 21px; font-weight: 700; color: #e4e4e7; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.roi-vol-why { font-size: 11px; color: #52525b; line-height: 1.4; }
+.roi-cap-row { display: flex; align-items: center; gap: 14px; margin-top: 14px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,0.06); flex-wrap: wrap; }
+.roi-cap-row[hidden] { display: none; }
+.roi-cap-label { font-size: 13px; color: #a1a1aa; font-weight: 500; }
+.roi-cap-input { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.12); border-radius: 9px; padding: 9px 14px; font-size: 17px; font-weight: 700; color: #e4e4e7; width: 110px; outline: none; font-family: inherit; }
+.roi-cap-input:focus { border-color: rgba(52,180,51,0.55); }
+.roi-vol-note { font-size: 12.5px; color: #71717a; line-height: 1.6; margin-top: 13px; }
+.roi-vol-note b { color: #a1a1aa; font-weight: 700; }
+
+/* Frozen (non-adjustable) input field */
+.roi-field-big.is-frozen { background: rgba(255,255,255,0.015); border-style: dashed; }
+.roi-field-big.is-frozen .roi-field-input { color: #a1a1aa; }
+.roi-frozen-badge { display: inline-block; margin-left: 7px; padding: 1px 7px; font-size: 9px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: #71717a; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 4px; vertical-align: middle; }
+.roi-field-note { font-size: 11px; color: #52525b; margin-top: 8px; }
+
+/* Running cost + return multiple */
+.roi-result-value.roi-cost { color: #fbbf24; }
+.roi-cost-line { font-size: 13px; color: #71717a; line-height: 1.65; margin: 18px 0 30px; max-width: 620px; }
+.roi-cost-line b { color: #d4d4d8; font-weight: 700; }
+
+/* Sub-tab 1: real client funnels (.rcx-*) */
+.rcx-wrap { max-width: 940px; margin: 0 auto; padding: 44px 40px 60px; }
+.rcx-h { font-size: 30px; font-weight: 700; color: #e4e4e7; letter-spacing: -0.5px; margin-bottom: 10px; }
+.rcx-sub { font-size: 14px; color: #71717a; line-height: 1.6; margin-bottom: 30px; }
+.rcx-sub b { color: #a1a1aa; }
+.rcx-grid { display: flex; flex-direction: column; gap: 12px; }
+.rcx-card { position: relative; background: rgba(255,255,255,0.025); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; padding: 20px 22px; }
+.rcx-card.is-match { border-color: rgba(52,180,51,0.4); background: rgba(52,180,51,0.04); }
+.rcx-match { position: absolute; top: -9px; left: 20px; font-size: 9.5px; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; color: #34b433; background: #12161a; border: 1px solid rgba(52,180,51,0.4); border-radius: 5px; padding: 2px 8px; }
+.rcx-top { display: flex; align-items: center; gap: 12px; margin-bottom: 4px; }
+.rcx-photo { width: 42px; height: 42px; border-radius: 50%; object-fit: cover; flex-shrink: 0; background: rgba(255,255,255,0.06); }
+.rcx-name { font-size: 15px; font-weight: 700; color: #fafafa; letter-spacing: -0.01em; }
+.rcx-co { font-size: 12px; color: #71717a; }
+.rcx-logochip { margin-left: auto; display: flex; align-items: center; justify-content: center; background: #f4f4f5; border-radius: 7px; padding: 0 12px; height: 42px; flex-shrink: 0; }
+.rcx-logo { height: 22px; width: auto; max-width: 104px; object-fit: contain; display: block; filter: brightness(0); opacity: .8; }
+.rcx-tam { font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #52525b; margin: 12px 0 12px 54px; }
+.rcx-funnel { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-left: 54px; }
+.rcx-step { display: flex; flex-direction: column; gap: 2px; min-width: 74px; }
+.rcx-n { font-size: 20px; font-weight: 700; color: #e4e4e7; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.rcx-step.is-end .rcx-n { color: #34b433; }
+.rcx-l { font-size: 10.5px; color: #52525b; font-weight: 500; }
+.rcx-arrow { color: #3f3f46; font-size: 14px; }
+.rcx-rate { font-size: 12px; color: #71717a; margin: 14px 0 0 54px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.05); }
+.rcx-rate b { color: #a1a1aa; font-weight: 700; }
+.rcx-foot { font-size: 13px; color: #71717a; line-height: 1.65; margin-top: 26px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.06); }
+.rcx-foot b { color: #34b433; font-weight: 700; }
+@media (max-width: 720px) {
+  .roi-vol-opts { grid-template-columns: 1fr; }
+  .rcx-tam, .rcx-funnel, .rcx-rate { margin-left: 0; }
+}
+
 /* ── ROI Model (3-slide) ─────────────────────────────── */
 .roi-wrap { max-width: 840px; margin: 0 auto; padding: 52px 40px; }
 .roi-step-bar { display: flex; align-items: center; gap: 8px; margin-bottom: 52px; }
@@ -508,7 +570,6 @@ html[data-mode="prospect"] .rep-only { display: none !important; }
 /* Slide 0 — Inputs */
 .roi-slide-title { font-size: 30px; font-weight: 700; color: #e4e4e7; margin-bottom: 10px; letter-spacing: -0.5px; }
 .roi-slide-sub { font-size: 15px; color: #71717a; margin-bottom: 36px; line-height: 1.5; }
-.roi-locked-pill { display: inline-flex; align-items: center; gap: 10px; background: rgba(52,211,153,0.07); border: 1px solid rgba(52,211,153,0.2); border-radius: 10px; padding: 12px 18px; font-size: 15px; color: #34d399; font-weight: 600; margin-bottom: 40px; }
 .roi-locked-label { font-size: 10px; color: #52525b; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; }
 .roi-input-group { display: flex; flex-direction: column; gap: 16px; max-width: 520px; margin-bottom: 44px; }
 .roi-field-big { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.09); border-radius: 14px; padding: 22px 26px; transition: border-color 140ms; }
@@ -1841,6 +1902,13 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
 <!-- TAB 4: ROI MODEL               -->
 <!-- ═══════════════════════════════ -->
 <div class="tab-content" id="tab-roi">
+  <!-- Sub-tabs: the prospect's own model · the same funnel on real clients -->
+  <div class="subtab-nav">
+    <button class="subtab-btn active" data-subgroup="roi" data-subidx="0" onclick="switchSubTab('roi',0)">Your model</button>
+    <button class="subtab-btn" data-subgroup="roi" data-subidx="1" onclick="switchSubTab('roi',1)">Real client results</button>
+  </div>
+
+  <div class="subtab-panel active" data-subgroup="roi" data-subidx="0">
   <div class="roi-wrap">
 
     <!-- Step indicator -->
@@ -1858,11 +1926,37 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
         <!-- ── Slide 0: Inputs ── -->
         <div class="roi-slide">
           <h2 class="roi-slide-title">Your Revenue Projection</h2>
-          <p class="roi-slide-sub">Three numbers is all we need. Your lead list data is already loaded.</p>
+          <p class="roi-slide-sub">Two numbers is all we need. Your market size is already loaded.</p>
 
-          <div class="roi-locked-pill">
-            <span class="roi-locked-label">Outreach</span>
-            <span id="roi-locked-monthly" class="stat-shimmer">&nbsp;</span> prospects / month
+          <!-- Outreach volume — three settings off the same TAM. See resolveVolume(). -->
+          <div class="roi-vol">
+            <div class="roi-vol-head">
+              <span class="roi-locked-label">Outreach volume</span>
+              <span class="roi-vol-tam" id="roi-vol-tam"></span>
+            </div>
+            <div class="roi-vol-opts">
+              <button class="roi-vol-opt active" id="vol-max" onclick="setVolMode('max')">
+                <span class="roi-vol-name">Maximum</span>
+                <span class="roi-vol-num" id="vol-max-n">—</span>
+                <span class="roi-vol-why">Whole market every 4 months</span>
+              </button>
+              <button class="roi-vol-opt" id="vol-sustain" onclick="setVolMode('sustain')">
+                <span class="roi-vol-name">Sustainable</span>
+                <span class="roi-vol-num" id="vol-sustain-n">—</span>
+                <span class="roi-vol-why">Each contact once a year</span>
+              </button>
+              <button class="roi-vol-opt" id="vol-capacity" onclick="setVolMode('capacity')">
+                <span class="roi-vol-name">Your capacity</span>
+                <span class="roi-vol-num" id="vol-capacity-n">—</span>
+                <span class="roi-vol-why">Set by calls you can take</span>
+              </button>
+            </div>
+            <div class="roi-cap-row" id="roi-cap-row" hidden>
+              <label class="roi-cap-label" for="cap-calls">Sales calls you can handle per month</label>
+              <input class="roi-cap-input" type="number" id="cap-calls" min="1" placeholder="e.g. 20"
+                     oninput="setCapCalls(this.value)">
+            </div>
+            <div class="roi-vol-note" id="roi-vol-note"></div>
           </div>
 
           <!-- Inputs start EMPTY + shimmering (roi-loading). resolveRoiInputs()
@@ -1876,12 +1970,13 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
                 <input class="roi-field-input roi-loading" type="number" id="ltv" value="" placeholder="LTV">
               </div>
             </div>
-            <div class="roi-field-big">
-              <div class="roi-field-label">Sales Call Show Rate<span class="roi-fallback-badge" id="show-rate-fallback-badge" title="Default benchmark — not from this prospect's call. Edit to save their real number." hidden>default</span></div>
+            <div class="roi-field-big is-frozen">
+              <div class="roi-field-label">Sales Call Show Rate<span class="roi-frozen-badge">fixed</span></div>
               <div class="roi-field-input-row">
-                <input class="roi-field-input roi-loading" type="number" id="show-rate" value="" placeholder="Show %">
+                <span class="roi-field-input" id="show-rate-display">70</span>
                 <span class="roi-field-affix">%</span>
               </div>
+              <div class="roi-field-note">Our benchmark across every client. Not adjustable.</div>
             </div>
             <div class="roi-field-big">
               <div class="roi-field-label">Sales Close Rate<span class="roi-fallback-badge" id="close-rate-fallback-badge" title="Default benchmark — not from this prospect's call. Edit to save their real number." hidden>default</span></div>
@@ -1973,7 +2068,18 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
               <div class="roi-result-value" id="r-annual">—</div>
               <div class="roi-result-note">Months 6–12 at full run rate</div>
             </div>
+            <div class="roi-result-item">
+              <div class="roi-result-label">Cost to run it</div>
+              <div class="roi-result-value roi-cost" id="r-runcost">—</div>
+              <div class="roi-result-note">Leads, assistant, tooling</div>
+            </div>
+            <div class="roi-result-item">
+              <div class="roi-result-label">Return on that</div>
+              <div class="roi-result-value" id="r-multiple">—</div>
+              <div class="roi-result-note">Before our fee</div>
+            </div>
           </div>
+          <p class="roi-cost-line" id="roi-cost-line"></p>
 
           <button class="roi-continue-btn" onclick="roiGoSlide(2)">See 12-Month Timeline →</button>
         </div>
@@ -2045,6 +2151,17 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
 
       </div><!-- /roi-slides-track -->
     </div><!-- /roi-slider -->
+  </div>
+  </div><!-- /subtab-panel 0 (Your model) -->
+
+  <!-- ── Sub-tab 1: the same funnel, on real QS clients ── -->
+  <div class="subtab-panel" data-subgroup="roi" data-subidx="1">
+    <div class="rcx-wrap">
+      <h2 class="rcx-h">These are not projections.</h2>
+      <p class="rcx-sub" id="rcx-sub">Every number below is what actually happened when a real client ran this.</p>
+      <div class="rcx-grid" id="rcx-grid"></div>
+      <p class="rcx-foot" id="rcx-foot"></p>
+    </div>
   </div>
 </div>
 
@@ -2550,6 +2667,7 @@ function switchTab(i, opts) {
 function switchSubTab(group, idx) {
   if (group === 'outreach') { if (idx === 1) { setTimeout(window.oeStart, 60); } else if (window.oeStop) window.oeStop();
                               if (idx === 2) loadAssistant().catch(function(){}); }
+  if (group === 'roi' && idx === 1) loadRoiComparisons().catch(function(){});
   if (group === 'outreach' && idx === 1) {
     const t = document.getElementById('oe-title');
     const h = document.querySelector('#cal-headline, .cal-headline');
@@ -2802,12 +2920,53 @@ const PROSPECT = { name: 'Acme Corp', domain: 'acme.com' };
 const RATES = {
   attend:  { conservative: 0.003, aggressive: 0.005 },  // 0.3% vs 0.5%
   booking: { conservative: 0.14,  aggressive: 0.22  },  // 14% vs 22%
-  show:    { conservative: 0.65,  aggressive: 0.80  },  // 65% vs 80%
   close:   { conservative: 0.20,  aggressive: 0.30  },  // 20% vs 30%
 };
-let _modes = { attend: 'conservative', booking: 'conservative', show: 'conservative', close: 'conservative' };
+let _modes = { attend: 'conservative', booking: 'conservative', close: 'conservative' };
+
+// Sales-call show rate is FROZEN, not a toggle. Ryan's call on the 2026-09-04
+// training: 70% is what it typically is, so stop making reps defend a range.
+// Still displayed to the prospect — just not adjustable.
+const SHOW_RATE = 0.70;
+
+// What it costs the client to actually run the machine each month: leads, VA
+// time, tooling. Scales with send volume. Excludes the QS service fee on
+// purpose — the fee isn't on the table yet at this point in the call, and most
+// of this money never reaches QS anyway. This is their variable operating cost.
+const COST_PER_100K = 500;
+
+// ── Outreach volume: three settings off the same TAM ──────────────────────
+//   max      — TAM / 4   · burn the whole market every 4 months (3 touches/yr)
+//   sustain  — TAM / 12  · one touch per contact per year, floored at 30K
+//   capacity — back-solved from how many sales calls they can actually take,
+//              then clamped: never above max, never below the 30K floor.
+const VOLUME_FLOOR = 30000;
+let TAM_TOTAL = 0;                 // set by the personalization pass
+let _volMode  = 'max';        // matches the Lead List figure on load; rep steps down from here
+let _capCalls = null;              // rep-entered max sales calls / month
 
 let MONTHLY_INVITES = 30000;
+
+// Invites needed per HELD call at the current rates — the back-solve constant.
+function invitesPerHeldCall() {
+  const per = RATES.attend[_modes.attend] * RATES.booking[_modes.booking] * SHOW_RATE;
+  return per > 0 ? 1 / per : 3400;
+}
+
+function volumeMax()     { return TAM_TOTAL > 0 ? Math.round(TAM_TOTAL / 4)  : VOLUME_FLOOR; }
+function volumeSustain() { return TAM_TOTAL > 0 ? Math.max(VOLUME_FLOOR, Math.round(TAM_TOTAL / 12)) : VOLUME_FLOOR; }
+function volumeCapacity() {
+  if (!_capCalls || _capCalls <= 0) return null;
+  const wanted = Math.round(_capCalls * invitesPerHeldCall());
+  return Math.min(volumeMax(), Math.max(VOLUME_FLOOR, wanted));
+}
+
+// Resolve the selected mode to an actual monthly send volume.
+function resolveVolume() {
+  if (_volMode === 'max')      return volumeMax();
+  if (_volMode === 'capacity') return volumeCapacity() ?? volumeSustain();
+  return volumeSustain();
+}
 
 // Ramp: index = month (1-based). Month 1 = onboarding (0). Full velocity Month 6+.
 const RAMP = [0, 0, 0.10, 0.25, 0.45, 0.70, 1, 1, 1, 1, 1, 1, 1];
@@ -2853,19 +3012,27 @@ function roiCalc() {
   const ltv         = parseFloat(document.getElementById('ltv').value) || 0;
   const attendRate  = RATES.attend[_modes.attend];
   const bookingRate = RATES.booking[_modes.booking];
-  const showRate    = (parseFloat(document.getElementById('show-rate').value) || 75) / 100;
+  const showRate    = SHOW_RATE;                       // frozen — see SHOW_RATE
   const closeRate   = (parseFloat(document.getElementById('close-rate').value) || 25) / 100;
 
   document.getElementById('r-show-pill').textContent  = Math.round(showRate * 100) + '% show up to the call';
   document.getElementById('r-close-pill').textContent = Math.round(closeRate * 100) + '% close';
 
-  const vol         = Math.max(1, isNaN(MONTHLY_INVITES) ? 30000 : MONTHLY_INVITES);
+  // Volume comes from the selector. Deliberately local — MONTHLY_INVITES stays
+  // the page-wide recommendation that the Lead List and calendar tabs quote.
+  const resolved    = resolveVolume();
+  const vol         = Math.max(1, isNaN(resolved) ? VOLUME_FLOOR : resolved);
   const attendees   = Math.round(vol * attendRate);
   const booked      = Math.round(attendees * bookingRate);
   const held        = Math.round(booked * showRate);
   const clients     = Math.round(held * closeRate);
   const monthly     = clients * ltv;
   const annual      = monthly * 12;
+
+  const fbarEl = document.getElementById('roi-fbar-monthly');
+  if (fbarEl) { fbarEl.classList.remove('stat-shimmer'); fbarEl.textContent = vol.toLocaleString(); }
+  const fsubEl = document.getElementById('roi-funnel-sub');
+  if (fsubEl) fsubEl.textContent = vol.toLocaleString() + ' outreaches/month. Toggle attendance and booking conservative or aggressive to stress-test the numbers.';
 
   document.getElementById('r-attendees').textContent = fmtN(attendees);
   document.getElementById('r-booked').textContent    = fmtN(booked);
@@ -2881,6 +3048,21 @@ function roiCalc() {
 
   document.getElementById('r-monthly').textContent = monthly > 0 ? fmt(monthly) : '—';
   document.getElementById('r-annual').textContent  = annual  > 0 ? fmt(annual)  : '—';
+
+  // ── Running cost + return multiple ──────────────────────────────────────
+  // Cost scales with send volume, so the multiple stays honest as volume moves.
+  const runCost  = (vol / 100000) * COST_PER_100K;
+  const multiple = runCost > 0 ? monthly / runCost : 0;
+  const costEl = document.getElementById('r-runcost');
+  const multEl = document.getElementById('r-multiple');
+  const costLine = document.getElementById('roi-cost-line');
+  if (costEl) costEl.textContent = runCost > 0 ? fmt(runCost) + '/mo' : '—';
+  if (multEl) multEl.textContent = multiple > 0 ? Math.round(multiple) + 'x' : '—';
+  if (costLine) {
+    costLine.innerHTML = monthly > 0
+      ? `Running ${fmtN(vol)} invites a month costs about <b>${fmt(runCost)}/month</b> in leads, assistant time and tooling — against <b>${fmt(monthly)}</b> of new revenue. That is a <b>${Math.round(multiple)}x</b> return on what it costs to operate, before our fee.`
+      : 'Enter an average client value to see the return on running cost.';
+  }
 
   // Build 12-month projection series (drives both the chart and the table)
   const proj = [];
@@ -3127,6 +3309,134 @@ function setText(id, txt) { const el = document.getElementById(id); if (el) el.t
 function roiCalcAndNext() {
   roiCalc();
   roiGoSlide(1);
+}
+
+// ── Outreach volume selector ──────────────────────────────────────────────
+function setVolMode(mode) {
+  _volMode = mode;
+  ['max','sustain','capacity'].forEach(m => {
+    const b = document.getElementById('vol-' + m);
+    if (b) b.classList.toggle('active', m === mode);
+  });
+  const row = document.getElementById('roi-cap-row');
+  if (row) row.hidden = mode !== 'capacity';
+  if (mode === 'capacity') {
+    const inp = document.getElementById('cap-calls');
+    if (inp) setTimeout(() => inp.focus(), 50);
+  }
+  updateVolUI();
+  roiCalc();
+}
+
+function setCapCalls(v) {
+  const n = parseInt(v, 10);
+  _capCalls = (!isNaN(n) && n > 0) ? n : null;
+  updateVolUI();
+  roiCalc();
+}
+
+// Paint the three option numbers + the explanatory note under them.
+function updateVolUI() {
+  const tamEl = document.getElementById('roi-vol-tam');
+  if (tamEl) tamEl.textContent = TAM_TOTAL > 0 ? 'from a ' + fmtN(TAM_TOTAL) + ' market' : '';
+
+  const mx = volumeMax(), su = volumeSustain(), cap = volumeCapacity();
+  const set = (id, v) => { const e = document.getElementById(id); if (e) e.textContent = v; };
+  set('vol-max-n',      fmtN(mx) + '/mo');
+  set('vol-sustain-n',  fmtN(su) + '/mo');
+  set('vol-capacity-n', cap ? fmtN(cap) + '/mo' : '—');
+
+  const note = document.getElementById('roi-vol-note');
+  if (!note) return;
+  const per = invitesPerHeldCall();
+  if (_volMode === 'capacity') {
+    if (!_capCalls) { note.textContent = 'Tell us how many sales calls a month you can actually take.'; return; }
+    const wanted = Math.round(_capCalls * per);
+    if (wanted > mx) {
+      // Their calendar has room; the market does not. Say so plainly.
+      const reachable = Math.round(mx / per);
+      note.innerHTML = `To hold <b>${_capCalls}</b> calls a month you would need about <b>${fmtN(wanted)}</b> invites — more than your market holds. At maximum volume this market gives you about <b>${reachable}</b> calls a month. Your market is the constraint here, not your calendar.`;
+    } else if (wanted < VOLUME_FLOOR) {
+      // The floor overshoots what they asked for. Don't print a contradiction.
+      const atFloor = Math.round(VOLUME_FLOOR / per);
+      note.innerHTML = `${fmtN(VOLUME_FLOOR)} a month is our minimum volume, and it already puts about <b>${atFloor}</b> calls a month in front of you — more than the ${_capCalls} you asked for.`;
+    } else {
+      note.innerHTML = `Throttled to your calendar: about <b>${fmtN(wanted)}</b> invites a month to hold <b>${_capCalls}</b> calls. You are the constraint, not the market — there is room to go further whenever you want it.`;
+    }
+  } else if (_volMode === 'max') {
+    note.innerHTML = `Every contact in your market hears from you roughly <b>three times a year</b>. The most this market can give you.`;
+  } else {
+    note.innerHTML = su > (TAM_TOTAL / 12)
+      ? `Your market divided over a year comes to less than our ${fmtN(VOLUME_FLOOR)} minimum, so this is the floor.`
+      : `Every contact hears from you <b>once a year</b>. The pace you could hold indefinitely.`;
+  }
+}
+
+// ── Sub-tab 1: real client funnels ────────────────────────────────────────
+let _rcxLoaded = false;
+async function loadRoiComparisons() {
+  if (_rcxLoaded) return;
+  const grid = document.getElementById('rcx-grid');
+  if (!grid) return;
+  let doc;
+  try {
+    const r = await fetch((window.__PROTO_BASE || '/') + 'fixtures/case-studies/roi-comparisons.json');
+    doc = await r.json();
+  } catch (e) { return; }
+  const ex = (doc && doc.examples) || [];
+  if (!ex.length) return;
+
+  // Alex's rule: lead with the client whose TAM is closest to the prospect's.
+  const sorted = TAM_TOTAL > 0
+    ? ex.slice().sort((a, b) => Math.abs((a.tam || 0) - TAM_TOTAL) - Math.abs((b.tam || 0) - TAM_TOTAL))
+    : ex.slice();
+
+  // Fixture paths are app-relative; the portal is served under a /:jobId route,
+  // so resolve them against the app dir rather than the current URL.
+  const asset = u => u ? (window.__PROTO_BASE || '/') + 'app/' + u : '';
+  grid.innerHTML = sorted.map((e, i) => {
+    const f = e.funnel;
+    const closest = i === 0 && TAM_TOTAL > 0;
+    return `
+    <div class="rcx-card${closest ? ' is-match' : ''}">
+      ${closest ? '<div class="rcx-match">Closest market to yours</div>' : ''}
+      <div class="rcx-top">
+        <img class="rcx-photo" src="${asset(e.photo_url)}" alt="${e.client_name}" loading="lazy">
+        <div>
+          <div class="rcx-name">${e.client_name}</div>
+          <div class="rcx-co">${e.company}</div>
+        </div>
+        ${e.logo_url ? `<span class="rcx-logochip"><img class="rcx-logo" src="${asset(e.logo_url)}" alt=""></span>` : ''}
+      </div>
+      <div class="rcx-tam">${fmtN(e.tam)} market</div>
+      <div class="rcx-funnel">
+        <div class="rcx-step"><span class="rcx-n">${fmtN(f.invites)}</span><span class="rcx-l">invited</span></div>
+        <div class="rcx-arrow">→</div>
+        <div class="rcx-step"><span class="rcx-n">${fmtN(f.registrations)}</span><span class="rcx-l">registered</span></div>
+        <div class="rcx-arrow">→</div>
+        <div class="rcx-step"><span class="rcx-n">${fmtN(f.attendees)}</span><span class="rcx-l">attended</span></div>
+        <div class="rcx-arrow">→</div>
+        <div class="rcx-step is-end"><span class="rcx-n">${f.booked_calls}</span><span class="rcx-l">calls booked</span></div>
+      </div>
+      <div class="rcx-rate">One booked call per <b>${fmtN(f.invites_per_booked_call)}</b> invites · ${f.reg_to_attend_pct}% of registrants showed up</div>
+    </div>`;
+  }).join('');
+
+  // How our projection compares to what these clients actually did.
+  const perBooked = 1 / (RATES.attend[_modes.attend] * RATES.booking[_modes.booking]);
+  const rates = sorted.map(e => e.funnel.invites_per_booked_call).sort((a, b) => a - b);
+  const median = rates[Math.floor(rates.length / 2)];
+  const foot = document.getElementById('rcx-foot');
+  if (foot) {
+    foot.innerHTML = median < perBooked
+      ? `Your projection assumes one booked call for every <b>${fmtN(Math.round(perBooked))}</b> invites. Across these clients the real figure was about <b>${fmtN(median)}</b>. We have modelled you below what they actually got.`
+      : `Your projection assumes one booked call for every <b>${fmtN(Math.round(perBooked))}</b> invites. Across these clients the real figure was about <b>${fmtN(median)}</b>.`;
+  }
+  const sub = document.getElementById('rcx-sub');
+  if (sub && TAM_TOTAL > 0) {
+    sub.innerHTML = `Every number below is what actually happened when a real client ran this. Ordered by how close their market is to your <b>${fmtN(TAM_TOTAL)}</b>.`;
+  }
+  _rcxLoaded = true;
 }
 
 // ── Case Studies dual filter (stage × industry) ──
@@ -3535,7 +3845,6 @@ function applyOverrides(gen, overrides) {
     fullMarketCycle:     overrides.full_market_cycle ?? null,
     webinarTitleOverride: overrides.webinar_title    ?? null,
     roiLtv:              overrides.roi_ltv           ?? gen.roiLtv,
-    roiShowRate:         overrides.roi_show_rate     ?? gen.roiShowRate,
     roiCloseRate:        overrides.roi_close_rate    ?? gen.roiCloseRate,
   };
 }
@@ -3645,12 +3954,7 @@ function wireROIEditMode() {
           MONTHLY_INVITES = v;
           const vFull = v.toLocaleString();
           fbarEl.textContent = vFull;
-          // Sync the locked pill on slide 0 and the funnel subtitle
-          const lockedEl = document.getElementById('roi-locked-monthly');
-          if (lockedEl) lockedEl.textContent = vFull;
-          const subEl = document.getElementById('roi-funnel-sub');
-          if (subEl) subEl.textContent = vFull + ' outreaches/month. Toggle each step conservative or aggressive to stress-test the numbers.';
-          roiCalc();
+          roiCalc();   // repaints the bar from the volume selector
           saveOverride('recommended_outreach', v, null);
         }
         if (input.parentNode) input.replaceWith(fbarEl);
@@ -3667,10 +3971,10 @@ function wireROIEditMode() {
     });
   }
 
-  // ─ LTV / Show Rate / Close Rate inputs — auto-save as overrides on change ─
+  // ─ LTV / Close Rate inputs — auto-save as overrides on change ─
+  //   Show rate is frozen at SHOW_RATE and is no longer an input.
   const roiInputs = [
     { id: 'ltv',        field: 'roi_ltv',        hint: 'Average Client LTV — changes save to this job' },
-    { id: 'show-rate',  field: 'roi_show_rate',   hint: 'Sales Call Show Rate — changes save to this job' },
     { id: 'close-rate', field: 'roi_close_rate',  hint: 'Sales Close Rate — changes save to this job' },
   ];
   roiInputs.forEach(({ id, field, hint }) => {
@@ -3704,9 +4008,9 @@ function resolveRoiInputs() {
   const seed = window.__ROI_SEED || {};
   const vals = seed.values  || {};
   const src  = seed.sources || {};
+  // Show rate is frozen at SHOW_RATE and is no longer an input — never seeded.
   [
     { id: 'ltv',        val: vals.ltv,   source: src.ltv },
-    { id: 'show-rate',  val: vals.show,  source: src.show },
     { id: 'close-rate', val: vals.close, source: src.close },
   ].forEach(({ id, val, source }) => {
     const inp = document.getElementById(id);
@@ -4228,15 +4532,13 @@ function runPersonalization(session) {
     }
 
     const ltvEl = document.getElementById('ltv');
-    const showRateEl = document.getElementById('show-rate');
     const closeRateEl = document.getElementById('close-rate');
 
+    // Show rate is frozen at SHOW_RATE — deliberately not seeded from the prospect.
     const ltv = parseDollar(business.ltv || business.deal_size);
-    const showRate = parsePercent(business.show_rate);
     const closeRate = parsePercent(business.close_rate);
 
     if (ltv && ltvEl) { ltvEl.value = ltv; ltvEl.dispatchEvent(new Event('input')); }
-    if (showRate && showRateEl) { showRateEl.value = showRate; showRateEl.dispatchEvent(new Event('input')); }
     if (closeRate && closeRateEl) { closeRateEl.value = closeRate; closeRateEl.dispatchEvent(new Event('input')); }
 
     // Trigger ROI recalculation if function exists
@@ -4492,6 +4794,11 @@ function runPersonalization(session) {
       addEditIcon(cycleEl, 'full_market_cycle', 'Full Market Cycle');
 
       // ── Sync MONTHLY_INVITES + update all static volume elements ─────────
+      // Hand the real TAM to the ROI volume selector, then let it resolve the
+      // volume itself — the three settings replace the saved recommendation.
+      TAM_TOTAL = tamTotal > 0 ? tamTotal : 0;
+      if (typeof updateVolUI === 'function') updateVolUI();
+      if (typeof roiCalc === 'function') roiCalc();
       MONTHLY_INVITES = isNaN(monthlyRaw) ? 30000 : monthlyRaw;
       const volFull = Math.round(MONTHLY_INVITES).toLocaleString();
       const vol = MONTHLY_INVITES >= 1000 ? Math.round(MONTHLY_INVITES / 1000) + 'K' : volFull;
@@ -4508,18 +4815,11 @@ function runPersonalization(session) {
           cycleBadge.innerHTML = 'With a focused TAM of ' + tamStr + ', ' + vol + ' outreaches/mo' + overrideNote + ' exhausts your market in <strong>~' + actualCycleRounded.toFixed(1) + ' months</strong> — rotate webinar topics each cycle to stay fresh.';
         }
       }
-      // Outreach volume resolved — fill the displays and clear their loading
-      // shimmer so the real (TAM-derived) number appears without a default flash.
-      const roiLocked = document.getElementById('roi-locked-monthly');
-      if (roiLocked) { roiLocked.classList.remove('stat-shimmer'); roiLocked.textContent = volFull; }
-      const roiFunnelSub = document.getElementById('roi-funnel-sub');
-      if (roiFunnelSub) roiFunnelSub.textContent = volFull + ' outreaches/month. Toggle each step conservative or aggressive to stress-test the numbers.';
-      const roiFbarMonthly = document.getElementById('roi-fbar-monthly');
-      if (roiFbarMonthly) { roiFbarMonthly.classList.remove('stat-shimmer'); roiFbarMonthly.textContent = volFull; }
+      // The ROI funnel's own volume displays are painted by roiCalc() from the
+      // volume selector, not from this page-wide recommendation.
 
       // Pre-populate ROI inputs from saved overrides (persisted rep values)
       if (gen.roiLtv)       { const el = document.getElementById('ltv');        if (el) el.value = gen.roiLtv; }
-      if (gen.roiShowRate)  { const el = document.getElementById('show-rate');  if (el) el.value = gen.roiShowRate; }
       if (gen.roiCloseRate) { const el = document.getElementById('close-rate'); if (el) el.value = gen.roiCloseRate; }
 
       roiCalc();          // Re-run ROI model with all updated values
@@ -4538,12 +4838,11 @@ function runPersonalization(session) {
     // in place — it IS the loading state, matching the "Searching…" TAM card.
     var _leadsPending = (!gen.leadsTaskStatus || gen.leadsTaskStatus === 'pending');
     if (!tamTotal && !_leadsPending) {
-      [document.getElementById('roi-locked-monthly'), document.getElementById('roi-fbar-monthly')].forEach(function(el) {
-        if (el && el.classList.contains('stat-shimmer')) {
-          el.classList.remove('stat-shimmer');
-          el.textContent = (Number.isFinite(MONTHLY_INVITES) ? Math.round(MONTHLY_INVITES) : 30000).toLocaleString();
-        }
-      });
+      var _fbar = document.getElementById('roi-fbar-monthly');
+      if (_fbar && _fbar.classList.contains('stat-shimmer')) {
+        _fbar.classList.remove('stat-shimmer');
+        _fbar.textContent = (Number.isFinite(MONTHLY_INVITES) ? Math.round(MONTHLY_INVITES) : 30000).toLocaleString();
+      }
       ['tam-monthly-val', 'tam-cycle-val'].forEach(function(id) {
         var el = document.getElementById(id);
         if (el && el.classList.contains('stat-shimmer')) { el.classList.remove('stat-shimmer'); el.textContent = '—'; }
