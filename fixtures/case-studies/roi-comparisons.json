@@ -1,103 +1,81 @@
 {
- "_readme": "Real QS client webinar funnels, shown on the ROI Model tab beside the prospect's own projection. Every number is the client's actual recorded result from the workshop stats database — nothing modelled, nothing rounded up. Only clients whose Airtable row carries 'ROI Model' in 'Use on tabs' appear here. Source of truth: Airtable base appDBh76I8NAiE4l8, table Clients (tblGRxbKEYh9NoLqV). In production this is GET /api/jobs/:id/roi-comparisons and reads from Supabase.",
- "_selection_rule": "Use on tabs contains 'ROI Model' = complete invites/registrations/attendees/booked-calls recorded AND a confidence-6 TAM.",
- "_shape_note": "These clients' funnels record a REGISTRATION step that the prospect's projection does not model, and they stop at booked calls — no client has LTV or close-rate on file, so no dollar ROI can be shown for them. Display the funnel, never a revenue figure.",
+ "_readme": "Real QS client webinar campaigns, shown on the ROI Model tab beside the prospect's own projection. Every figure is a CAMPAIGN TOTAL summed across every run that client did, taken from the workshop stats database and stored on the Airtable row (Webinars run / Total invites / Total registrations / Total attendees / Total booked calls). Single-webinar figures live in separate Airtable fields and are NOT used here — one event understates the result by 10-30x. Source of truth: Airtable base appDBh76I8NAiE4l8, table Clients (tblGRxbKEYh9NoLqV). In production this is GET /api/jobs/:id/roi-comparisons.",
+ "_selection_rule": "Cherry-picked on campaign booked calls. Clients whose total is weak never appear here even when they are strong proof on another tab — GoHire (4 calls across 19 runs) and Horton (3 across 12) are deliberately excluded.",
+ "_invites_caveat": "Invites are SENDS across runs, not unique people. The same contact is invited to several webinars, so total invites exceeds the market size. Label it 'invites sent', never 'people reached'.",
+ "_shape_note": "No client has LTV or close rate on file, so no dollar ROI can be shown for them. Display the funnel and the booked-call count, never a revenue figure.",
  "_matching": "Alex's rule (2026-09-04 training, 1:07:33): lead with the client whose TAM is closest to the prospect's, regardless of what they sell.",
  "examples": [
+  {
+   "client_name": "Gene Rosendale",
+   "company": "Advocate Advisors",
+   "photo_url": "assets/roi/gene-rosendale-photo.jpeg",
+   "logo_url": "assets/roi/gene-rosendale-logo.png",
+   "tam": 1400000,
+   "webinars_run": 12,
+   "campaign": {
+    "invites": 317691,
+    "registrations": 3752,
+    "attendees": 614,
+    "booked_calls": 61,
+    "invite_to_reg_pct": 1.2,
+    "reg_to_attend_pct": 16,
+    "invites_per_booked_call": 5208
+   },
+   "stats_source": "Advocate Advisors"
+  },
+  {
+   "client_name": "Ken Baron & Rory Zipper",
+   "company": "ZEA Financial",
+   "photo_url": "assets/roi/ken-baron-rory-zipper-photo.png",
+   "logo_url": "assets/roi/ken-baron-rory-zipper-logo.png",
+   "tam": 2500000,
+   "webinars_run": 10,
+   "campaign": {
+    "invites": 128014,
+    "registrations": 1340,
+    "attendees": 520,
+    "booked_calls": 30,
+    "invite_to_reg_pct": 1.0,
+    "reg_to_attend_pct": 39,
+    "invites_per_booked_call": 4267
+   },
+   "stats_source": "Zea Financial"
+  },
   {
    "client_name": "Juliana Marulanda",
    "company": "ScaleTime",
    "photo_url": "assets/roi/juliana-marulanda-photo.webp",
    "logo_url": "assets/roi/juliana-marulanda-logo.svg",
-   "webinar_title": "How Agencies Focus on Growth to 3X Client Retention & 2X Profitability",
-   "webinar_date": "Jan 15, 2025",
    "tam": 450000,
-   "funnel": {
-    "invites": 8334,
-    "registrations": 233,
-    "attendees": 39,
-    "booked_calls": 5,
-    "invite_to_reg_pct": 2.8,
-    "reg_to_attend_pct": 17,
-    "invites_per_booked_call": 1667
+   "webinars_run": 10,
+   "campaign": {
+    "invites": 67430,
+    "registrations": 944,
+    "attendees": 241,
+    "booked_calls": 19,
+    "invite_to_reg_pct": 1.4,
+    "reg_to_attend_pct": 26,
+    "invites_per_booked_call": 3549
    },
-   "why": "ScaleTime is the closest analogue to DealForge's own prospects — operations consulting sold to agency owners — so a prospect in that world sees their exact buyer, not a loose parallel."
+   "stats_source": "ScaleTime"
   },
   {
    "client_name": "Dr. Nicole Price",
    "company": "Lively Paradox",
    "photo_url": "assets/roi/dr-nicole-price-photo.jpg",
    "logo_url": "assets/roi/dr-nicole-price-logo.png",
-   "webinar_title": "Unlock Your Leadership Brilliance: Overcome People Challenges and Drive Results",
-   "webinar_date": "Jan 22, 2025",
    "tam": 2400000,
-   "funnel": {
-    "invites": 6339,
-    "registrations": 125,
-    "attendees": 74,
-    "booked_calls": 5,
-    "invite_to_reg_pct": 2.0,
-    "reg_to_attend_pct": 59,
-    "invites_per_booked_call": 1268
+   "webinars_run": 5,
+   "campaign": {
+    "invites": 37536,
+    "registrations": 879,
+    "attendees": 426,
+    "booked_calls": 12,
+    "invite_to_reg_pct": 2.3,
+    "reg_to_attend_pct": 48,
+    "invites_per_booked_call": 3128
    },
-   "why": "Lively Paradox is the proof that attendance rate, not list size, drives outcomes."
-  },
-  {
-   "client_name": "Jonathan Duarte",
-   "company": "GoHire",
-   "photo_url": "assets/roi/jonathan-duarte-photo.png",
-   "logo_url": "assets/roi/jonathan-duarte-logo.png",
-   "webinar_title": "Redefining the High-Volume Recruiting Process with AI and Automation",
-   "webinar_date": "Jan 9, 2025",
-   "tam": 420000,
-   "funnel": {
-    "invites": 18569,
-    "registrations": 388,
-    "attendees": 184,
-    "booked_calls": 3,
-    "invite_to_reg_pct": 2.1,
-    "reg_to_attend_pct": 47,
-    "invites_per_booked_call": 6190
-   },
-   "why": "GoHire is the clearest proof that the system scales: they went from 240 invites to 29,000+ per webinar across 18 runs and still held a 47% attendee-to-registrant rate at peak, which is the number most prospects assume collapses at volume."
-  },
-  {
-   "client_name": "Gene Rosendale",
-   "company": "Advocate Advisors",
-   "photo_url": "assets/roi/gene-rosendale-photo.jpeg",
-   "logo_url": "assets/roi/gene-rosendale-logo.png",
-   "webinar_title": "How to Avoid Million-Dollar Mistakes When Selling Your Business",
-   "webinar_date": "May 13, 2025",
-   "tam": 1400000,
-   "funnel": {
-    "invites": 3032,
-    "registrations": 49,
-    "attendees": 15,
-    "booked_calls": 2,
-    "invite_to_reg_pct": 1.6,
-    "reg_to_attend_pct": 31,
-    "invites_per_booked_call": 1516
-   },
-   "why": "The single best case study for \"I've already been burned by marketing agencies\" and \"my market is too niche / too confidential / too low-intent for this to work."
-  },
-  {
-   "client_name": "Ken Tyborski",
-   "company": "Code of the North",
-   "photo_url": "assets/roi/ken-tyborski-photo.jpg",
-   "logo_url": "assets/roi/ken-tyborski-logo.svg",
-   "webinar_title": "3 Phases to Fix Invisible NetSuite Bottlenecks & Uncover Hidden Profits",
-   "webinar_date": "Apr 10, 2025",
-   "tam": 400000,
-   "funnel": {
-    "invites": 2230,
-    "registrations": 25,
-    "attendees": 6,
-    "booked_calls": 2,
-    "invite_to_reg_pct": 1.1,
-    "reg_to_attend_pct": 24,
-    "invites_per_booked_call": 1115
-   },
-   "why": "Best answer to \"I've already spent serious money trying to fix lead gen and it didn't work\" — he had put roughly a quarter million dollars into salespeople and programs before QS."
+   "stats_source": "Lively Paradox"
   }
  ]
 }

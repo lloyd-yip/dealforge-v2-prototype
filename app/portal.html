@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script>window.__BUILD_ID = '20260908-021113';</script>
+<script>window.__BUILD_ID = '20260908-022927';</script>
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
@@ -2142,7 +2142,7 @@ input[type=number].roi-field-input::-webkit-outer-spin-button { -webkit-appearan
   <div class="subtab-panel" data-subgroup="roi" data-subidx="1">
     <div class="rcx-wrap">
       <h2 class="rcx-h">These are not projections.</h2>
-      <p class="rcx-sub" id="rcx-sub">Every number below is what actually happened when a real client ran this.</p>
+      <p class="rcx-sub" id="rcx-sub">Every number below is a real client's total across every webinar they have run.</p>
       <div class="rcx-grid" id="rcx-grid"></div>
       <p class="rcx-foot" id="rcx-foot"></p>
     </div>
@@ -3346,7 +3346,7 @@ async function loadRoiComparisons() {
   // so resolve them against the app dir rather than the current URL.
   const asset = u => u ? (window.__PROTO_BASE || '/') + 'app/' + u : '';
   grid.innerHTML = sorted.map((e, i) => {
-    const f = e.funnel;
+    const c = e.campaign;
     const closest = i === 0 && TAM_TOTAL > 0;
     return `
     <div class="rcx-card${closest ? ' is-match' : ''}">
@@ -3359,33 +3359,35 @@ async function loadRoiComparisons() {
         </div>
         ${e.logo_url ? `<span class="rcx-logochip"><img class="rcx-logo" src="${asset(e.logo_url)}" alt=""></span>` : ''}
       </div>
-      <div class="rcx-tam">${fmtN(e.tam)} market</div>
+      <div class="rcx-tam">${fmtN(e.tam)} market · ${e.webinars_run} webinars run</div>
       <div class="rcx-funnel">
-        <div class="rcx-step"><span class="rcx-n">${fmtN(f.invites)}</span><span class="rcx-l">invited</span></div>
+        <div class="rcx-step"><span class="rcx-n">${fmtN(c.invites)}</span><span class="rcx-l">invites sent</span></div>
         <div class="rcx-arrow">→</div>
-        <div class="rcx-step"><span class="rcx-n">${fmtN(f.registrations)}</span><span class="rcx-l">registered</span></div>
+        <div class="rcx-step"><span class="rcx-n">${fmtN(c.registrations)}</span><span class="rcx-l">registered</span></div>
         <div class="rcx-arrow">→</div>
-        <div class="rcx-step"><span class="rcx-n">${fmtN(f.attendees)}</span><span class="rcx-l">attended</span></div>
+        <div class="rcx-step"><span class="rcx-n">${fmtN(c.attendees)}</span><span class="rcx-l">attended</span></div>
         <div class="rcx-arrow">→</div>
-        <div class="rcx-step is-end"><span class="rcx-n">${f.booked_calls}</span><span class="rcx-l">calls booked</span></div>
+        <div class="rcx-step is-end"><span class="rcx-n">${c.booked_calls}</span><span class="rcx-l">calls booked</span></div>
       </div>
-      <div class="rcx-rate">One booked call per <b>${fmtN(f.invites_per_booked_call)}</b> invites · ${f.reg_to_attend_pct}% of registrants showed up</div>
+      <div class="rcx-rate">Across ${e.webinars_run} webinars · one booked call per <b>${fmtN(c.invites_per_booked_call)}</b> invites · ${c.reg_to_attend_pct}% of registrants showed up</div>
     </div>`;
   }).join('');
 
-  // How our projection compares to what these clients actually did.
-  const perBooked = 1 / (RATES.attend[_modes.attend] * RATES.booking[_modes.booking]);
-  const rates = sorted.map(e => e.funnel.invites_per_booked_call).sort((a, b) => a - b);
-  const median = rates[Math.floor(rates.length / 2)];
+  // Aggregate across the shown clients. Deliberately NOT a comparison against
+  // the prospect's own projection: at campaign level the real booking rate is
+  // below the model's, so that comparison argues against the projection.
+  const tot = sorted.reduce((a, e) => ({
+    runs:  a.runs  + e.webinars_run,
+    inv:   a.inv   + e.campaign.invites,
+    calls: a.calls + e.campaign.booked_calls,
+  }), { runs: 0, inv: 0, calls: 0 });
   const foot = document.getElementById('rcx-foot');
   if (foot) {
-    foot.innerHTML = median < perBooked
-      ? `Your projection assumes one booked call for every <b>${fmtN(Math.round(perBooked))}</b> invites. Across these clients the real figure was about <b>${fmtN(median)}</b>. We have modelled you below what they actually got.`
-      : `Your projection assumes one booked call for every <b>${fmtN(Math.round(perBooked))}</b> invites. Across these clients the real figure was about <b>${fmtN(median)}</b>.`;
+    foot.innerHTML = `Across <b>${tot.runs}</b> webinars these ${sorted.length} clients sent <b>${fmtN(tot.inv)}</b> invites and booked <b>${tot.calls}</b> sales calls.`;
   }
   const sub = document.getElementById('rcx-sub');
   if (sub && TAM_TOTAL > 0) {
-    sub.innerHTML = `Every number below is what actually happened when a real client ran this. Ordered by how close their market is to your <b>${fmtN(TAM_TOTAL)}</b>.`;
+    sub.innerHTML = `Every number below is a real client's total across every webinar they have run. Ordered by how close their market is to your <b>${fmtN(TAM_TOTAL)}</b>.`;
   }
   _rcxLoaded = true;
 }
